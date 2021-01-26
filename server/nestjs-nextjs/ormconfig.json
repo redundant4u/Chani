@@ -1,0 +1,11 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "pg",
+    "password": "pg",
+    "database": "pg",
+    "synchronize": true,
+    "entities": ["./src/entities/**.entity.ts"],
+    "migrations": ["./src/models/migrations/**/*.ts"]
+  }
