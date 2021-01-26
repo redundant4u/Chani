@@ -1,0 +1,13 @@
+server/nestjs-nextjs/src/.next
+server/nestjs-nextjs/src/.yalc
+server/nestjs-nextjs/node_modules
+
+server/basic
+
+data/dart/api_json
+
+.DS_Store
+*.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store

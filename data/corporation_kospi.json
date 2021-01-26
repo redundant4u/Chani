@@ -1,0 +1,5606 @@
+{
+    "corporation": [
+        [
+            {
+                "corp_name": "AJ네트웍스",
+                "corp_code": "095570",
+                "industry_code": 147603,
+                "issued_stock": 46822295,
+                "captial_stock": 46822295000
+            },
+            {
+                "corp_name": "AK홀딩스",
+                "corp_code": "006840",
+                "industry_code": 116409,
+                "issued_stock": 13247561,
+                "captial_stock": 66237805000
+            },
+            {
+                "corp_name": "BGF",
+                "corp_code": "027410",
+                "industry_code": 116409,
+                "issued_stock": 95716791,
+                "captial_stock": 95716791000
+            },
+            {
+                "corp_name": "BGF리테일",
+                "corp_code": "282330",
+                "industry_code": 74701,
+                "issued_stock": 17283906,
+                "captial_stock": 17283906000
+            },
+            {
+                "corp_name": "BNK금융지주",
+                "corp_code": "138930",
+                "industry_code": 116409,
+                "issued_stock": 325935246,
+                "captial_stock": 1629676230000
+            },
+            {
+                "corp_name": "BYC",
+                "corp_code": "001460",
+                "industry_code": 31401,
+                "issued_stock": 624615,
+                "captial_stock": 4200000000
+            },
+            {
+                "corp_name": "CJ",
+                "corp_code": "001040",
+                "industry_code": 116409,
+                "issued_stock": 29176998,
+                "captial_stock": 179047370000
+            },
+            {
+                "corp_name": "CJ CGV",
+                "corp_code": "079160",
+                "industry_code": 105901,
+                "issued_stock": 35100000,
+                "captial_stock": 17550000000
+            },
+            {
+                "corp_name": "CJ대한통운",
+                "corp_code": "000120",
+                "industry_code": 84903,
+                "issued_stock": 22812344,
+                "captial_stock": 114061720000
+            },
+            {
+                "corp_name": "CJ씨푸드",
+                "corp_code": "011150",
+                "industry_code": 31007,
+                "issued_stock": 35930773,
+                "captial_stock": 18065386500
+            },
+            {
+                "corp_name": "CJ제일제당",
+                "corp_code": "097950",
+                "industry_code": 31007,
+                "issued_stock": 15054186,
+                "captial_stock": 81908095000
+            },
+            {
+                "corp_name": "CS홀딩스",
+                "corp_code": "000590",
+                "industry_code": 116409,
+                "issued_stock": 1154482,
+                "captial_stock": 5772410000
+            },
+            {
+                "corp_name": "DB",
+                "corp_code": "012030",
+                "industry_code": 106201,
+                "issued_stock": 201173933,
+                "captial_stock": 100586966500
+            },
+            {
+                "corp_name": "DB금융투자",
+                "corp_code": "016610",
+                "industry_code": 116601,
+                "issued_stock": 42446389,
+                "captial_stock": 212231945000
+            },
+            {
+                "corp_name": "DB손해보험",
+                "corp_code": "005830",
+                "industry_code": 116501,
+                "issued_stock": 70800000,
+                "captial_stock": 35400000000
+            },
+            {
+                "corp_name": "DB하이텍",
+                "corp_code": "000990",
+                "industry_code": 32601,
+                "issued_stock": 44398588,
+                "captial_stock": 222554520000
+            },
+            {
+                "corp_name": "DGB금융지주",
+                "corp_code": "139130",
+                "industry_code": 116409,
+                "issued_stock": 169145833,
+                "captial_stock": 845729165000
+            },
+            {
+                "corp_name": "DRB동일",
+                "corp_code": "004840",
+                "industry_code": 116409,
+                "issued_stock": 19930000,
+                "captial_stock": 9965000000
+            },
+            {
+                "corp_name": "DSR",
+                "corp_code": "155660",
+                "industry_code": 32402,
+                "issued_stock": 16000000,
+                "captial_stock": 8000000000
+            },
+            {
+                "corp_name": "DSR제강",
+                "corp_code": "069730",
+                "industry_code": 32401,
+                "issued_stock": 14400000,
+                "captial_stock": 7200000000
+            },
+            {
+                "corp_name": "E1",
+                "corp_code": "017940",
+                "industry_code": 74607,
+                "issued_stock": 6860000,
+                "captial_stock": 34300000000
+            },
+            {
+                "corp_name": "ESR켄달스퀘어리츠",
+                "corp_code": "365550",
+                "industry_code": 126801,
+                "issued_stock": 143259000,
+                "captial_stock": 143259000000
+            },
+            {
+                "corp_name": "F&F",
+                "corp_code": "007700",
+                "industry_code": 31401,
+                "issued_stock": 15400000,
+                "captial_stock": 7700000000
+            },
+            {
+                "corp_name": "GKL",
+                "corp_code": "114090",
+                "industry_code": 189102,
+                "issued_stock": 61855670,
+                "captial_stock": 30927835000
+            },
+            {
+                "corp_name": "GS",
+                "corp_code": "078930",
+                "industry_code": 116409,
+                "issued_stock": 92915378,
+                "captial_stock": 473501020000
+            },
+            {
+                "corp_name": "GS건설",
+                "corp_code": "006360",
+                "industry_code": 64101,
+                "issued_stock": 80370313,
+                "captial_stock": 401851565000
+            },
+            {
+                "corp_name": "GS글로벌",
+                "corp_code": "001250",
+                "industry_code": 74608,
+                "issued_stock": 82533764,
+                "captial_stock": 206334410000
+            },
+            {
+                "corp_name": "GS리테일",
+                "corp_code": "007070",
+                "industry_code": 74701,
+                "issued_stock": 77000000,
+                "captial_stock": 77000000000
+            },
+            {
+                "corp_name": "HDC",
+                "corp_code": "012630",
+                "industry_code": 116409,
+                "issued_stock": 59741721,
+                "captial_stock": 298708605000
+            },
+            {
+                "corp_name": "HDC아이콘트롤스",
+                "corp_code": "039570",
+                "industry_code": 64203,
+                "issued_stock": 16460000,
+                "captial_stock": 8230000000
+            },
+            {
+                "corp_name": "HDC현대EP",
+                "corp_code": "089470",
+                "industry_code": 32004,
+                "issued_stock": 31900000,
+                "captial_stock": 17200000000
+            },
+            {
+                "corp_name": "HDC현대산업개발",
+                "corp_code": "294870",
+                "industry_code": 64101,
+                "issued_stock": 65907330,
+                "captial_stock": 329536650000
+            },
+            {
+                "corp_name": "HMM",
+                "corp_code": "011200",
+                "industry_code": 85001,
+                "issued_stock": 326726323,
+                "captial_stock": 1633631615000
+            },
+            {
+                "corp_name": "HSD엔진",
+                "corp_code": "082740",
+                "industry_code": 32901,
+                "issued_stock": 32947142,
+                "captial_stock": 32947142000
+            },
+            {
+                "corp_name": "JB금융지주",
+                "corp_code": "175330",
+                "industry_code": 116409,
+                "issued_stock": 196982894,
+                "captial_stock": 984914470000
+            },
+            {
+                "corp_name": "JW생명과학",
+                "corp_code": "234080",
+                "industry_code": 32102,
+                "issued_stock": 15834554,
+                "captial_stock": 39586385000
+            },
+            {
+                "corp_name": "JW중외제약",
+                "corp_code": "001060",
+                "industry_code": 32102,
+                "issued_stock": 20920054,
+                "captial_stock": 52956972500
+            },
+            {
+                "corp_name": "JW홀딩스",
+                "corp_code": "096760",
+                "industry_code": 116409,
+                "issued_stock": 66452155,
+                "captial_stock": 33226077500
+            },
+            {
+                "corp_name": "KB금융",
+                "corp_code": "105560",
+                "industry_code": 116409,
+                "issued_stock": 415807920,
+                "captial_stock": 2090557685000
+            },
+            {
+                "corp_name": "KC그린홀딩스",
+                "corp_code": "009440",
+                "industry_code": 116409,
+                "issued_stock": 22434980,
+                "captial_stock": 11217490000
+            },
+            {
+                "corp_name": "KC코트렐",
+                "corp_code": "119650",
+                "industry_code": 32901,
+                "issued_stock": 13000000,
+                "captial_stock": 6500000000
+            },
+            {
+                "corp_name": "KEC",
+                "corp_code": "092220",
+                "industry_code": 32601,
+                "issued_stock": 116706940,
+                "captial_stock": 58353470000
+            },
+            {
+                "corp_name": "KG동부제철",
+                "corp_code": "016380",
+                "industry_code": 32401,
+                "issued_stock": 100008897,
+                "captial_stock": 500311410000
+            },
+            {
+                "corp_name": "KG케미칼",
+                "corp_code": "001390",
+                "industry_code": 32001,
+                "issued_stock": 13013232,
+                "captial_stock": 67374405000
+            },
+            {
+                "corp_name": "KISCO홀딩스",
+                "corp_code": "001940",
+                "industry_code": 32401,
+                "issued_stock": 18476380,
+                "captial_stock": 18476380000
+            },
+            {
+                "corp_name": "KPX케미칼",
+                "corp_code": "025000",
+                "industry_code": 32001,
+                "issued_stock": 4840000,
+                "captial_stock": 24200000000
+            },
+            {
+                "corp_name": "KPX홀딩스",
+                "corp_code": "092230",
+                "industry_code": 32001,
+                "issued_stock": 4224646,
+                "captial_stock": 21123230000
+            },
+            {
+                "corp_name": "KR모터스",
+                "corp_code": "000040",
+                "industry_code": 33109,
+                "issued_stock": 91661018,
+                "captial_stock": 45830509000
+            },
+            {
+                "corp_name": "KSS해운",
+                "corp_code": "044450",
+                "industry_code": 85001,
+                "issued_stock": 23185880,
+                "captial_stock": 11592940000
+            },
+            {
+                "corp_name": "KTB투자증권",
+                "corp_code": "030210",
+                "industry_code": 116601,
+                "issued_stock": 60314092,
+                "captial_stock": 301570460000
+            },
+            {
+                "corp_name": "KTcs",
+                "corp_code": "058850",
+                "industry_code": 106309,
+                "issued_stock": 42685000,
+                "captial_stock": 23842500000
+            },
+            {
+                "corp_name": "KTis",
+                "corp_code": "058860",
+                "industry_code": 106309,
+                "issued_stock": 34802000,
+                "captial_stock": 17401000000
+            },
+            {
+                "corp_name": "LF",
+                "corp_code": "093050",
+                "industry_code": 31401,
+                "issued_stock": 29240000,
+                "captial_stock": 146200000000
+            },
+            {
+                "corp_name": "LG",
+                "corp_code": "003550",
+                "industry_code": 116409,
+                "issued_stock": 172557131,
+                "captial_stock": 879359040000
+            },
+            {
+                "corp_name": "LG디스플레이",
+                "corp_code": "034220",
+                "industry_code": 32602,
+                "issued_stock": 357815700,
+                "captial_stock": 1789078500000
+            },
+            {
+                "corp_name": "LG상사",
+                "corp_code": "001120",
+                "industry_code": 74601,
+                "issued_stock": 38760000,
+                "captial_stock": 193800000000
+            },
+            {
+                "corp_name": "LG생활건강",
+                "corp_code": "051900",
+                "industry_code": 32004,
+                "issued_stock": 15618197,
+                "captial_stock": 88589470000
+            },
+            {
+                "corp_name": "LG유플러스",
+                "corp_code": "032640",
+                "industry_code": 106102,
+                "issued_stock": 436611361,
+                "captial_stock": 2573969175000
+            },
+            {
+                "corp_name": "LG이노텍",
+                "corp_code": "011070",
+                "industry_code": 32602,
+                "issued_stock": 23667107,
+                "captial_stock": 118335535000
+            },
+            {
+                "corp_name": "LG전자",
+                "corp_code": "066570",
+                "industry_code": 32604,
+                "issued_stock": 163647814,
+                "captial_stock": 904169030000
+            },
+            {
+                "corp_name": "LG하우시스",
+                "corp_code": "108670",
+                "industry_code": 32202,
+                "issued_stock": 8967670,
+                "captial_stock": 50000000000
+            },
+            {
+                "corp_name": "LG헬로비전",
+                "corp_code": "037560",
+                "industry_code": 106002,
+                "issued_stock": 77446865,
+                "captial_stock": 193617162500
+            },
+            {
+                "corp_name": "LG화학",
+                "corp_code": "051910",
+                "industry_code": 32001,
+                "issued_stock": 70592343,
+                "captial_stock": 391405715000
+            },
+            {
+                "corp_name": "LIG넥스원",
+                "corp_code": "079550",
+                "industry_code": 32502,
+                "issued_stock": 22000000,
+                "captial_stock": 110000000000
+            },
+            {
+                "corp_name": "LS",
+                "corp_code": "006260",
+                "industry_code": 116409,
+                "issued_stock": 32200000,
+                "captial_stock": 161000000000
+            },
+            {
+                "corp_name": "LS네트웍스",
+                "corp_code": "000680",
+                "industry_code": 74608,
+                "issued_stock": 78803016,
+                "captial_stock": 394015080000
+            },
+            {
+                "corp_name": "LS전선아시아",
+                "corp_code": "229640",
+                "industry_code": 116409,
+                "issued_stock": 30624879,
+                "captial_stock": 15312439500
+            },
+            {
+                "corp_name": "MH에탄올",
+                "corp_code": "023150",
+                "industry_code": 31101,
+                "issued_stock": 7378526,
+                "captial_stock": 4596763000
+            },
+            {
+                "corp_name": "NAVER",
+                "corp_code": "035420",
+                "industry_code": 106301,
+                "issued_stock": 164263395,
+                "captial_stock": 16481339500
+            },
+            {
+                "corp_name": "NH투자증권",
+                "corp_code": "005940",
+                "industry_code": 116601,
+                "issued_stock": 281408887,
+                "captial_stock": 1531275030000
+            },
+            {
+                "corp_name": "NH프라임리츠",
+                "corp_code": "338100",
+                "industry_code": 126801,
+                "issued_stock": 18660000,
+                "captial_stock": 9330000000
+            },
+            {
+                "corp_name": "NICE",
+                "corp_code": "034310",
+                "industry_code": 137105,
+                "issued_stock": 37882300,
+                "captial_stock": 18941150000
+            },
+            {
+                "corp_name": "NI스틸",
+                "corp_code": "008260",
+                "industry_code": 32401,
+                "issued_stock": 28600117,
+                "captial_stock": 14300058500
+            },
+            {
+                "corp_name": "OCI",
+                "corp_code": "010060",
+                "industry_code": 32001,
+                "issued_stock": 23849371,
+                "captial_stock": 127246855000
+            },
+            {
+                "corp_name": "S&TC",
+                "corp_code": "100840",
+                "industry_code": 32901,
+                "issued_stock": 7506711,
+                "captial_stock": 3753355500
+            },
+            {
+                "corp_name": "S&T모티브",
+                "corp_code": "064960",
+                "industry_code": 33003,
+                "issued_stock": 14623136,
+                "captial_stock": 73115680000
+            },
+            {
+                "corp_name": "S&T중공업",
+                "corp_code": "003570",
+                "industry_code": 33003,
+                "issued_stock": 33252697,
+                "captial_stock": 85631742500
+            },
+            {
+                "corp_name": "S&T홀딩스",
+                "corp_code": "036530",
+                "industry_code": 116409,
+                "issued_stock": 16303886,
+                "captial_stock": 8351943000
+            },
+            {
+                "corp_name": "S-Oil",
+                "corp_code": "010950",
+                "industry_code": 31902,
+                "issued_stock": 112582792,
+                "captial_stock": 291511797500
+            },
+            {
+                "corp_name": "SBS",
+                "corp_code": "034120",
+                "industry_code": 106002,
+                "issued_stock": 18252582,
+                "captial_stock": 91262910000
+            },
+            {
+                "corp_name": "SBS미디어홀딩스",
+                "corp_code": "101060",
+                "industry_code": 106002,
+                "issued_stock": 139896190,
+                "captial_stock": 69948095000
+            },
+            {
+                "corp_name": "SGC에너지",
+                "corp_code": "005090",
+                "industry_code": 43501,
+                "issued_stock": 14677004,
+                "captial_stock": 73385020000
+            },
+            {
+                "corp_name": "SG세계물산",
+                "corp_code": "004060",
+                "industry_code": 74608,
+                "issued_stock": 202424960,
+                "captial_stock": 101212480000
+            },
+            {
+                "corp_name": "SG충방",
+                "corp_code": "001380",
+                "industry_code": 33003,
+                "issued_stock": 44964143,
+                "captial_stock": 22482071500
+            },
+            {
+                "corp_name": "SH에너지화학",
+                "corp_code": "002360",
+                "industry_code": 32001,
+                "issued_stock": 111133730,
+                "captial_stock": 55566865000
+            },
+            {
+                "corp_name": "SIMPAC",
+                "corp_code": "009160",
+                "industry_code": 32902,
+                "issued_stock": 65429516,
+                "captial_stock": 32714758000
+            },
+            {
+                "corp_name": "SK",
+                "corp_code": "034730",
+                "industry_code": 116409,
+                "issued_stock": 70360297,
+                "captial_stock": 15385286400
+            },
+            {
+                "corp_name": "SKC",
+                "corp_code": "011790",
+                "industry_code": 32004,
+                "issued_stock": 37868298,
+                "captial_stock": 189341490000
+            },
+            {
+                "corp_name": "SK가스",
+                "corp_code": "018670",
+                "industry_code": 74607,
+                "issued_stock": 9230244,
+                "captial_stock": 46151220000
+            },
+            {
+                "corp_name": "SK네트웍스",
+                "corp_code": "001740",
+                "industry_code": 74607,
+                "issued_stock": 248187647,
+                "captial_stock": 620753237500
+            },
+            {
+                "corp_name": "SK디스커버리",
+                "corp_code": "006120",
+                "industry_code": 116409,
+                "issued_stock": 19037855,
+                "captial_stock": 111677150000
+            },
+            {
+                "corp_name": "SK디앤디",
+                "corp_code": "210980",
+                "industry_code": 126801,
+                "issued_stock": 18990164,
+                "captial_stock": 18990164000
+            },
+            {
+                "corp_name": "SK렌터카",
+                "corp_code": "068400",
+                "industry_code": 147601,
+                "issued_stock": 47285840,
+                "captial_stock": 23642920000
+            },
+            {
+                "corp_name": "SK이노베이션",
+                "corp_code": "096770",
+                "industry_code": 31902,
+                "issued_stock": 92465564,
+                "captial_stock": 468569950000
+            },
+            {
+                "corp_name": "SK증권",
+                "corp_code": "001510",
+                "industry_code": 116601,
+                "issued_stock": 472590171,
+                "captial_stock": 238251342500
+            },
+            {
+                "corp_name": "SK케미칼",
+                "corp_code": "285130",
+                "industry_code": 32002,
+                "issued_stock": 11741396,
+                "captial_stock": 66000330000
+            },
+            {
+                "corp_name": "SK텔레콤",
+                "corp_code": "017670",
+                "industry_code": 106102,
+                "issued_stock": 80745711,
+                "captial_stock": 44639473000
+            },
+            {
+                "corp_name": "SK하이닉스",
+                "corp_code": "000660",
+                "industry_code": 32601,
+                "issued_stock": 728002365,
+                "captial_stock": 3657652050000
+            },
+            {
+                "corp_name": "SPC삼립",
+                "corp_code": "005610",
+                "industry_code": 31007,
+                "issued_stock": 8629009,
+                "captial_stock": 43145045000
+            },
+            {
+                "corp_name": "STX",
+                "corp_code": "011810",
+                "industry_code": 74608,
+                "issued_stock": 19726902,
+                "captial_stock": 49317255000
+            },
+            {
+                "corp_name": "STX엔진",
+                "corp_code": "077970",
+                "industry_code": 32901,
+                "issued_stock": 23008904,
+                "captial_stock": 57522260000
+            },
+            {
+                "corp_name": "STX중공업",
+                "corp_code": "071970",
+                "industry_code": 32901,
+                "issued_stock": 28365976,
+                "captial_stock": 70914940000
+            },
+            {
+                "corp_name": "TCC스틸",
+                "corp_code": "002710",
+                "industry_code": 32401,
+                "issued_stock": 23000000,
+                "captial_stock": 23000000000
+            },
+            {
+                "corp_name": "WISCOM",
+                "corp_code": "024070",
+                "industry_code": 32202,
+                "issued_stock": 15326438,
+                "captial_stock": 7663219000
+            },
+            {
+                "corp_name": "YG PLUS",
+                "corp_code": "037270",
+                "industry_code": 106301,
+                "issued_stock": 59496045,
+                "captial_stock": 30373022500
+            },
+            {
+                "corp_name": "가온전선",
+                "corp_code": "000500",
+                "industry_code": 32803,
+                "issued_stock": 4160347,
+                "captial_stock": 20801735000
+            },
+            {
+                "corp_name": "강남제비스코",
+                "corp_code": "000860",
+                "industry_code": 32004,
+                "issued_stock": 6500000,
+                "captial_stock": 6500000000
+            },
+            {
+                "corp_name": "강원랜드",
+                "corp_code": "035250",
+                "industry_code": 189102,
+                "issued_stock": 213940500,
+                "captial_stock": 106970250000
+            },
+            {
+                "corp_name": "갤럭시아에스엠",
+                "corp_code": "011420",
+                "industry_code": 189101,
+                "issued_stock": 27549644,
+                "captial_stock": 13774822000
+            },
+            {
+                "corp_name": "경농",
+                "corp_code": "002100",
+                "industry_code": 32003,
+                "issued_stock": 21691750,
+                "captial_stock": 10845875000
+            },
+            {
+                "corp_name": "경동나비엔",
+                "corp_code": "009450",
+                "industry_code": 32805,
+                "issued_stock": 13604730,
+                "captial_stock": 13604730000
+            },
+            {
+                "corp_name": "경동도시가스",
+                "corp_code": "267290",
+                "industry_code": 43502,
+                "issued_stock": 5895406,
+                "captial_stock": 14738515000
+            },
+            {
+                "corp_name": "경동인베스트",
+                "corp_code": "012320",
+                "industry_code": 116409,
+                "issued_stock": 2365023,
+                "captial_stock": 11825115000
+            },
+            {
+                "corp_name": "경방",
+                "corp_code": "000050",
+                "industry_code": 74701,
+                "issued_stock": 27415270,
+                "captial_stock": 13707635000
+            },
+            {
+                "corp_name": "경보제약",
+                "corp_code": "214390",
+                "industry_code": 32101,
+                "issued_stock": 23906860,
+                "captial_stock": 11953430000
+            },
+            {
+                "corp_name": "경인양행",
+                "corp_code": "012610",
+                "industry_code": 32001,
+                "issued_stock": 41276365,
+                "captial_stock": 20638182500
+            },
+            {
+                "corp_name": "경인전자",
+                "corp_code": "009140",
+                "industry_code": 32602,
+                "issued_stock": 1570797,
+                "captial_stock": 7853985000
+            },
+            {
+                "corp_name": "계룡건설산업",
+                "corp_code": "013580",
+                "industry_code": 64102,
+                "issued_stock": 8930907,
+                "captial_stock": 44654535000
+            },
+            {
+                "corp_name": "계양전기",
+                "corp_code": "012200",
+                "industry_code": 32901,
+                "issued_stock": 32600000,
+                "captial_stock": 17000000000
+            },
+            {
+                "corp_name": "고려산업",
+                "corp_code": "002140",
+                "industry_code": 31006,
+                "issued_stock": 24939425,
+                "captial_stock": 24939425000
+            },
+            {
+                "corp_name": "고려아연",
+                "corp_code": "010130",
+                "industry_code": 32402,
+                "issued_stock": 18870000,
+                "captial_stock": 94350000000
+            },
+            {
+                "corp_name": "고려제강",
+                "corp_code": "002240",
+                "industry_code": 32401,
+                "issued_stock": 20000000,
+                "captial_stock": 20000000000
+            },
+            {
+                "corp_name": "광동제약",
+                "corp_code": "009290",
+                "industry_code": 32102,
+                "issued_stock": 52420851,
+                "captial_stock": 52420851000
+            },
+            {
+                "corp_name": "광명전기",
+                "corp_code": "017040",
+                "industry_code": 32801,
+                "issued_stock": 43337615,
+                "captial_stock": 21668807500
+            },
+            {
+                "corp_name": "광전자",
+                "corp_code": "017900",
+                "industry_code": 32601,
+                "issued_stock": 57943763,
+                "captial_stock": 28971881500
+            },
+            {
+                "corp_name": "광주신세계",
+                "corp_code": "037710",
+                "industry_code": 74701,
+                "issued_stock": 1600000,
+                "captial_stock": 8000000000
+            },
+            {
+                "corp_name": "교보증권",
+                "corp_code": "030610",
+                "industry_code": 116601,
+                "issued_stock": 64653296,
+                "captial_stock": 323266480000
+            },
+            {
+                "corp_name": "교촌에프앤비",
+                "corp_code": "339770",
+                "industry_code": 74603,
+                "issued_stock": 24982540,
+                "captial_stock": 12579150000
+            },
+            {
+                "corp_name": "국도화학",
+                "corp_code": "007690",
+                "industry_code": 32001,
+                "issued_stock": 5810616,
+                "captial_stock": 29053080000
+            },
+            {
+                "corp_name": "국동",
+                "corp_code": "005320",
+                "industry_code": 74604,
+                "issued_stock": 38823864,
+                "captial_stock": 19411932000
+            },
+            {
+                "corp_name": "국보",
+                "corp_code": "001140",
+                "industry_code": 84903,
+                "issued_stock": 49376445,
+                "captial_stock": 24688222500
+            },
+            {
+                "corp_name": "국제약품",
+                "corp_code": "002720",
+                "industry_code": 32102,
+                "issued_stock": 18400520,
+                "captial_stock": 18400520000
+            },
+            {
+                "corp_name": "그린케미칼",
+                "corp_code": "083420",
+                "industry_code": 32004,
+                "issued_stock": 24000000,
+                "captial_stock": 12000000000
+            },
+            {
+                "corp_name": "극동유화",
+                "corp_code": "014530",
+                "industry_code": 31902,
+                "issued_stock": 34869420,
+                "captial_stock": 17434710000
+            },
+            {
+                "corp_name": "금강공업",
+                "corp_code": "014280",
+                "industry_code": 32401,
+                "issued_stock": 26682886,
+                "captial_stock": 27272761000
+            },
+            {
+                "corp_name": "금비",
+                "corp_code": "008870",
+                "industry_code": 32301,
+                "issued_stock": 1000000,
+                "captial_stock": 5000000000
+            },
+            {
+                "corp_name": "금양",
+                "corp_code": "001570",
+                "industry_code": 32001,
+                "issued_stock": 44048135,
+                "captial_stock": 22024067500
+            },
+            {
+                "corp_name": "금호산업",
+                "corp_code": "002990",
+                "industry_code": 64101,
+                "issued_stock": 36633924,
+                "captial_stock": 184630950000
+            },
+            {
+                "corp_name": "금호석유화학",
+                "corp_code": "011780",
+                "industry_code": 32001,
+                "issued_stock": 30467691,
+                "captial_stock": 167455885000
+            },
+            {
+                "corp_name": "금호에이치티",
+                "corp_code": "214330",
+                "industry_code": 33003,
+                "issued_stock": 117904727,
+                "captial_stock": 58952363500
+            },
+            {
+                "corp_name": "금호전기",
+                "corp_code": "001210",
+                "industry_code": 32804,
+                "issued_stock": 11981820,
+                "captial_stock": 5990910000
+            },
+            {
+                "corp_name": "금호타이어",
+                "corp_code": "073240",
+                "industry_code": 32201,
+                "issued_stock": 287260287,
+                "captial_stock": 1436301435000
+            },
+            {
+                "corp_name": "기신정기",
+                "corp_code": "092440",
+                "industry_code": 32902,
+                "issued_stock": 29200000,
+                "captial_stock": 14600000000
+            },
+            {
+                "corp_name": "기아자동차",
+                "corp_code": "000270",
+                "industry_code": 33001,
+                "issued_stock": 405363347,
+                "captial_stock": 2139316735000
+            },
+            {
+                "corp_name": "기업은행",
+                "corp_code": "024110",
+                "industry_code": 116401,
+                "issued_stock": 738664360,
+                "captial_stock": 3693321800000
+            },
+            {
+                "corp_name": "까뮤이앤씨",
+                "corp_code": "013700",
+                "industry_code": 64101,
+                "issued_stock": 45152280,
+                "captial_stock": 22576140000
+            },
+            {
+                "corp_name": "깨끗한나라",
+                "corp_code": "004540",
+                "industry_code": 31701,
+                "issued_stock": 37240693,
+                "captial_stock": 37606853000
+            },
+            {
+                "corp_name": "남광토건",
+                "corp_code": "001260",
+                "industry_code": 64102,
+                "issued_stock": 9828901,
+                "captial_stock": 49144505000
+            },
+            {
+                "corp_name": "남선알미늄",
+                "corp_code": "008350",
+                "industry_code": 32402,
+                "issued_stock": 110179090,
+                "captial_stock": 55243490000
+            },
+            {
+                "corp_name": "남성",
+                "corp_code": "004270",
+                "industry_code": 74607,
+                "issued_stock": 36212160,
+                "captial_stock": 18106080000
+            },
+            {
+                "corp_name": "남양유업",
+                "corp_code": "003920",
+                "industry_code": 31005,
+                "issued_stock": 720000,
+                "captial_stock": 4433310000
+            },
+            {
+                "corp_name": "남해화학",
+                "corp_code": "025860",
+                "industry_code": 32003,
+                "issued_stock": 49678843,
+                "captial_stock": 49678843000
+            },
+            {
+                "corp_name": "넥센",
+                "corp_code": "005720",
+                "industry_code": 32201,
+                "issued_stock": 53543977,
+                "captial_stock": 28572288500
+            },
+            {
+                "corp_name": "넥센타이어",
+                "corp_code": "002350",
+                "industry_code": 32201,
+                "issued_stock": 97667877,
+                "captial_stock": 54083938500
+            },
+            {
+                "corp_name": "넥스트사이언스",
+                "corp_code": "003580",
+                "industry_code": 20702,
+                "issued_stock": 32699622,
+                "captial_stock": 16349811000
+            },
+            {
+                "corp_name": "넷마블",
+                "corp_code": "251270",
+                "industry_code": 105802,
+                "issued_stock": 85845303,
+                "captial_stock": 8584530300
+            },
+            {
+                "corp_name": "노루페인트",
+                "corp_code": "090350",
+                "industry_code": 32004,
+                "issued_stock": 20000000,
+                "captial_stock": 10231563000
+            },
+            {
+                "corp_name": "노루홀딩스",
+                "corp_code": "000320",
+                "industry_code": 116409,
+                "issued_stock": 13291151,
+                "captial_stock": 8500200500
+            },
+            {
+                "corp_name": "녹십자",
+                "corp_code": "006280",
+                "industry_code": 32102,
+                "issued_stock": 11686538,
+                "captial_stock": 58432690000
+            },
+            {
+                "corp_name": "녹십자홀딩스",
+                "corp_code": "005250",
+                "industry_code": 137105,
+                "issued_stock": 47028210,
+                "captial_stock": 25744900000
+            },
+            {
+                "corp_name": "농심",
+                "corp_code": "004370",
+                "industry_code": 31007,
+                "issued_stock": 6082642,
+                "captial_stock": 30413210000
+            },
+            {
+                "corp_name": "농심홀딩스",
+                "corp_code": "072710",
+                "industry_code": 116409,
+                "issued_stock": 4637790,
+                "captial_stock": 23188950000
+            },
+            {
+                "corp_name": "다스코",
+                "corp_code": "058730",
+                "industry_code": 32501,
+                "issued_stock": 15400000,
+                "captial_stock": 8000000000
+            },
+            {
+                "corp_name": "다우기술",
+                "corp_code": "023590",
+                "industry_code": 106301,
+                "issued_stock": 44866617,
+                "captial_stock": 22433308500
+            },
+            {
+                "corp_name": "대교",
+                "corp_code": "019680",
+                "industry_code": 168501,
+                "issued_stock": 84702850,
+                "captial_stock": 52064920000
+            },
+            {
+                "corp_name": "대구백화점",
+                "corp_code": "006370",
+                "industry_code": 74701,
+                "issued_stock": 10821611,
+                "captial_stock": 54108055000
+            },
+            {
+                "corp_name": "대덕",
+                "corp_code": "008060",
+                "industry_code": 116409,
+                "issued_stock": 33890150,
+                "captial_stock": 17551253500
+            },
+            {
+                "corp_name": "대덕전자",
+                "corp_code": "353200",
+                "industry_code": 32602,
+                "issued_stock": 49416925,
+                "captial_stock": 25756222000
+            },
+            {
+                "corp_name": "대동공업",
+                "corp_code": "000490",
+                "industry_code": 32902,
+                "issued_stock": 23728210,
+                "captial_stock": 23728210000
+            },
+            {
+                "corp_name": "대동전자",
+                "corp_code": "008110",
+                "industry_code": 32604,
+                "issued_stock": 10490447,
+                "captial_stock": 5245223500
+            },
+            {
+                "corp_name": "대림건설",
+                "corp_code": "001880",
+                "industry_code": 64101,
+                "issued_stock": 22053284,
+                "captial_stock": 110266420000
+            },
+            {
+                "corp_name": "대림비앤코",
+                "corp_code": "005750",
+                "industry_code": 32302,
+                "issued_stock": 16672240,
+                "captial_stock": 16672240000
+            },
+            {
+                "corp_name": "대림산업",
+                "corp_code": "000210",
+                "industry_code": 64102,
+                "issued_stock": 34800000,
+                "captial_stock": 218500000000
+            },
+            {
+                "corp_name": "대림통상",
+                "corp_code": "006570",
+                "industry_code": 32509,
+                "issued_stock": 15225000,
+                "captial_stock": 16425000000
+            },
+            {
+                "corp_name": "대상",
+                "corp_code": "001680",
+                "industry_code": 31007,
+                "issued_stock": 34648025,
+                "captial_stock": 36018248000
+            },
+            {
+                "corp_name": "대상홀딩스",
+                "corp_code": "084690",
+                "industry_code": 116409,
+                "issued_stock": 36212538,
+                "captial_stock": 37126020000
+            },
+            {
+                "corp_name": "대성산업",
+                "corp_code": "128820",
+                "industry_code": 74707,
+                "issued_stock": 45235478,
+                "captial_stock": 226177390000
+            },
+            {
+                "corp_name": "대성에너지",
+                "corp_code": "117580",
+                "industry_code": 43502,
+                "issued_stock": 27500000,
+                "captial_stock": 27500000000
+            },
+            {
+                "corp_name": "대성홀딩스",
+                "corp_code": "016710",
+                "industry_code": 137105,
+                "issued_stock": 16089459,
+                "captial_stock": 16089459000
+            },
+            {
+                "corp_name": "대신증권",
+                "corp_code": "003540",
+                "industry_code": 116601,
+                "issued_stock": 50773400,
+                "captial_stock": 434867000000
+            },
+            {
+                "corp_name": "대양금속",
+                "corp_code": "009190",
+                "industry_code": 32401,
+                "issued_stock": 29565939,
+                "captial_stock": 14782969500
+            },
+            {
+                "corp_name": "대영포장",
+                "corp_code": "014160",
+                "industry_code": 31702,
+                "issued_stock": 108394549,
+                "captial_stock": 54197274500
+            },
+            {
+                "corp_name": "대우건설",
+                "corp_code": "047040",
+                "industry_code": 64101,
+                "issued_stock": 415622638,
+                "captial_stock": 2078113190000
+            },
+            {
+                "corp_name": "대우부품",
+                "corp_code": "009320",
+                "industry_code": 33003,
+                "issued_stock": 47646375,
+                "captial_stock": 23823187500
+            },
+            {
+                "corp_name": "대우조선해양",
+                "corp_code": "042660",
+                "industry_code": 33101,
+                "issued_stock": 107290669,
+                "captial_stock": 541453345000
+            },
+            {
+                "corp_name": "대웅",
+                "corp_code": "003090",
+                "industry_code": 116409,
+                "issued_stock": 58141980,
+                "captial_stock": 29070990000
+            },
+            {
+                "corp_name": "대웅제약",
+                "corp_code": "069620",
+                "industry_code": 32102,
+                "issued_stock": 11586575,
+                "captial_stock": 28966437500
+            },
+            {
+                "corp_name": "대원강업",
+                "corp_code": "000430",
+                "industry_code": 33003,
+                "issued_stock": 62000000,
+                "captial_stock": 31000000000
+            },
+            {
+                "corp_name": "대원전선",
+                "corp_code": "006340",
+                "industry_code": 32803,
+                "issued_stock": 71016967,
+                "captial_stock": 36819083500
+            },
+            {
+                "corp_name": "대원제약",
+                "corp_code": "003220",
+                "industry_code": 32102,
+                "issued_stock": 20243603,
+                "captial_stock": 10121801500
+            },
+            {
+                "corp_name": "대원화성",
+                "corp_code": "024890",
+                "industry_code": 32202,
+                "issued_stock": 41249152,
+                "captial_stock": 20624576000
+            },
+            {
+                "corp_name": "대유에이텍",
+                "corp_code": "002880",
+                "industry_code": 33003,
+                "issued_stock": 106915987,
+                "captial_stock": 53457993500
+            },
+            {
+                "corp_name": "대유플러스",
+                "corp_code": "000300",
+                "industry_code": 32604,
+                "issued_stock": 116662887,
+                "captial_stock": 58331443500
+            },
+            {
+                "corp_name": "대창",
+                "corp_code": "012800",
+                "industry_code": 32402,
+                "issued_stock": 91140499,
+                "captial_stock": 45570249500
+            },
+            {
+                "corp_name": "대창단조",
+                "corp_code": "015230",
+                "industry_code": 33003,
+                "issued_stock": 14286115,
+                "captial_stock": 14286115000
+            },
+            {
+                "corp_name": "대한방직",
+                "corp_code": "001070",
+                "industry_code": 31302,
+                "issued_stock": 5300000,
+                "captial_stock": 5300000000
+            },
+            {
+                "corp_name": "대한유화",
+                "corp_code": "006650",
+                "industry_code": 32001,
+                "issued_stock": 6500000,
+                "captial_stock": 41000000000
+            },
+            {
+                "corp_name": "대한전선",
+                "corp_code": "001440",
+                "industry_code": 32803,
+                "issued_stock": 856473009,
+                "captial_stock": 428236504500
+            },
+            {
+                "corp_name": "대한제강",
+                "corp_code": "084010",
+                "industry_code": 32401,
+                "issued_stock": 24646734,
+                "captial_stock": 24646734000
+            },
+            {
+                "corp_name": "대한제당",
+                "corp_code": "001790",
+                "industry_code": 31006,
+                "issued_stock": 8969658,
+                "captial_stock": 24044835000
+            },
+            {
+                "corp_name": "대한제분",
+                "corp_code": "001130",
+                "industry_code": 31006,
+                "issued_stock": 1690000,
+                "captial_stock": 8450000000
+            },
+            {
+                "corp_name": "대한항공",
+                "corp_code": "003490",
+                "industry_code": 85101,
+                "issued_stock": 174209713,
+                "captial_stock": 876602535000
+            },
+            {
+                "corp_name": "대한해운",
+                "corp_code": "005880",
+                "industry_code": 85001,
+                "issued_stock": 244271090,
+                "captial_stock": 122135545000
+            },
+            {
+                "corp_name": "대한화섬",
+                "corp_code": "003830",
+                "industry_code": 32005,
+                "issued_stock": 1328000,
+                "captial_stock": 6640000000
+            },
+            {
+                "corp_name": "대현",
+                "corp_code": "016090",
+                "industry_code": 31401,
+                "issued_stock": 44282310,
+                "captial_stock": 26906155000
+            },
+            {
+                "corp_name": "대호에이엘",
+                "corp_code": "069460",
+                "industry_code": 32402,
+                "issued_stock": 27134839,
+                "captial_stock": 13567419500
+            },
+            {
+                "corp_name": "더블유게임즈",
+                "corp_code": "192080",
+                "industry_code": 105802,
+                "issued_stock": 18374502,
+                "captial_stock": 9187251000
+            },
+            {
+                "corp_name": "더존비즈온",
+                "corp_code": "012510",
+                "industry_code": 106201,
+                "issued_stock": 30118007,
+                "captial_stock": 15059003500
+            },
+            {
+                "corp_name": "덕성",
+                "corp_code": "004830",
+                "industry_code": 32202,
+                "issued_stock": 15680000,
+                "captial_stock": 8536000000
+            },
+            {
+                "corp_name": "덕양산업",
+                "corp_code": "024900",
+                "industry_code": 33003,
+                "issued_stock": 32564980,
+                "captial_stock": 16282490000
+            },
+            {
+                "corp_name": "덴티움",
+                "corp_code": "145720",
+                "industry_code": 32701,
+                "issued_stock": 11068830,
+                "captial_stock": 6184415000
+            },
+            {
+                "corp_name": "도화엔지니어링",
+                "corp_code": "002150",
+                "industry_code": 137201,
+                "issued_stock": 33720000,
+                "captial_stock": 16860000000
+            },
+            {
+                "corp_name": "동국제강",
+                "corp_code": "001230",
+                "industry_code": 32401,
+                "issued_stock": 95432737,
+                "captial_stock": 589228035000
+            },
+            {
+                "corp_name": "동남합성",
+                "corp_code": "023450",
+                "industry_code": 32001,
+                "issued_stock": 3610000,
+                "captial_stock": 3125564000
+            },
+            {
+                "corp_name": "동방",
+                "corp_code": "004140",
+                "industry_code": 85209,
+                "issued_stock": 39646458,
+                "captial_stock": 39646458000
+            },
+            {
+                "corp_name": "동방아그로",
+                "corp_code": "007590",
+                "industry_code": 32003,
+                "issued_stock": 13617577,
+                "captial_stock": 6808788500
+            },
+            {
+                "corp_name": "동부건설",
+                "corp_code": "005960",
+                "industry_code": 64102,
+                "issued_stock": 22702024,
+                "captial_stock": 114638780000
+            },
+            {
+                "corp_name": "동서",
+                "corp_code": "026960",
+                "industry_code": 74603,
+                "issued_stock": 99700000,
+                "captial_stock": 49850000000
+            },
+            {
+                "corp_name": "동성제약",
+                "corp_code": "002210",
+                "industry_code": 32102,
+                "issued_stock": 26100970,
+                "captial_stock": 26100970000
+            },
+            {
+                "corp_name": "동성코퍼레이션",
+                "corp_code": "102260",
+                "industry_code": 137105,
+                "issued_stock": 43993012,
+                "captial_stock": 43993012000
+            },
+            {
+                "corp_name": "동성화학",
+                "corp_code": "005190",
+                "industry_code": 32001,
+                "issued_stock": 5335564,
+                "captial_stock": 5531244000
+            },
+            {
+                "corp_name": "동아쏘시오홀딩스",
+                "corp_code": "000640",
+                "industry_code": 116409,
+                "issued_stock": 6155345,
+                "captial_stock": 30776725000
+            },
+            {
+                "corp_name": "동아에스티",
+                "corp_code": "170900",
+                "industry_code": 32102,
+                "issued_stock": 8443868,
+                "captial_stock": 42219340000
+            },
+            {
+                "corp_name": "동아지질",
+                "corp_code": "028100",
+                "industry_code": 64201,
+                "issued_stock": 11500000,
+                "captial_stock": 5750000000
+            },
+            {
+                "corp_name": "동아타이어",
+                "corp_code": "282690",
+                "industry_code": 32201,
+                "issued_stock": 13733015,
+                "captial_stock": 6866507500
+            },
+            {
+                "corp_name": "동양",
+                "corp_code": "001520",
+                "industry_code": 32303,
+                "issued_stock": 238684063,
+                "captial_stock": 119850042500
+            },
+            {
+                "corp_name": "동양고속",
+                "corp_code": "084670",
+                "industry_code": 84902,
+                "issued_stock": 2895569,
+                "captial_stock": 16959295000
+            },
+            {
+                "corp_name": "동양물산기업",
+                "corp_code": "002900",
+                "industry_code": 32902,
+                "issued_stock": 126004610,
+                "captial_stock": 63002305000
+            },
+            {
+                "corp_name": "동양생명",
+                "corp_code": "082640",
+                "industry_code": 116501,
+                "issued_stock": 161358585,
+                "captial_stock": 806792925000
+            },
+            {
+                "corp_name": "동양철관",
+                "corp_code": "008970",
+                "industry_code": 32401,
+                "issued_stock": 118885290,
+                "captial_stock": 59442645000
+            },
+            {
+                "corp_name": "동양피스톤",
+                "corp_code": "092780",
+                "industry_code": 33001,
+                "issued_stock": 13168460,
+                "captial_stock": 6584230000
+            },
+            {
+                "corp_name": "동원F&B",
+                "corp_code": "049770",
+                "industry_code": 31007,
+                "issued_stock": 3859124,
+                "captial_stock": 19295620000
+            },
+            {
+                "corp_name": "동원금속",
+                "corp_code": "018500",
+                "industry_code": 33003,
+                "issued_stock": 46754933,
+                "captial_stock": 23377466500
+            },
+            {
+                "corp_name": "동원산업",
+                "corp_code": "006040",
+                "industry_code": 10301,
+                "issued_stock": 3677641,
+                "captial_stock": 18388205000
+            },
+            {
+                "corp_name": "동원수산",
+                "corp_code": "030720",
+                "industry_code": 10301,
+                "issued_stock": 4653805,
+                "captial_stock": 23269025000
+            },
+            {
+                "corp_name": "동원시스템즈",
+                "corp_code": "014820",
+                "industry_code": 32202,
+                "issued_stock": 25618511,
+                "captial_stock": 129419345000
+            },
+            {
+                "corp_name": "동일고무벨트",
+                "corp_code": "163560",
+                "industry_code": 32201,
+                "issued_stock": 13650000,
+                "captial_stock": 6825000000
+            },
+            {
+                "corp_name": "동일산업",
+                "corp_code": "004890",
+                "industry_code": 32401,
+                "issued_stock": 2425215,
+                "captial_stock": 12126075000
+            },
+            {
+                "corp_name": "동일제강",
+                "corp_code": "002690",
+                "industry_code": 32401,
+                "issued_stock": 15000000,
+                "captial_stock": 7500000000
+            },
+            {
+                "corp_name": "동화약품",
+                "corp_code": "000020",
+                "industry_code": 32102,
+                "issued_stock": 27931470,
+                "captial_stock": 27931470000
+            },
+            {
+                "corp_name": "두산",
+                "corp_code": "000150",
+                "industry_code": 137105,
+                "issued_stock": 16523835,
+                "captial_stock": 123738105000
+            },
+            {
+                "corp_name": "두산밥캣",
+                "corp_code": "241560",
+                "industry_code": 32902,
+                "issued_stock": 100249166,
+                "captial_stock": 50124583000
+            },
+            {
+                "corp_name": "두산인프라코어",
+                "corp_code": "042670",
+                "industry_code": 32902,
+                "issued_stock": 215912720,
+                "captial_stock": 1079563600000
+            },
+            {
+                "corp_name": "두산중공업",
+                "corp_code": "034020",
+                "industry_code": 32901,
+                "issued_stock": 374636889,
+                "captial_stock": 1873184445000
+            },
+            {
+                "corp_name": "두산퓨얼셀",
+                "corp_code": "336260",
+                "industry_code": 32801,
+                "issued_stock": 65493726,
+                "captial_stock": 8184422600
+            },
+            {
+                "corp_name": "두올",
+                "corp_code": "016740",
+                "industry_code": 33003,
+                "issued_stock": 27066680,
+                "captial_stock": 67666700000
+            },
+            {
+                "corp_name": "드림텍",
+                "corp_code": "192650",
+                "industry_code": 32602,
+                "issued_stock": 65862985,
+                "captial_stock": 6659754300
+            },
+            {
+                "corp_name": "디씨엠",
+                "corp_code": "024090",
+                "industry_code": 32401,
+                "issued_stock": 11700000,
+                "captial_stock": 6000000000
+            },
+            {
+                "corp_name": "디아이",
+                "corp_code": "003160",
+                "industry_code": 32702,
+                "issued_stock": 31496785,
+                "captial_stock": 17248392500
+            },
+            {
+                "corp_name": "디아이동일",
+                "corp_code": "001530",
+                "industry_code": 74601,
+                "issued_stock": 2465609,
+                "captial_stock": 12328045000
+            },
+            {
+                "corp_name": "디아이씨",
+                "corp_code": "092200",
+                "industry_code": 33003,
+                "issued_stock": 38888569,
+                "captial_stock": 19444284500
+            },
+            {
+                "corp_name": "디와이",
+                "corp_code": "013570",
+                "industry_code": 116409,
+                "issued_stock": 26319633,
+                "captial_stock": 13159816500
+            },
+            {
+                "corp_name": "디와이파워",
+                "corp_code": "210540",
+                "industry_code": 32902,
+                "issued_stock": 11041708,
+                "captial_stock": 5520854000
+            },
+            {
+                "corp_name": "디티알오토모티브",
+                "corp_code": "007340",
+                "industry_code": 32802,
+                "issued_stock": 9994005,
+                "captial_stock": 4997002500
+            },
+            {
+                "corp_name": "디피씨",
+                "corp_code": "026890",
+                "industry_code": 32801,
+                "issued_stock": 41678175,
+                "captial_stock": 20839087500
+            },
+            {
+                "corp_name": "락앤락",
+                "corp_code": "115390",
+                "industry_code": 32202,
+                "issued_stock": 53007638,
+                "captial_stock": 27500000000
+            },
+            {
+                "corp_name": "롯데관광개발",
+                "corp_code": "032350",
+                "industry_code": 147502,
+                "issued_stock": 69275662,
+                "captial_stock": 34637831000
+            },
+            {
+                "corp_name": "롯데리츠",
+                "corp_code": "330590",
+                "industry_code": 126801,
+                "issued_stock": 171968884,
+                "captial_stock": 85984442000
+            },
+            {
+                "corp_name": "롯데손해보험",
+                "corp_code": "000400",
+                "industry_code": 116501,
+                "issued_stock": 310336320,
+                "captial_stock": 310336320000
+            },
+            {
+                "corp_name": "롯데쇼핑",
+                "corp_code": "023530",
+                "industry_code": 74701,
+                "issued_stock": 28288755,
+                "captial_stock": 141443775000
+            },
+            {
+                "corp_name": "롯데정밀화학",
+                "corp_code": "004000",
+                "industry_code": 32001,
+                "issued_stock": 25800000,
+                "captial_stock": 129000000000
+            },
+            {
+                "corp_name": "롯데정보통신",
+                "corp_code": "286940",
+                "industry_code": 106201,
+                "issued_stock": 15396331,
+                "captial_stock": 76981655000
+            },
+            {
+                "corp_name": "롯데제과",
+                "corp_code": "280360",
+                "industry_code": 31007,
+                "issued_stock": 6416717,
+                "captial_stock": 3208358500
+            },
+            {
+                "corp_name": "롯데지주",
+                "corp_code": "004990",
+                "industry_code": 116409,
+                "issued_stock": 104909237,
+                "captial_stock": 21179372000
+            },
+            {
+                "corp_name": "롯데칠성음료",
+                "corp_code": "005300",
+                "industry_code": 31102,
+                "issued_stock": 8975123,
+                "captial_stock": 4875216500
+            },
+            {
+                "corp_name": "롯데케미칼",
+                "corp_code": "011170",
+                "industry_code": 32001,
+                "issued_stock": 34275419,
+                "captial_stock": 171377095000
+            },
+            {
+                "corp_name": "롯데푸드",
+                "corp_code": "002270",
+                "industry_code": 31005,
+                "issued_stock": 1131870,
+                "captial_stock": 5659350000
+            },
+            {
+                "corp_name": "롯데하이마트",
+                "corp_code": "071840",
+                "industry_code": 74703,
+                "issued_stock": 23607712,
+                "captial_stock": 118038560000
+            },
+            {
+                "corp_name": "마니커",
+                "corp_code": "027740",
+                "industry_code": 31001,
+                "issued_stock": 198472594,
+                "captial_stock": 99236297000
+            },
+            {
+                "corp_name": "만도",
+                "corp_code": "204320",
+                "industry_code": 33003,
+                "issued_stock": 46957120,
+                "captial_stock": 46957120000
+            },
+            {
+                "corp_name": "만호제강",
+                "corp_code": "001080",
+                "industry_code": 32401,
+                "issued_stock": 4150000,
+                "captial_stock": 4150000000
+            },
+            {
+                "corp_name": "맥쿼리인프라",
+                "corp_code": "088980",
+                "industry_code": 116402,
+                "issued_stock": 372192485,
+                "captial_stock": 2057517050278
+            },
+            {
+                "corp_name": "맵스리얼티1",
+                "corp_code": "094800",
+                "industry_code": 116402,
+                "issued_stock": 92834331,
+                "captial_stock": 464171655000
+            },
+            {
+                "corp_name": "메리츠금융지주",
+                "corp_code": "138040",
+                "industry_code": 116409,
+                "issued_stock": 134011294,
+                "captial_stock": 71442909000
+            },
+            {
+                "corp_name": "메리츠증권",
+                "corp_code": "008560",
+                "industry_code": 116601,
+                "issued_stock": 675961727,
+                "captial_stock": 675961727000
+            },
+            {
+                "corp_name": "메리츠화재",
+                "corp_code": "000060",
+                "industry_code": 116501,
+                "issued_stock": 120625000,
+                "captial_stock": 60312500000
+            },
+            {
+                "corp_name": "메타랩스",
+                "corp_code": "090370",
+                "industry_code": 31401,
+                "issued_stock": 63689937,
+                "captial_stock": 31844968500
+            },
+            {
+                "corp_name": "명문제약",
+                "corp_code": "017180",
+                "industry_code": 32102,
+                "issued_stock": 33953454,
+                "captial_stock": 16976727000
+            },
+            {
+                "corp_name": "명신산업",
+                "corp_code": "009900",
+                "industry_code": 33003,
+                "issued_stock": 40779120,
+                "captial_stock": 20389560000
+            },
+            {
+                "corp_name": "모나리자",
+                "corp_code": "012690",
+                "industry_code": 31709,
+                "issued_stock": 36571255,
+                "captial_stock": 18885627500
+            },
+            {
+                "corp_name": "모나미",
+                "corp_code": "005360",
+                "industry_code": 74604,
+                "issued_stock": 18897307,
+                "captial_stock": 18897307000
+            },
+            {
+                "corp_name": "모두투어리츠",
+                "corp_code": "204210",
+                "industry_code": 126801,
+                "issued_stock": 7826815,
+                "captial_stock": 39134075000
+            },
+            {
+                "corp_name": "모토닉",
+                "corp_code": "009680",
+                "industry_code": 33003,
+                "issued_stock": 33000000,
+                "captial_stock": 16500000000
+            },
+            {
+                "corp_name": "무림P&P",
+                "corp_code": "009580",
+                "industry_code": 31701,
+                "issued_stock": 62368324,
+                "captial_stock": 155920810000
+            },
+            {
+                "corp_name": "무림페이퍼",
+                "corp_code": "009200",
+                "industry_code": 31701,
+                "issued_stock": 41609310,
+                "captial_stock": 104023275000
+            },
+            {
+                "corp_name": "무학",
+                "corp_code": "033920",
+                "industry_code": 31101,
+                "issued_stock": 28500000,
+                "captial_stock": 5700000000
+            },
+            {
+                "corp_name": "문배철강",
+                "corp_code": "008420",
+                "industry_code": 32401,
+                "issued_stock": 20503505,
+                "captial_stock": 10251752500
+            },
+            {
+                "corp_name": "미래산업",
+                "corp_code": "025560",
+                "industry_code": 32702,
+                "issued_stock": 18662929,
+                "captial_stock": 1866292900
+            },
+            {
+                "corp_name": "미래아이앤지",
+                "corp_code": "007120",
+                "industry_code": 106201,
+                "issued_stock": 129484148,
+                "captial_stock": 12948414800
+            },
+            {
+                "corp_name": "미래에셋대우",
+                "corp_code": "006800",
+                "industry_code": 116601,
+                "issued_stock": 645316408,
+                "captial_stock": 4101960790000
+            },
+            {
+                "corp_name": "미래에셋맵스리츠",
+                "corp_code": "357250",
+                "industry_code": 126801,
+                "issued_stock": 20100000,
+                "captial_stock": 20100000000
+            },
+            {
+                "corp_name": "미래에셋생명",
+                "corp_code": "085620",
+                "industry_code": 116501,
+                "issued_stock": 177016189,
+                "captial_stock": 885080945000
+            },
+            {
+                "corp_name": "미원상사",
+                "corp_code": "002840",
+                "industry_code": 32004,
+                "issued_stock": 4970000,
+                "captial_stock": 6661780000
+            },
+            {
+                "corp_name": "미원에스씨",
+                "corp_code": "268280",
+                "industry_code": 32001,
+                "issued_stock": 5100000,
+                "captial_stock": 2633945500
+            },
+            {
+                "corp_name": "미원홀딩스",
+                "corp_code": "107590",
+                "industry_code": 116409,
+                "issued_stock": 2320000,
+                "captial_stock": 1315887000
+            },
+            {
+                "corp_name": "미원화학",
+                "corp_code": "134380",
+                "industry_code": 32004,
+                "issued_stock": 2199268,
+                "captial_stock": 2404080000
+            },
+            {
+                "corp_name": "미창석유공업",
+                "corp_code": "003650",
+                "industry_code": 31902,
+                "issued_stock": 1739672,
+                "captial_stock": 8698360000
+            },
+            {
+                "corp_name": "바다로19호",
+                "corp_code": "155900",
+                "industry_code": 147601,
+                "issued_stock": 15200004,
+                "captial_stock": 76000020000
+            },
+            {
+                "corp_name": "방림",
+                "corp_code": "003610",
+                "industry_code": 31302,
+                "issued_stock": 42314090,
+                "captial_stock": 21157045000
+            },
+            {
+                "corp_name": "백광산업",
+                "corp_code": "001340",
+                "industry_code": 32001,
+                "issued_stock": 44918407,
+                "captial_stock": 22459203500
+            },
+            {
+                "corp_name": "백산",
+                "corp_code": "035150",
+                "industry_code": 32202,
+                "issued_stock": 24200000,
+                "captial_stock": 14000000000
+            },
+            {
+                "corp_name": "범양건영",
+                "corp_code": "002410",
+                "industry_code": 64101,
+                "issued_stock": 24831982,
+                "captial_stock": 24831982000
+            },
+            {
+                "corp_name": "베트남개발1",
+                "corp_code": "096300",
+                "industry_code": 116402,
+                "issued_stock": 137680211,
+                "captial_stock": 57825688620
+            },
+            {
+                "corp_name": "벽산",
+                "corp_code": "007210",
+                "industry_code": 32309,
+                "issued_stock": 68560000,
+                "captial_stock": 34280000000
+            },
+            {
+                "corp_name": "보락",
+                "corp_code": "002760",
+                "industry_code": 32004,
+                "issued_stock": 59900000,
+                "captial_stock": 11980000000
+            },
+            {
+                "corp_name": "보령제약",
+                "corp_code": "003850",
+                "industry_code": 32102,
+                "issued_stock": 47620000,
+                "captial_stock": 23810000000
+            },
+            {
+                "corp_name": "보해양조",
+                "corp_code": "000890",
+                "industry_code": 31101,
+                "issued_stock": 127449373,
+                "captial_stock": 63724686500
+            },
+            {
+                "corp_name": "부광약품",
+                "corp_code": "003000",
+                "industry_code": 32102,
+                "issued_stock": 64837978,
+                "captial_stock": 33289457500
+            },
+            {
+                "corp_name": "부국증권",
+                "corp_code": "001270",
+                "industry_code": 116601,
+                "issued_stock": 10369886,
+                "captial_stock": 66849430000
+            },
+            {
+                "corp_name": "부국철강",
+                "corp_code": "026940",
+                "industry_code": 32401,
+                "issued_stock": 20000000,
+                "captial_stock": 10000000000
+            },
+            {
+                "corp_name": "부산도시가스",
+                "corp_code": "015350",
+                "industry_code": 43502,
+                "issued_stock": 11000000,
+                "captial_stock": 55000000000
+            },
+            {
+                "corp_name": "부산산업",
+                "corp_code": "011390",
+                "industry_code": 32303,
+                "issued_stock": 1056000,
+                "captial_stock": 5280000000
+            },
+            {
+                "corp_name": "부산주공",
+                "corp_code": "005030",
+                "industry_code": 33003,
+                "issued_stock": 56849517,
+                "captial_stock": 28424758500
+            },
+            {
+                "corp_name": "비비안",
+                "corp_code": "002070",
+                "industry_code": 31401,
+                "issued_stock": 26735890,
+                "captial_stock": 13367945000
+            },
+            {
+                "corp_name": "비상교육",
+                "corp_code": "100220",
+                "industry_code": 105801,
+                "issued_stock": 12996741,
+                "captial_stock": 6498370500
+            },
+            {
+                "corp_name": "비케이탑스",
+                "corp_code": "030790",
+                "industry_code": 106201,
+                "issued_stock": 13071541,
+                "captial_stock": 6535770500
+            },
+            {
+                "corp_name": "빅히트",
+                "corp_code": "352820",
+                "industry_code": 105902,
+                "issued_stock": 35623760,
+                "captial_stock": 17811880000
+            },
+            {
+                "corp_name": "빙그레",
+                "corp_code": "005180",
+                "industry_code": 31005,
+                "issued_stock": 9851241,
+                "captial_stock": 49756205000
+            },
+            {
+                "corp_name": "사조대림",
+                "corp_code": "003960",
+                "industry_code": 31002,
+                "issued_stock": 9164467,
+                "captial_stock": 45822335000
+            },
+            {
+                "corp_name": "사조동아원",
+                "corp_code": "008040",
+                "industry_code": 31006,
+                "issued_stock": 141144600,
+                "captial_stock": 70572300000
+            },
+            {
+                "corp_name": "사조산업",
+                "corp_code": "007160",
+                "industry_code": 10301,
+                "issued_stock": 5000000,
+                "captial_stock": 25000000000
+            },
+            {
+                "corp_name": "사조씨푸드",
+                "corp_code": "014710",
+                "industry_code": 31002,
+                "issued_stock": 17218543,
+                "captial_stock": 17218543000
+            },
+            {
+                "corp_name": "사조오양",
+                "corp_code": "006090",
+                "industry_code": 31002,
+                "issued_stock": 9422739,
+                "captial_stock": 47113695000
+            },
+            {
+                "corp_name": "삼부토건",
+                "corp_code": "001470",
+                "industry_code": 64102,
+                "issued_stock": 137546368,
+                "captial_stock": 137546368000
+            },
+            {
+                "corp_name": "삼성SDI",
+                "corp_code": "006400",
+                "industry_code": 32802,
+                "issued_stock": 68764530,
+                "captial_stock": 356712130000
+            },
+            {
+                "corp_name": "삼성공조",
+                "corp_code": "006660",
+                "industry_code": 33003,
+                "issued_stock": 8126314,
+                "captial_stock": 4063157000
+            },
+            {
+                "corp_name": "삼성물산",
+                "corp_code": "028260",
+                "industry_code": 74607,
+                "issued_stock": 186887081,
+                "captial_stock": 18851450600
+            },
+            {
+                "corp_name": "삼성바이오로직스",
+                "corp_code": "207940",
+                "industry_code": 32101,
+                "issued_stock": 66165000,
+                "captial_stock": 165412500000
+            },
+            {
+                "corp_name": "삼성생명",
+                "corp_code": "032830",
+                "industry_code": 116501,
+                "issued_stock": 200000000,
+                "captial_stock": 100000000000
+            },
+            {
+                "corp_name": "삼성에스디에스",
+                "corp_code": "018260",
+                "industry_code": 106201,
+                "issued_stock": 77377800,
+                "captial_stock": 38688900000
+            },
+            {
+                "corp_name": "삼성엔지니어링",
+                "corp_code": "028050",
+                "industry_code": 137201,
+                "issued_stock": 196000000,
+                "captial_stock": 980000000000
+            },
+            {
+                "corp_name": "삼성전기",
+                "corp_code": "009150",
+                "industry_code": 32602,
+                "issued_stock": 74693696,
+                "captial_stock": 388003400000
+            },
+            {
+                "corp_name": "삼성전자",
+                "corp_code": "005930",
+                "industry_code": 32604,
+                "issued_stock": 5969782550,
+                "captial_stock": 897513820000
+            },
+            {
+                "corp_name": "삼성제약",
+                "corp_code": "001360",
+                "industry_code": 32102,
+                "issued_stock": 61549713,
+                "captial_stock": 30774856500
+            },
+            {
+                "corp_name": "삼성중공업",
+                "corp_code": "010140",
+                "industry_code": 33101,
+                "issued_stock": 630000000,
+                "captial_stock": 3150574225000
+            },
+            {
+                "corp_name": "삼성증권",
+                "corp_code": "016360",
+                "industry_code": 116601,
+                "issued_stock": 89300000,
+                "captial_stock": 458478080000
+            },
+            {
+                "corp_name": "삼성출판사",
+                "corp_code": "068290",
+                "industry_code": 105801,
+                "issued_stock": 10000000,
+                "captial_stock": 5000000000
+            },
+            {
+                "corp_name": "삼성카드",
+                "corp_code": "029780",
+                "industry_code": 116409,
+                "issued_stock": 115858891,
+                "captial_stock": 614794455000
+            },
+            {
+                "corp_name": "삼성화재해상보험",
+                "corp_code": "000810",
+                "industry_code": 116501,
+                "issued_stock": 47374837,
+                "captial_stock": 26473418500
+            },
+            {
+                "corp_name": "삼아알미늄",
+                "corp_code": "006110",
+                "industry_code": 32402,
+                "issued_stock": 11000000,
+                "captial_stock": 5500000000
+            },
+            {
+                "corp_name": "삼양사",
+                "corp_code": "145990",
+                "industry_code": 31007,
+                "issued_stock": 10313449,
+                "captial_stock": 53417595000
+            },
+            {
+                "corp_name": "삼양식품",
+                "corp_code": "003230",
+                "industry_code": 31007,
+                "issued_stock": 7533015,
+                "captial_stock": 37665075000
+            },
+            {
+                "corp_name": "삼양통상",
+                "corp_code": "002170",
+                "industry_code": 31501,
+                "issued_stock": 3000000,
+                "captial_stock": 15000000000
+            },
+            {
+                "corp_name": "삼양패키징",
+                "corp_code": "272550",
+                "industry_code": 32202,
+                "issued_stock": 14209804,
+                "captial_stock": 71049020000
+            },
+            {
+                "corp_name": "삼양홀딩스",
+                "corp_code": "000070",
+                "industry_code": 116409,
+                "issued_stock": 8564271,
+                "captial_stock": 44341645000
+            },
+            {
+                "corp_name": "삼영무역",
+                "corp_code": "002810",
+                "industry_code": 74607,
+                "issued_stock": 18466948,
+                "captial_stock": 9233474000
+            },
+            {
+                "corp_name": "삼영전자공업",
+                "corp_code": "005680",
+                "industry_code": 32602,
+                "issued_stock": 20000000,
+                "captial_stock": 10000000000
+            },
+            {
+                "corp_name": "삼영화학공업",
+                "corp_code": "003720",
+                "industry_code": 32202,
+                "issued_stock": 34000000,
+                "captial_stock": 17000000000
+            },
+            {
+                "corp_name": "삼원강재",
+                "corp_code": "023000",
+                "industry_code": 33003,
+                "issued_stock": 40000000,
+                "captial_stock": 20000000000
+            },
+            {
+                "corp_name": "삼익THK",
+                "corp_code": "004380",
+                "industry_code": 32901,
+                "issued_stock": 21000000,
+                "captial_stock": 10500000000
+            },
+            {
+                "corp_name": "삼익악기",
+                "corp_code": "002450",
+                "industry_code": 33302,
+                "issued_stock": 90530915,
+                "captial_stock": 45265457500
+            },
+            {
+                "corp_name": "삼일씨엔에스",
+                "corp_code": "004440",
+                "industry_code": 32303,
+                "issued_stock": 12731947,
+                "captial_stock": 12731947000
+            },
+            {
+                "corp_name": "삼일제약",
+                "corp_code": "000520",
+                "industry_code": 32102,
+                "issued_stock": 6694896,
+                "captial_stock": 6694896000
+            },
+            {
+                "corp_name": "삼정펄프",
+                "corp_code": "009770",
+                "industry_code": 31701,
+                "issued_stock": 2499971,
+                "captial_stock": 12499855000
+            },
+            {
+                "corp_name": "삼진제약",
+                "corp_code": "005500",
+                "industry_code": 32102,
+                "issued_stock": 13900000,
+                "captial_stock": 13900000000
+            },
+            {
+                "corp_name": "삼천리",
+                "corp_code": "004690",
+                "industry_code": 43502,
+                "issued_stock": 4055025,
+                "captial_stock": 20275125000
+            },
+            {
+                "corp_name": "삼호개발",
+                "corp_code": "010960",
+                "industry_code": 64201,
+                "issued_stock": 25000000,
+                "captial_stock": 12500000000
+            },
+            {
+                "corp_name": "삼화왕관",
+                "corp_code": "004450",
+                "industry_code": 32509,
+                "issued_stock": 2154379,
+                "captial_stock": 10771895000
+            },
+            {
+                "corp_name": "삼화전기",
+                "corp_code": "009470",
+                "industry_code": 32602,
+                "issued_stock": 6613820,
+                "captial_stock": 6613820000
+            },
+            {
+                "corp_name": "삼화전자공업",
+                "corp_code": "011230",
+                "industry_code": 32605,
+                "issued_stock": 10457940,
+                "captial_stock": 10457940000
+            },
+            {
+                "corp_name": "삼화콘덴서공업",
+                "corp_code": "001820",
+                "industry_code": 32602,
+                "issued_stock": 10395000,
+                "captial_stock": 10395000000
+            },
+            {
+                "corp_name": "삼화페인트공업",
+                "corp_code": "000390",
+                "industry_code": 32004,
+                "issued_stock": 26814737,
+                "captial_stock": 13407368500
+            },
+            {
+                "corp_name": "상상인증권",
+                "corp_code": "001290",
+                "industry_code": 116601,
+                "issued_stock": 96108437,
+                "captial_stock": 97411913000
+            },
+            {
+                "corp_name": "상신브레이크",
+                "corp_code": "041650",
+                "industry_code": 33003,
+                "issued_stock": 21471450,
+                "captial_stock": 10735725000
+            },
+            {
+                "corp_name": "새론오토모티브",
+                "corp_code": "075180",
+                "industry_code": 33003,
+                "issued_stock": 19200000,
+                "captial_stock": 9600000000
+            },
+            {
+                "corp_name": "샘표",
+                "corp_code": "007540",
+                "industry_code": 116409,
+                "issued_stock": 2875800,
+                "captial_stock": 2875800000
+            },
+            {
+                "corp_name": "샘표식품",
+                "corp_code": "248170",
+                "industry_code": 31007,
+                "issued_stock": 4568286,
+                "captial_stock": 2284143000
+            },
+            {
+                "corp_name": "서연",
+                "corp_code": "007860",
+                "industry_code": 116409,
+                "issued_stock": 23479844,
+                "captial_stock": 11739922000
+            },
+            {
+                "corp_name": "서연이화",
+                "corp_code": "200880",
+                "industry_code": 33003,
+                "issued_stock": 27028437,
+                "captial_stock": 13514218500
+            },
+            {
+                "corp_name": "서울도시가스",
+                "corp_code": "017390",
+                "industry_code": 43502,
+                "issued_stock": 5000000,
+                "captial_stock": 35000000000
+            },
+            {
+                "corp_name": "서울식품공업",
+                "corp_code": "004410",
+                "industry_code": 31007,
+                "issued_stock": 362085308,
+                "captial_stock": 36430980800
+            },
+            {
+                "corp_name": "서원",
+                "corp_code": "021050",
+                "industry_code": 32403,
+                "issued_stock": 47474590,
+                "captial_stock": 23737295000
+            },
+            {
+                "corp_name": "서흥",
+                "corp_code": "008490",
+                "industry_code": 32004,
+                "issued_stock": 11569113,
+                "captial_stock": 6084556500
+            },
+            {
+                "corp_name": "선도전기",
+                "corp_code": "007610",
+                "industry_code": 32801,
+                "issued_stock": 18000000,
+                "captial_stock": 9000000000
+            },
+            {
+                "corp_name": "선진",
+                "corp_code": "136490",
+                "industry_code": 31008,
+                "issued_stock": 23779604,
+                "captial_stock": 11889802000
+            },
+            {
+                "corp_name": "선창산업",
+                "corp_code": "002820",
+                "industry_code": 31602,
+                "issued_stock": 12607989,
+                "captial_stock": 12607989000
+            },
+            {
+                "corp_name": "성문전자",
+                "corp_code": "014910",
+                "industry_code": 32602,
+                "issued_stock": 19486857,
+                "captial_stock": 10043428500
+            },
+            {
+                "corp_name": "성보화학",
+                "corp_code": "003080",
+                "industry_code": 32003,
+                "issued_stock": 20020000,
+                "captial_stock": 10010000000
+            },
+            {
+                "corp_name": "성신양회",
+                "corp_code": "004980",
+                "industry_code": 32303,
+                "issued_stock": 24516073,
+                "captial_stock": 128508590000
+            },
+            {
+                "corp_name": "성안",
+                "corp_code": "011300",
+                "industry_code": 31302,
+                "issued_stock": 56857860,
+                "captial_stock": 28428930000
+            },
+            {
+                "corp_name": "성창기업지주",
+                "corp_code": "000180",
+                "industry_code": 137105,
+                "issued_stock": 69751600,
+                "captial_stock": 36000000000
+            },
+            {
+                "corp_name": "세기상사",
+                "corp_code": "002420",
+                "industry_code": 105901,
+                "issued_stock": 407592,
+                "captial_stock": 2037960000
+            },
+            {
+                "corp_name": "세방",
+                "corp_code": "004360",
+                "industry_code": 84903,
+                "issued_stock": 19308690,
+                "captial_stock": 11498970000
+            },
+            {
+                "corp_name": "세방전지",
+                "corp_code": "004490",
+                "industry_code": 32802,
+                "issued_stock": 14000000,
+                "captial_stock": 7000000000
+            },
+            {
+                "corp_name": "세아베스틸",
+                "corp_code": "001430",
+                "industry_code": 32401,
+                "issued_stock": 35862119,
+                "captial_stock": 219310595000
+            },
+            {
+                "corp_name": "세아제강",
+                "corp_code": "306200",
+                "industry_code": 32401,
+                "issued_stock": 2836300,
+                "captial_stock": 14181500000
+            },
+            {
+                "corp_name": "세아제강지주",
+                "corp_code": "003030",
+                "industry_code": 116409,
+                "issued_stock": 4141657,
+                "captial_stock": 20708285000
+            },
+            {
+                "corp_name": "세아특수강",
+                "corp_code": "019440",
+                "industry_code": 32401,
+                "issued_stock": 8570000,
+                "captial_stock": 42850000000
+            },
+            {
+                "corp_name": "세아홀딩스",
+                "corp_code": "058650",
+                "industry_code": 32401,
+                "issued_stock": 4000000,
+                "captial_stock": 20000000000
+            },
+            {
+                "corp_name": "세우글로벌",
+                "corp_code": "013000",
+                "industry_code": 74607,
+                "issued_stock": 28705031,
+                "captial_stock": 14352515500
+            },
+            {
+                "corp_name": "세원셀론텍",
+                "corp_code": "091090",
+                "industry_code": 32501,
+                "issued_stock": 69203959,
+                "captial_stock": 34601979500
+            },
+            {
+                "corp_name": "세원정공",
+                "corp_code": "021820",
+                "industry_code": 33003,
+                "issued_stock": 10000000,
+                "captial_stock": 5000000000
+            },
+            {
+                "corp_name": "세이브존I&C",
+                "corp_code": "067830",
+                "industry_code": 74701,
+                "issued_stock": 41040895,
+                "captial_stock": 41040895000
+            },
+            {
+                "corp_name": "세종공업",
+                "corp_code": "033530",
+                "industry_code": 33003,
+                "issued_stock": 27765096,
+                "captial_stock": 13882548000
+            },
+            {
+                "corp_name": "세진중공업",
+                "corp_code": "075580",
+                "industry_code": 33101,
+                "issued_stock": 56849456,
+                "captial_stock": 31224728000
+            },
+            {
+                "corp_name": "세하",
+                "corp_code": "027970",
+                "industry_code": 31701,
+                "issued_stock": 57562997,
+                "captial_stock": 57562997000
+            },
+            {
+                "corp_name": "세화아이엠씨",
+                "corp_code": "145210",
+                "industry_code": 32902,
+                "issued_stock": 151569422,
+                "captial_stock": 75784711000
+            },
+            {
+                "corp_name": "센트랄모텍",
+                "corp_code": "308170",
+                "industry_code": 33003,
+                "issued_stock": 8610000,
+                "captial_stock": 4305000000
+            },
+            {
+                "corp_name": "센트럴인사이트",
+                "corp_code": "012600",
+                "industry_code": 32901,
+                "issued_stock": 10695682,
+                "captial_stock": 5347841000
+            },
+            {
+                "corp_name": "셀트리온",
+                "corp_code": "068270",
+                "industry_code": 32101,
+                "issued_stock": 134997805,
+                "captial_stock": 134997805000
+            },
+            {
+                "corp_name": "솔루스첨단소재",
+                "corp_code": "336370",
+                "industry_code": 32602,
+                "issued_stock": 30589758,
+                "captial_stock": 3960220800
+            },
+            {
+                "corp_name": "송원산업",
+                "corp_code": "004430",
+                "industry_code": 32004,
+                "issued_stock": 24000000,
+                "captial_stock": 12000000000
+            },
+            {
+                "corp_name": "수산중공업",
+                "corp_code": "017550",
+                "industry_code": 32902,
+                "issued_stock": 53985163,
+                "captial_stock": 26992581500
+            },
+            {
+                "corp_name": "시디즈",
+                "corp_code": "134790",
+                "industry_code": 33201,
+                "issued_stock": 2000000,
+                "captial_stock": 1000000000
+            },
+            {
+                "corp_name": "신대양제지",
+                "corp_code": "016590",
+                "industry_code": 31702,
+                "issued_stock": 4029782,
+                "captial_stock": 20148910000
+            },
+            {
+                "corp_name": "신도리코",
+                "corp_code": "029530",
+                "industry_code": 32603,
+                "issued_stock": 10080029,
+                "captial_stock": 50400145000
+            },
+            {
+                "corp_name": "신라교역",
+                "corp_code": "004970",
+                "industry_code": 10301,
+                "issued_stock": 16000000,
+                "captial_stock": 8000000000
+            },
+            {
+                "corp_name": "신성이엔지",
+                "corp_code": "011930",
+                "industry_code": 32601,
+                "issued_stock": 201433941,
+                "captial_stock": 100826970500
+            },
+            {
+                "corp_name": "신성통상",
+                "corp_code": "005390",
+                "industry_code": 74607,
+                "issued_stock": 143708390,
+                "captial_stock": 71854195000
+            },
+            {
+                "corp_name": "신세계",
+                "corp_code": "004170",
+                "industry_code": 74701,
+                "issued_stock": 9845181,
+                "captial_stock": 49225905000
+            },
+            {
+                "corp_name": "신세계I&C",
+                "corp_code": "035510",
+                "industry_code": 106201,
+                "issued_stock": 1720000,
+                "captial_stock": 8600000000
+            },
+            {
+                "corp_name": "신세계건설",
+                "corp_code": "034300",
+                "industry_code": 64101,
+                "issued_stock": 4000000,
+                "captial_stock": 20000000000
+            },
+            {
+                "corp_name": "신세계인터내셔날",
+                "corp_code": "031430",
+                "industry_code": 74704,
+                "issued_stock": 7140000,
+                "captial_stock": 35700000000
+            },
+            {
+                "corp_name": "신세계푸드",
+                "corp_code": "031440",
+                "industry_code": 95601,
+                "issued_stock": 3872480,
+                "captial_stock": 19362400000
+            },
+            {
+                "corp_name": "신송홀딩스",
+                "corp_code": "006880",
+                "industry_code": 74602,
+                "issued_stock": 11828858,
+                "captial_stock": 5914429000
+            },
+            {
+                "corp_name": "신영와코루",
+                "corp_code": "005800",
+                "industry_code": 31401,
+                "issued_stock": 900000,
+                "captial_stock": 4500000000
+            },
+            {
+                "corp_name": "신영증권",
+                "corp_code": "001720",
+                "industry_code": 116601,
+                "issued_stock": 9386237,
+                "captial_stock": 82200000000
+            },
+            {
+                "corp_name": "신원",
+                "corp_code": "009270",
+                "industry_code": 31401,
+                "issued_stock": 85042499,
+                "captial_stock": 42566619500
+            },
+            {
+                "corp_name": "신일전자",
+                "corp_code": "002700",
+                "industry_code": 74605,
+                "issued_stock": 71047521,
+                "captial_stock": 35523760500
+            },
+            {
+                "corp_name": "신풍제약",
+                "corp_code": "019170",
+                "industry_code": 32102,
+                "issued_stock": 52984990,
+                "captial_stock": 27592495000
+            },
+            {
+                "corp_name": "신풍제지",
+                "corp_code": "002870",
+                "industry_code": 31701,
+                "issued_stock": 34958700,
+                "captial_stock": 17479350000
+            },
+            {
+                "corp_name": "신한알파리츠",
+                "corp_code": "293940",
+                "industry_code": 126801,
+                "issued_stock": 52330123,
+                "captial_stock": 52330123000
+            },
+            {
+                "corp_name": "신한지주",
+                "corp_code": "055550",
+                "industry_code": 116409,
+                "issued_stock": 516526835,
+                "captial_stock": 2607812465000
+            },
+            {
+                "corp_name": "신화실업",
+                "corp_code": "001770",
+                "industry_code": 32401,
+                "issued_stock": 1214878,
+                "captial_stock": 6074390000
+            },
+            {
+                "corp_name": "신흥",
+                "corp_code": "004080",
+                "industry_code": 74605,
+                "issued_stock": 9600000,
+                "captial_stock": 6733070000
+            },
+            {
+                "corp_name": "쌍방울",
+                "corp_code": "102280",
+                "industry_code": 31401,
+                "issued_stock": 239359627,
+                "captial_stock": 119679813500
+            },
+            {
+                "corp_name": "쌍용양회공업",
+                "corp_code": "003410",
+                "industry_code": 32303,
+                "issued_stock": 503859595,
+                "captial_stock": 50385959500
+            },
+            {
+                "corp_name": "쌍용자동차",
+                "corp_code": "003620",
+                "industry_code": 33001,
+                "issued_stock": 149840002,
+                "captial_stock": 749200010000
+            },
+            {
+                "corp_name": "써니전자",
+                "corp_code": "004770",
+                "industry_code": 32601,
+                "issued_stock": 34845011,
+                "captial_stock": 18372505500
+            },
+            {
+                "corp_name": "쎌마테라퓨틱스",
+                "corp_code": "015540",
+                "industry_code": 147509,
+                "issued_stock": 12033862,
+                "captial_stock": 6016931000
+            },
+            {
+                "corp_name": "씨아이테크",
+                "corp_code": "004920",
+                "industry_code": 33309,
+                "issued_stock": 25070772,
+                "captial_stock": 12535386000
+            },
+            {
+                "corp_name": "씨에스윈드",
+                "corp_code": "112610",
+                "industry_code": 32501,
+                "issued_stock": 17285715,
+                "captial_stock": 8642857500
+            },
+            {
+                "corp_name": "아남전자",
+                "corp_code": "008700",
+                "industry_code": 32605,
+                "issued_stock": 77124820,
+                "captial_stock": 38562410000
+            },
+            {
+                "corp_name": "아모레퍼시픽",
+                "corp_code": "090430",
+                "industry_code": 32004,
+                "issued_stock": 58458490,
+                "captial_stock": 34508160000
+            },
+            {
+                "corp_name": "아모레퍼시픽그룹",
+                "corp_code": "002790",
+                "industry_code": 32004,
+                "issued_stock": 82458180,
+                "captial_stock": 47997075000
+            },
+            {
+                "corp_name": "아세아",
+                "corp_code": "002030",
+                "industry_code": 137105,
+                "issued_stock": 2191024,
+                "captial_stock": 10955120000
+            },
+            {
+                "corp_name": "아세아시멘트",
+                "corp_code": "183190",
+                "industry_code": 32303,
+                "issued_stock": 3895809,
+                "captial_stock": 19479045000
+            },
+            {
+                "corp_name": "아세아제지",
+                "corp_code": "002310",
+                "industry_code": 31702,
+                "issued_stock": 8956502,
+                "captial_stock": 44782510000
+            },
+            {
+                "corp_name": "아시아나IDT",
+                "corp_code": "267850",
+                "industry_code": 106201,
+                "issued_stock": 11100000,
+                "captial_stock": 5550000000
+            },
+            {
+                "corp_name": "아시아나항공",
+                "corp_code": "020560",
+                "industry_code": 85101,
+                "issued_stock": 74411764,
+                "captial_stock": 372058820000
+            },
+            {
+                "corp_name": "아이마켓코리아",
+                "corp_code": "122900",
+                "industry_code": 74608,
+                "issued_stock": 35393340,
+                "captial_stock": 18166670000
+            },
+            {
+                "corp_name": "아이에스동서",
+                "corp_code": "010780",
+                "industry_code": 32302,
+                "issued_stock": 30892606,
+                "captial_stock": 15446303000
+            },
+            {
+                "corp_name": "아이에이치큐",
+                "corp_code": "003560",
+                "industry_code": 105901,
+                "issued_stock": 146235748,
+                "captial_stock": 73117874000
+            },
+            {
+                "corp_name": "아주캐피탈",
+                "corp_code": "033660",
+                "industry_code": 116409,
+                "issued_stock": 57545890,
+                "captial_stock": 287729450000
+            },
+            {
+                "corp_name": "알루코",
+                "corp_code": "001780",
+                "industry_code": 32402,
+                "issued_stock": 83207283,
+                "captial_stock": 41603641500
+            },
+            {
+                "corp_name": "애경산업",
+                "corp_code": "018250",
+                "industry_code": 32004,
+                "issued_stock": 26409935,
+                "captial_stock": 26409935000
+            },
+            {
+                "corp_name": "애경유화",
+                "corp_code": "161000",
+                "industry_code": 32001,
+                "issued_stock": 32040000,
+                "captial_stock": 16020000000
+            },
+            {
+                "corp_name": "에넥스",
+                "corp_code": "011090",
+                "industry_code": 33201,
+                "issued_stock": 59991641,
+                "captial_stock": 29995820500
+            },
+            {
+                "corp_name": "에스엘",
+                "corp_code": "005850",
+                "industry_code": 33003,
+                "issued_stock": 48203277,
+                "captial_stock": 24101638500
+            },
+            {
+                "corp_name": "에스원",
+                "corp_code": "012750",
+                "industry_code": 147503,
+                "issued_stock": 37999178,
+                "captial_stock": 18999589000
+            },
+            {
+                "corp_name": "에스제이엠",
+                "corp_code": "123700",
+                "industry_code": 33003,
+                "issued_stock": 15604898,
+                "captial_stock": 7802449000
+            },
+            {
+                "corp_name": "에스제이엠홀딩스",
+                "corp_code": "025530",
+                "industry_code": 74502,
+                "issued_stock": 14934008,
+                "captial_stock": 7467004000
+            },
+            {
+                "corp_name": "에스케이바이오팜",
+                "corp_code": "326030",
+                "industry_code": 137001,
+                "issued_stock": 78313250,
+                "captial_stock": 39156625000
+            },
+            {
+                "corp_name": "에쓰씨엔지니어링",
+                "corp_code": "023960",
+                "industry_code": 64102,
+                "issued_stock": 25016587,
+                "captial_stock": 12508293500
+            },
+            {
+                "corp_name": "에어부산",
+                "corp_code": "298690",
+                "industry_code": 85101,
+                "issued_stock": 82070000,
+                "captial_stock": 82070000000
+            },
+            {
+                "corp_name": "에이리츠",
+                "corp_code": "140910",
+                "industry_code": 126801,
+                "issued_stock": 3792775,
+                "captial_stock": 18963875000
+            },
+            {
+                "corp_name": "에이블씨엔씨",
+                "corp_code": "078520",
+                "industry_code": 32004,
+                "issued_stock": 27033459,
+                "captial_stock": 13516729500
+            },
+            {
+                "corp_name": "에이엔피",
+                "corp_code": "015260",
+                "industry_code": 32602,
+                "issued_stock": 21826409,
+                "captial_stock": 10913204500
+            },
+            {
+                "corp_name": "에이프로젠 KIC",
+                "corp_code": "007460",
+                "industry_code": 32509,
+                "issued_stock": 182946253,
+                "captial_stock": 91473126500
+            },
+            {
+                "corp_name": "에이프로젠제약",
+                "corp_code": "003060",
+                "industry_code": 32102,
+                "issued_stock": 398575766,
+                "captial_stock": 199287883000
+            },
+            {
+                "corp_name": "에이플러스에셋",
+                "corp_code": "244920",
+                "industry_code": 116602,
+                "issued_stock": 22607693,
+                "captial_stock": 11303846500
+            },
+            {
+                "corp_name": "엔씨소프트",
+                "corp_code": "036570",
+                "industry_code": 105802,
+                "issued_stock": 21954022,
+                "captial_stock": 10977011000
+            },
+            {
+                "corp_name": "엔에스쇼핑",
+                "corp_code": "138250",
+                "industry_code": 74709,
+                "issued_stock": 33696000,
+                "captial_stock": 16848000000
+            },
+            {
+                "corp_name": "엔에이치엔",
+                "corp_code": "181710",
+                "industry_code": 105802,
+                "issued_stock": 19565025,
+                "captial_stock": 9782512500
+            },
+            {
+                "corp_name": "엔케이",
+                "corp_code": "085310",
+                "industry_code": 32501,
+                "issued_stock": 79983352,
+                "captial_stock": 39991676000
+            },
+            {
+                "corp_name": "엔케이물산",
+                "corp_code": "009810",
+                "industry_code": 74607,
+                "issued_stock": 79439210,
+                "captial_stock": 7943921000
+            },
+            {
+                "corp_name": "엔피씨",
+                "corp_code": "004250",
+                "industry_code": 32202,
+                "issued_stock": 36720000,
+                "captial_stock": 21000000000
+            },
+            {
+                "corp_name": "엘브이엠씨",
+                "corp_code": "900140",
+                "industry_code": 74501,
+                "issued_stock": 84348589,
+                "captial_stock": 21087147
+            },
+            {
+                "corp_name": "엘에스일렉트릭",
+                "corp_code": "010120",
+                "industry_code": 32801,
+                "issued_stock": 30000000,
+                "captial_stock": 150000000000
+            },
+            {
+                "corp_name": "영보화학",
+                "corp_code": "014440",
+                "industry_code": 32202,
+                "issued_stock": 20000000,
+                "captial_stock": 10000000000
+            },
+            {
+                "corp_name": "영원무역",
+                "corp_code": "111770",
+                "industry_code": 74608,
+                "issued_stock": 44311468,
+                "captial_stock": 22155734000
+            },
+            {
+                "corp_name": "영원무역홀딩스",
+                "corp_code": "009970",
+                "industry_code": 116409,
+                "issued_stock": 13635592,
+                "captial_stock": 6817796000
+            },
+            {
+                "corp_name": "영진약품",
+                "corp_code": "003520",
+                "industry_code": 32102,
+                "issued_stock": 182892731,
+                "captial_stock": 91446365500
+            },
+            {
+                "corp_name": "영풍",
+                "corp_code": "000670",
+                "industry_code": 32402,
+                "issued_stock": 1842040,
+                "captial_stock": 9210200000
+            },
+            {
+                "corp_name": "영풍제지",
+                "corp_code": "006740",
+                "industry_code": 31702,
+                "issued_stock": 22200000,
+                "captial_stock": 11100000000
+            },
+            {
+                "corp_name": "영화금속",
+                "corp_code": "012280",
+                "industry_code": 33003,
+                "issued_stock": 53394505,
+                "captial_stock": 27569082500
+            },
+            {
+                "corp_name": "영흥",
+                "corp_code": "012160",
+                "industry_code": 32401,
+                "issued_stock": 92734032,
+                "captial_stock": 46367016000
+            },
+            {
+                "corp_name": "예스코홀딩스",
+                "corp_code": "015360",
+                "industry_code": 116409,
+                "issued_stock": 6000000,
+                "captial_stock": 30000000000
+            },
+            {
+                "corp_name": "오뚜기",
+                "corp_code": "007310",
+                "industry_code": 31007,
+                "issued_stock": 3671981,
+                "captial_stock": 18359905000
+            },
+            {
+                "corp_name": "오리엔트바이오",
+                "corp_code": "002630",
+                "industry_code": 32102,
+                "issued_stock": 118569966,
+                "captial_stock": 59284983000
+            },
+            {
+                "corp_name": "오리온",
+                "corp_code": "271560",
+                "industry_code": 31007,
+                "issued_stock": 39536132,
+                "captial_stock": 19768066000
+            },
+            {
+                "corp_name": "오리온홀딩스",
+                "corp_code": "001800",
+                "industry_code": 116409,
+                "issued_stock": 62645422,
+                "captial_stock": 31322711000
+            },
+            {
+                "corp_name": "용평리조트",
+                "corp_code": "070960",
+                "industry_code": 95501,
+                "issued_stock": 48133333,
+                "captial_stock": 240666665000
+            },
+            {
+                "corp_name": "우리금융지주",
+                "corp_code": "316140",
+                "industry_code": 116409,
+                "issued_stock": 722267683,
+                "captial_stock": 3611338415000
+            },
+            {
+                "corp_name": "우리들제약",
+                "corp_code": "004720",
+                "industry_code": 32102,
+                "issued_stock": 14712933,
+                "captial_stock": 7356466500
+            },
+            {
+                "corp_name": "우리들휴브레인",
+                "corp_code": "118000",
+                "industry_code": 74605,
+                "issued_stock": 50399433,
+                "captial_stock": 25199716500
+            },
+            {
+                "corp_name": "우리종금",
+                "corp_code": "010050",
+                "industry_code": 116409,
+                "issued_stock": 874203406,
+                "captial_stock": 437101703000
+            },
+            {
+                "corp_name": "우성사료",
+                "corp_code": "006980",
+                "industry_code": 31006,
+                "issued_stock": 30900000,
+                "captial_stock": 15450000000
+            },
+            {
+                "corp_name": "우신시스템",
+                "corp_code": "017370",
+                "industry_code": 32902,
+                "issued_stock": 18314054,
+                "captial_stock": 9157027000
+            },
+            {
+                "corp_name": "우진",
+                "corp_code": "105840",
+                "industry_code": 32702,
+                "issued_stock": 20202234,
+                "captial_stock": 10101117000
+            },
+            {
+                "corp_name": "우진아이엔에스",
+                "corp_code": "010400",
+                "industry_code": 64202,
+                "issued_stock": 7622000,
+                "captial_stock": 3811000000
+            },
+            {
+                "corp_name": "우진플라임",
+                "corp_code": "049800",
+                "industry_code": 32902,
+                "issued_stock": 10000000,
+                "captial_stock": 5000000000
+            },
+            {
+                "corp_name": "웅진",
+                "corp_code": "016880",
+                "industry_code": 116409,
+                "issued_stock": 79378330,
+                "captial_stock": 41939165000
+            },
+            {
+                "corp_name": "웅진씽크빅",
+                "corp_code": "095720",
+                "industry_code": 168501,
+                "issued_stock": 115505985,
+                "captial_stock": 58700796000
+            },
+            {
+                "corp_name": "원림",
+                "corp_code": "005820",
+                "industry_code": 31302,
+                "issued_stock": 2200000,
+                "captial_stock": 11000000000
+            },
+            {
+                "corp_name": "웰바이오텍",
+                "corp_code": "010600",
+                "industry_code": 74601,
+                "issued_stock": 45310327,
+                "captial_stock": 22655163500
+            },
+            {
+                "corp_name": "윌비스",
+                "corp_code": "008600",
+                "industry_code": 74604,
+                "issued_stock": 65157878,
+                "captial_stock": 70804018000
+            },
+            {
+                "corp_name": "유나이티드",
+                "corp_code": "033270",
+                "industry_code": 32102,
+                "issued_stock": 16244822,
+                "captial_stock": 8122411000
+            },
+            {
+                "corp_name": "유니드",
+                "corp_code": "014830",
+                "industry_code": 32001,
+                "issued_stock": 8889843,
+                "captial_stock": 44449215000
+            },
+            {
+                "corp_name": "유니온",
+                "corp_code": "000910",
+                "industry_code": 32303,
+                "issued_stock": 15611619,
+                "captial_stock": 7805809500
+            },
+            {
+                "corp_name": "유니온머티리얼",
+                "corp_code": "047400",
+                "industry_code": 32302,
+                "issued_stock": 42000000,
+                "captial_stock": 21000000000
+            },
+            {
+                "corp_name": "유니켐",
+                "corp_code": "011330",
+                "industry_code": 31501,
+                "issued_stock": 68710343,
+                "captial_stock": 34355171500
+            },
+            {
+                "corp_name": "유니퀘스트",
+                "corp_code": "077500",
+                "industry_code": 74605,
+                "issued_stock": 27307225,
+                "captial_stock": 13653612500
+            },
+            {
+                "corp_name": "유성기업",
+                "corp_code": "002920",
+                "industry_code": 33003,
+                "issued_stock": 25947500,
+                "captial_stock": 12973750000
+            },
+            {
+                "corp_name": "유수홀딩스",
+                "corp_code": "000700",
+                "industry_code": 137105,
+                "issued_stock": 26041812,
+                "captial_stock": 65104530000
+            },
+            {
+                "corp_name": "유안타증권",
+                "corp_code": "003470",
+                "industry_code": 116601,
+                "issued_stock": 199596576,
+                "captial_stock": 1062543940000
+            },
+            {
+                "corp_name": "유양디앤유",
+                "corp_code": "011690",
+                "industry_code": 32601,
+                "issued_stock": 58494201,
+                "captial_stock": 29247100500
+            },
+            {
+                "corp_name": "유엔젤",
+                "corp_code": "072130",
+                "industry_code": 106301,
+                "issued_stock": 13195454,
+                "captial_stock": 6597727000
+            },
+            {
+                "corp_name": "유유제약",
+                "corp_code": "000220",
+                "industry_code": 32102,
+                "issued_stock": 8035247,
+                "captial_stock": 9709632000
+            },
+            {
+                "corp_name": "유진증권",
+                "corp_code": "001200",
+                "industry_code": 116601,
+                "issued_stock": 96866418,
+                "captial_stock": 537592090000
+            },
+            {
+                "corp_name": "유한양행",
+                "corp_code": "000100",
+                "industry_code": 32102,
+                "issued_stock": 66856810,
+                "captial_stock": 68037750000
+            },
+            {
+                "corp_name": "유화증권",
+                "corp_code": "003460",
+                "industry_code": 116601,
+                "issued_stock": 56702415,
+                "captial_stock": 74178840000
+            },
+            {
+                "corp_name": "율촌화학",
+                "corp_code": "008730",
+                "industry_code": 32202,
+                "issued_stock": 24800000,
+                "captial_stock": 14776380000
+            },
+            {
+                "corp_name": "이건산업",
+                "corp_code": "008250",
+                "industry_code": 31602,
+                "issued_stock": 10952635,
+                "captial_stock": 54763175000
+            },
+            {
+                "corp_name": "이구산업",
+                "corp_code": "025820",
+                "industry_code": 32402,
+                "issued_stock": 33442000,
+                "captial_stock": 16721000000
+            },
+            {
+                "corp_name": "이노션",
+                "corp_code": "214320",
+                "industry_code": 137103,
+                "issued_stock": 20000000,
+                "captial_stock": 10000000000
+            },
+            {
+                "corp_name": "이리츠코크렙",
+                "corp_code": "088260",
+                "industry_code": 126801,
+                "issued_stock": 63341590,
+                "captial_stock": 31670795000
+            },
+            {
+                "corp_name": "이마트",
+                "corp_code": "139480",
+                "industry_code": 74701,
+                "issued_stock": 27875819,
+                "captial_stock": 139379095000
+            },
+            {
+                "corp_name": "이수페타시스",
+                "corp_code": "007660",
+                "industry_code": 32602,
+                "issued_stock": 41268398,
+                "captial_stock": 41268398000
+            },
+            {
+                "corp_name": "이수화학",
+                "corp_code": "005950",
+                "industry_code": 32001,
+                "issued_stock": 24193925,
+                "captial_stock": 120969625000
+            },
+            {
+                "corp_name": "이스타코",
+                "corp_code": "015020",
+                "industry_code": 126801,
+                "issued_stock": 42851600,
+                "captial_stock": 21425800000
+            },
+            {
+                "corp_name": "이아이디",
+                "corp_code": "093230",
+                "industry_code": 74607,
+                "issued_stock": 723342542,
+                "captial_stock": 144668508400
+            },
+            {
+                "corp_name": "이엔플러스",
+                "corp_code": "074610",
+                "industry_code": 32901,
+                "issued_stock": 42310049,
+                "captial_stock": 21155024500
+            },
+            {
+                "corp_name": "이연제약",
+                "corp_code": "102460",
+                "industry_code": 32102,
+                "issued_stock": 17562390,
+                "captial_stock": 8781195000
+            },
+            {
+                "corp_name": "이월드",
+                "corp_code": "084680",
+                "industry_code": 189102,
+                "issued_stock": 103139897,
+                "captial_stock": 103139897000
+            },
+            {
+                "corp_name": "이지스레지던스리츠",
+                "corp_code": "350520",
+                "industry_code": 126801,
+                "issued_stock": 20600000,
+                "captial_stock": 20600000000
+            },
+            {
+                "corp_name": "이지스밸류플러스리츠",
+                "corp_code": "334890",
+                "industry_code": 126801,
+                "issued_stock": 24000000,
+                "captial_stock": 24000000000
+            },
+            {
+                "corp_name": "이화산업",
+                "corp_code": "000760",
+                "industry_code": 74607,
+                "issued_stock": 2800000,
+                "captial_stock": 14000000000
+            },
+            {
+                "corp_name": "인디에프",
+                "corp_code": "014990",
+                "industry_code": 31401,
+                "issued_stock": 58932995,
+                "captial_stock": 29466497500
+            },
+            {
+                "corp_name": "인바이오젠",
+                "corp_code": "101140",
+                "industry_code": 74604,
+                "issued_stock": 51561397,
+                "captial_stock": 25780698500
+            },
+            {
+                "corp_name": "인스코비",
+                "corp_code": "006490",
+                "industry_code": 106102,
+                "issued_stock": 100909096,
+                "captial_stock": 50454548000
+            },
+            {
+                "corp_name": "인지컨트롤스",
+                "corp_code": "023800",
+                "industry_code": 33003,
+                "issued_stock": 15160128,
+                "captial_stock": 7580064000
+            },
+            {
+                "corp_name": "인천도시가스",
+                "corp_code": "034590",
+                "industry_code": 43502,
+                "issued_stock": 4374754,
+                "captial_stock": 21873770000
+            },
+            {
+                "corp_name": "인터지스",
+                "corp_code": "129260",
+                "industry_code": 84903,
+                "issued_stock": 29747874,
+                "captial_stock": 14873937000
+            },
+            {
+                "corp_name": "인팩",
+                "corp_code": "023810",
+                "industry_code": 33003,
+                "issued_stock": 10000000,
+                "captial_stock": 5000000000
+            },
+            {
+                "corp_name": "일동제약",
+                "corp_code": "249420",
+                "industry_code": 32102,
+                "issued_stock": 23803285,
+                "captial_stock": 23803285000
+            },
+            {
+                "corp_name": "일동홀딩스",
+                "corp_code": "000230",
+                "industry_code": 32102,
+                "issued_stock": 11540400,
+                "captial_stock": 11540400000
+            },
+            {
+                "corp_name": "일성건설",
+                "corp_code": "013360",
+                "industry_code": 64102,
+                "issued_stock": 54024880,
+                "captial_stock": 27012440000
+            },
+            {
+                "corp_name": "일성신약",
+                "corp_code": "003120",
+                "industry_code": 32102,
+                "issued_stock": 2660000,
+                "captial_stock": 13300000000
+            },
+            {
+                "corp_name": "일신방직",
+                "corp_code": "003200",
+                "industry_code": 31301,
+                "issued_stock": 2400000,
+                "captial_stock": 12000000000
+            },
+            {
+                "corp_name": "일신석재",
+                "corp_code": "007110",
+                "industry_code": 74606,
+                "issued_stock": 77456610,
+                "captial_stock": 38728305000
+            },
+            {
+                "corp_name": "일양약품",
+                "corp_code": "007570",
+                "industry_code": 32102,
+                "issued_stock": 19085664,
+                "captial_stock": 48826860000
+            },
+            {
+                "corp_name": "일정실업",
+                "corp_code": "008500",
+                "industry_code": 31303,
+                "issued_stock": 1200000,
+                "captial_stock": 6000000000
+            },
+            {
+                "corp_name": "일진다이아",
+                "corp_code": "081000",
+                "industry_code": 32004,
+                "issued_stock": 14202975,
+                "captial_stock": 14202975000
+            },
+            {
+                "corp_name": "일진디스플",
+                "corp_code": "020760",
+                "industry_code": 32601,
+                "issued_stock": 28314440,
+                "captial_stock": 14157220000
+            },
+            {
+                "corp_name": "일진머티리얼즈",
+                "corp_code": "020150",
+                "industry_code": 32602,
+                "issued_stock": 46110835,
+                "captial_stock": 23055417500
+            },
+            {
+                "corp_name": "일진전기",
+                "corp_code": "103590",
+                "industry_code": 32803,
+                "issued_stock": 37080390,
+                "captial_stock": 37080390000
+            },
+            {
+                "corp_name": "일진홀딩스",
+                "corp_code": "015860",
+                "industry_code": 116409,
+                "issued_stock": 49347483,
+                "captial_stock": 49852615000
+            },
+            {
+                "corp_name": "잇츠한불",
+                "corp_code": "226320",
+                "industry_code": 32004,
+                "issued_stock": 21929315,
+                "captial_stock": 10964657500
+            },
+            {
+                "corp_name": "자이에스앤디",
+                "corp_code": "317400",
+                "industry_code": 126801,
+                "issued_stock": 26782520,
+                "captial_stock": 26782520000
+            },
+            {
+                "corp_name": "자화전자",
+                "corp_code": "033240",
+                "industry_code": 32602,
+                "issued_stock": 17900000,
+                "captial_stock": 8950000000
+            },
+            {
+                "corp_name": "전방",
+                "corp_code": "000950",
+                "industry_code": 31301,
+                "issued_stock": 1680000,
+                "captial_stock": 8400000000
+            },
+            {
+                "corp_name": "제이알글로벌리츠",
+                "corp_code": "348950",
+                "industry_code": 126801,
+                "issued_stock": 165600000,
+                "captial_stock": 165600000000
+            },
+            {
+                "corp_name": "제이에스코퍼레이션",
+                "corp_code": "194370",
+                "industry_code": 31501,
+                "issued_stock": 13335601,
+                "captial_stock": 1333560100
+            },
+            {
+                "corp_name": "제이준코스메틱",
+                "corp_code": "025620",
+                "industry_code": 32004,
+                "issued_stock": 36909430,
+                "captial_stock": 18454715000
+            },
+            {
+                "corp_name": "제이콘텐트리",
+                "corp_code": "036420",
+                "industry_code": 105901,
+                "issued_stock": 16385071,
+                "captial_stock": 81925355000
+            },
+            {
+                "corp_name": "제일기획",
+                "corp_code": "030000",
+                "industry_code": 137103,
+                "issued_stock": 115041225,
+                "captial_stock": 23008245000
+            },
+            {
+                "corp_name": "제일약품",
+                "corp_code": "271980",
+                "industry_code": 32102,
+                "issued_stock": 14704872,
+                "captial_stock": 7352436000
+            },
+            {
+                "corp_name": "제일연마",
+                "corp_code": "001560",
+                "industry_code": 32309,
+                "issued_stock": 10000000,
+                "captial_stock": 5000000000
+            },
+            {
+                "corp_name": "제일파마홀딩스",
+                "corp_code": "002620",
+                "industry_code": 137105,
+                "issued_stock": 15973355,
+                "captial_stock": 7986677500
+            },
+            {
+                "corp_name": "제주은행",
+                "corp_code": "006220",
+                "industry_code": 116401,
+                "issued_stock": 32128774,
+                "captial_stock": 160643870000
+            },
+            {
+                "corp_name": "제주항공",
+                "corp_code": "089590",
+                "industry_code": 85101,
+                "issued_stock": 38499615,
+                "captial_stock": 192498075000
+            },
+            {
+                "corp_name": "조광페인트",
+                "corp_code": "004910",
+                "industry_code": 32004,
+                "issued_stock": 12800000,
+                "captial_stock": 6400000000
+            },
+            {
+                "corp_name": "조광피혁",
+                "corp_code": "004700",
+                "industry_code": 31501,
+                "issued_stock": 6649138,
+                "captial_stock": 34245690000
+            },
+            {
+                "corp_name": "조비",
+                "corp_code": "001550",
+                "industry_code": 32003,
+                "issued_stock": 5192239,
+                "captial_stock": 25961195000
+            },
+            {
+                "corp_name": "조선내화",
+                "corp_code": "000480",
+                "industry_code": 32302,
+                "issued_stock": 4000000,
+                "captial_stock": 20000000000
+            },
+            {
+                "corp_name": "조선선재",
+                "corp_code": "120030",
+                "industry_code": 32509,
+                "issued_stock": 1257651,
+                "captial_stock": 628825500
+            },
+            {
+                "corp_name": "조일알미늄",
+                "corp_code": "018470",
+                "industry_code": 32402,
+                "issued_stock": 83774593,
+                "captial_stock": 41887296500
+            },
+            {
+                "corp_name": "조흥",
+                "corp_code": "002600",
+                "industry_code": 31007,
+                "issued_stock": 600000,
+                "captial_stock": 3000000000
+            },
+            {
+                "corp_name": "종근당",
+                "corp_code": "185750",
+                "industry_code": 32102,
+                "issued_stock": 10885685,
+                "captial_stock": 27214212500
+            },
+            {
+                "corp_name": "종근당바이오",
+                "corp_code": "063160",
+                "industry_code": 32102,
+                "issued_stock": 5485962,
+                "captial_stock": 13714905000
+            },
+            {
+                "corp_name": "종근당홀딩스",
+                "corp_code": "001630",
+                "industry_code": 32102,
+                "issued_stock": 5009861,
+                "captial_stock": 12524652500
+            },
+            {
+                "corp_name": "주연테크",
+                "corp_code": "044380",
+                "industry_code": 32603,
+                "issued_stock": 54612089,
+                "captial_stock": 10922417800
+            },
+            {
+                "corp_name": "지누스",
+                "corp_code": "013890",
+                "industry_code": 33201,
+                "issued_stock": 14406749,
+                "captial_stock": 7203374500
+            },
+            {
+                "corp_name": "지엠비코리아",
+                "corp_code": "013870",
+                "industry_code": 33003,
+                "issued_stock": 19072280,
+                "captial_stock": 9536140000
+            },
+            {
+                "corp_name": "지역난방공사",
+                "corp_code": "071320",
+                "industry_code": 43503,
+                "issued_stock": 11578744,
+                "captial_stock": 57893720000
+            },
+            {
+                "corp_name": "지코",
+                "corp_code": "010580",
+                "industry_code": 33003,
+                "issued_stock": 64581636,
+                "captial_stock": 32290818000
+            },
+            {
+                "corp_name": "지투알",
+                "corp_code": "035000",
+                "industry_code": 137105,
+                "issued_stock": 16567409,
+                "captial_stock": 17571493000
+            },
+            {
+                "corp_name": "진도",
+                "corp_code": "088790",
+                "industry_code": 74607,
+                "issued_stock": 12447744,
+                "captial_stock": 6223872000
+            },
+            {
+                "corp_name": "진양산업",
+                "corp_code": "003780",
+                "industry_code": 32202,
+                "issued_stock": 13000000,
+                "captial_stock": 6500000000
+            },
+            {
+                "corp_name": "진양폴리우레탄",
+                "corp_code": "010640",
+                "industry_code": 32202,
+                "issued_stock": 10000000,
+                "captial_stock": 5000000000
+            },
+            {
+                "corp_name": "진양홀딩스",
+                "corp_code": "100250",
+                "industry_code": 32202,
+                "issued_stock": 55895292,
+                "captial_stock": 27947646000
+            },
+            {
+                "corp_name": "진양화학",
+                "corp_code": "051630",
+                "industry_code": 32202,
+                "issued_stock": 12000000,
+                "captial_stock": 6000000000
+            },
+            {
+                "corp_name": "진에어",
+                "corp_code": "272450",
+                "industry_code": 85101,
+                "issued_stock": 45000000,
+                "captial_stock": 45000000000
+            },
+            {
+                "corp_name": "진원생명과학",
+                "corp_code": "011000",
+                "industry_code": 32102,
+                "issued_stock": 44771008,
+                "captial_stock": 44771008000
+            },
+            {
+                "corp_name": "진흥기업",
+                "corp_code": "002780",
+                "industry_code": 64102,
+                "issued_stock": 145471745,
+                "captial_stock": 73311885500
+            },
+            {
+                "corp_name": "참엔지니어링",
+                "corp_code": "009310",
+                "industry_code": 32902,
+                "issued_stock": 55445022,
+                "captial_stock": 28147509500
+            },
+            {
+                "corp_name": "천일고속",
+                "corp_code": "000650",
+                "industry_code": 84902,
+                "issued_stock": 1429220,
+                "captial_stock": 7146100000
+            },
+            {
+                "corp_name": "체시스",
+                "corp_code": "033250",
+                "industry_code": 33003,
+                "issued_stock": 24000000,
+                "captial_stock": 12000000000
+            },
+            {
+                "corp_name": "카카오",
+                "corp_code": "035720",
+                "industry_code": 106301,
+                "issued_stock": 88501998,
+                "captial_stock": 44300999000
+            },
+            {
+                "corp_name": "카프로",
+                "corp_code": "006380",
+                "industry_code": 32001,
+                "issued_stock": 40000000,
+                "captial_stock": 20000000000
+            },
+            {
+                "corp_name": "컨버즈",
+                "corp_code": "109070",
+                "industry_code": 31702,
+                "issued_stock": 13141388,
+                "captial_stock": 6570694000
+            },
+            {
+                "corp_name": "케이비아이동국실업",
+                "corp_code": "001620",
+                "industry_code": 33003,
+                "issued_stock": 66042072,
+                "captial_stock": 33021036000
+            },
+            {
+                "corp_name": "케이씨",
+                "corp_code": "029460",
+                "industry_code": 32702,
+                "issued_stock": 13554044,
+                "captial_stock": 6777022000
+            },
+            {
+                "corp_name": "케이씨씨",
+                "corp_code": "002380",
+                "industry_code": 32004,
+                "issued_stock": 8886471,
+                "captial_stock": 48084660000
+            },
+            {
+                "corp_name": "케이씨씨글라스",
+                "corp_code": "344820",
+                "industry_code": 32301,
+                "issued_stock": 15970512,
+                "captial_stock": 15970512000
+            },
+            {
+                "corp_name": "케이씨텍",
+                "corp_code": "281820",
+                "industry_code": 32702,
+                "issued_stock": 20861556,
+                "captial_stock": 10430778000
+            },
+            {
+                "corp_name": "케이씨티시",
+                "corp_code": "009070",
+                "industry_code": 84903,
+                "issued_stock": 30000000,
+                "captial_stock": 15000000000
+            },
+            {
+                "corp_name": "케이탑리츠",
+                "corp_code": "145270",
+                "industry_code": 126801,
+                "issued_stock": 46224127,
+                "captial_stock": 46224127000
+            },
+            {
+                "corp_name": "케이티",
+                "corp_code": "030200",
+                "industry_code": 106102,
+                "issued_stock": 261111808,
+                "captial_stock": 1564498835000
+            },
+            {
+                "corp_name": "케이티스카이라이프",
+                "corp_code": "053210",
+                "industry_code": 106002,
+                "issued_stock": 47821966,
+                "captial_stock": 119554915000
+            },
+            {
+                "corp_name": "케이티앤지",
+                "corp_code": "033780",
+                "industry_code": 31201,
+                "issued_stock": 137292497,
+                "captial_stock": 954959485000
+            },
+            {
+                "corp_name": "코람코에너지리츠",
+                "corp_code": "357120",
+                "industry_code": 126801,
+                "issued_stock": 69620000,
+                "captial_stock": 34810000000
+            },
+            {
+                "corp_name": "코리아써키트",
+                "corp_code": "007810",
+                "industry_code": 32602,
+                "issued_stock": 23620751,
+                "captial_stock": 13684570000
+            },
+            {
+                "corp_name": "코리안리",
+                "corp_code": "003690",
+                "industry_code": 116502,
+                "issued_stock": 120369116,
+                "captial_stock": 60184558000
+            },
+            {
+                "corp_name": "코스맥스",
+                "corp_code": "192820",
+                "industry_code": 32004,
+                "issued_stock": 10049509,
+                "captial_stock": 5024754500
+            },
+            {
+                "corp_name": "코스맥스비티아이",
+                "corp_code": "044820",
+                "industry_code": 116409,
+                "issued_stock": 9603921,
+                "captial_stock": 4801960500
+            },
+            {
+                "corp_name": "코스모신소재",
+                "corp_code": "005070",
+                "industry_code": 32004,
+                "issued_stock": 29247965,
+                "captial_stock": 29247965000
+            },
+            {
+                "corp_name": "코스모화학",
+                "corp_code": "005420",
+                "industry_code": 32004,
+                "issued_stock": 26110825,
+                "captial_stock": 26110825000
+            },
+            {
+                "corp_name": "코아스",
+                "corp_code": "071950",
+                "industry_code": 33201,
+                "issued_stock": 30907210,
+                "captial_stock": 15453605000
+            },
+            {
+                "corp_name": "코오롱",
+                "corp_code": "002020",
+                "industry_code": 116409,
+                "issued_stock": 12626426,
+                "captial_stock": 68514080000
+            },
+            {
+                "corp_name": "코오롱글로벌",
+                "corp_code": "003070",
+                "industry_code": 64102,
+                "issued_stock": 25210438,
+                "captial_stock": 127616205000
+            },
+            {
+                "corp_name": "코오롱머티리얼",
+                "corp_code": "144620",
+                "industry_code": 32005,
+                "issued_stock": 68658635,
+                "captial_stock": 68658635000
+            },
+            {
+                "corp_name": "코오롱인더",
+                "corp_code": "120110",
+                "industry_code": 32005,
+                "issued_stock": 26978840,
+                "captial_stock": 148733500000
+            },
+            {
+                "corp_name": "코오롱플라스틱",
+                "corp_code": "138490",
+                "industry_code": 32002,
+                "issued_stock": 38000000,
+                "captial_stock": 38000000000
+            },
+            {
+                "corp_name": "코웨이",
+                "corp_code": "021240",
+                "industry_code": 199609,
+                "issued_stock": 73799619,
+                "captial_stock": 40662398000
+            },
+            {
+                "corp_name": "콤텍시스템",
+                "corp_code": "031820",
+                "industry_code": 106201,
+                "issued_stock": 67851466,
+                "captial_stock": 33925733000
+            },
+            {
+                "corp_name": "쿠쿠홀딩스",
+                "corp_code": "192400",
+                "industry_code": 116409,
+                "issued_stock": 7112437,
+                "captial_stock": 3556218500
+            },
+            {
+                "corp_name": "쿠쿠홈시스",
+                "corp_code": "284740",
+                "industry_code": 147602,
+                "issued_stock": 22437330,
+                "captial_stock": 2243733000
+            },
+            {
+                "corp_name": "큐로",
+                "corp_code": "015590",
+                "industry_code": 32901,
+                "issued_stock": 227211638,
+                "captial_stock": 113605819000
+            },
+            {
+                "corp_name": "크라운제과",
+                "corp_code": "264900",
+                "industry_code": 31007,
+                "issued_stock": 12523850,
+                "captial_stock": 2659482000
+            },
+            {
+                "corp_name": "크라운해태홀딩스",
+                "corp_code": "005740",
+                "industry_code": 116409,
+                "issued_stock": 14847347,
+                "captial_stock": 7724036500
+            },
+            {
+                "corp_name": "키다리스튜디오",
+                "corp_code": "020120",
+                "industry_code": 106301,
+                "issued_stock": 18505691,
+                "captial_stock": 9252845500
+            },
+            {
+                "corp_name": "키움증권",
+                "corp_code": "039490",
+                "industry_code": 116601,
+                "issued_stock": 24028641,
+                "captial_stock": 120143205000
+            },
+            {
+                "corp_name": "키위미디어그룹",
+                "corp_code": "012170",
+                "industry_code": 105901,
+                "issued_stock": 62022534,
+                "captial_stock": 31011267000
+            },
+            {
+                "corp_name": "태경비케이",
+                "corp_code": "014580",
+                "industry_code": 32303,
+                "issued_stock": 27583100,
+                "captial_stock": 13791550000
+            },
+            {
+                "corp_name": "태경산업",
+                "corp_code": "015890",
+                "industry_code": 32001,
+                "issued_stock": 29228750,
+                "captial_stock": 14614375000
+            },
+            {
+                "corp_name": "태경케미컬",
+                "corp_code": "006890",
+                "industry_code": 32001,
+                "issued_stock": 11600000,
+                "captial_stock": 5800000000
+            },
+            {
+                "corp_name": "태광산업",
+                "corp_code": "003240",
+                "industry_code": 32005,
+                "issued_stock": 1113400,
+                "captial_stock": 5567000000
+            },
+            {
+                "corp_name": "태림포장",
+                "corp_code": "011280",
+                "industry_code": 31702,
+                "issued_stock": 70805940,
+                "captial_stock": 35402970000
+            },
+            {
+                "corp_name": "태양금속공업",
+                "corp_code": "004100",
+                "industry_code": 33003,
+                "issued_stock": 36700000,
+                "captial_stock": 20000000000
+            },
+            {
+                "corp_name": "태영건설",
+                "corp_code": "009410",
+                "industry_code": 64102,
+                "issued_stock": 38899098,
+                "captial_stock": 20100620000
+            },
+            {
+                "corp_name": "태원물산",
+                "corp_code": "001420",
+                "industry_code": 33003,
+                "issued_stock": 7600000,
+                "captial_stock": 3800000000
+            },
+            {
+                "corp_name": "태평양물산",
+                "corp_code": "007980",
+                "industry_code": 31401,
+                "issued_stock": 48149587,
+                "captial_stock": 24955871000
+            },
+            {
+                "corp_name": "테이팩스",
+                "corp_code": "055490",
+                "industry_code": 32202,
+                "issued_stock": 4717650,
+                "captial_stock": 3771825000
+            },
+            {
+                "corp_name": "텔코웨어",
+                "corp_code": "078000",
+                "industry_code": 106301,
+                "issued_stock": 9702706,
+                "captial_stock": 5026353000
+            },
+            {
+                "corp_name": "토니모리",
+                "corp_code": "214420",
+                "industry_code": 32004,
+                "issued_stock": 17640000,
+                "captial_stock": 3528000000
+            },
+            {
+                "corp_name": "티비에이치글로벌",
+                "corp_code": "084870",
+                "industry_code": 31401,
+                "issued_stock": 20856819,
+                "captial_stock": 10428409500
+            },
+            {
+                "corp_name": "티에이치엔",
+                "corp_code": "019180",
+                "industry_code": 32809,
+                "issued_stock": 18000000,
+                "captial_stock": 9000000000
+            },
+            {
+                "corp_name": "티와이홀딩스",
+                "corp_code": "363280",
+                "industry_code": 116409,
+                "issued_stock": 37500902,
+                "captial_stock": 19378120000
+            },
+            {
+                "corp_name": "티웨이항공",
+                "corp_code": "091810",
+                "industry_code": 85101,
+                "issued_stock": 110330279,
+                "captial_stock": 55165139500
+            },
+            {
+                "corp_name": "티웨이홀딩스",
+                "corp_code": "004870",
+                "industry_code": 32303,
+                "issued_stock": 76680856,
+                "captial_stock": 38340428000
+            },
+            {
+                "corp_name": "파미셀",
+                "corp_code": "005690",
+                "industry_code": 32101,
+                "issued_stock": 59958950,
+                "captial_stock": 29979475000
+            },
+            {
+                "corp_name": "팜스코",
+                "corp_code": "036580",
+                "industry_code": 31006,
+                "issued_stock": 36727943,
+                "captial_stock": 18363971500
+            },
+            {
+                "corp_name": "팬오션",
+                "corp_code": "028670",
+                "industry_code": 85001,
+                "issued_stock": 534569512,
+                "captial_stock": 534569512000
+            },
+            {
+                "corp_name": "퍼스텍",
+                "corp_code": "010820",
+                "industry_code": 32502,
+                "issued_stock": 48061460,
+                "captial_stock": 24030730000
+            },
+            {
+                "corp_name": "퍼시스",
+                "corp_code": "016800",
+                "industry_code": 33201,
+                "issued_stock": 11500000,
+                "captial_stock": 14300000000
+            },
+            {
+                "corp_name": "페이퍼코리아",
+                "corp_code": "001020",
+                "industry_code": 31701,
+                "issued_stock": 37502728,
+                "captial_stock": 18751364000
+            },
+            {
+                "corp_name": "평화산업",
+                "corp_code": "090080",
+                "industry_code": 33003,
+                "issued_stock": 54902259,
+                "captial_stock": 27451129500
+            },
+            {
+                "corp_name": "평화홀딩스",
+                "corp_code": "010770",
+                "industry_code": 33003,
+                "issued_stock": 14625466,
+                "captial_stock": 7312733000
+            },
+            {
+                "corp_name": "포스코",
+                "corp_code": "005490",
+                "industry_code": 32401,
+                "issued_stock": 87186835,
+                "captial_stock": 482403125000
+            },
+            {
+                "corp_name": "포스코강판",
+                "corp_code": "058430",
+                "industry_code": 32401,
+                "issued_stock": 6000000,
+                "captial_stock": 30000000000
+            },
+            {
+                "corp_name": "포스코인터내셔널",
+                "corp_code": "047050",
+                "industry_code": 74601,
+                "issued_stock": 123375149,
+                "captial_stock": 616875745000
+            },
+            {
+                "corp_name": "포스코케미칼",
+                "corp_code": "003670",
+                "industry_code": 32302,
+                "issued_stock": 60988220,
+                "captial_stock": 30494110000
+            },
+            {
+                "corp_name": "폴루스바이오팜",
+                "corp_code": "007630",
+                "industry_code": 74601,
+                "issued_stock": 45007695,
+                "captial_stock": 22503847500
+            },
+            {
+                "corp_name": "풀무원",
+                "corp_code": "017810",
+                "industry_code": 31007,
+                "issued_stock": 38120539,
+                "captial_stock": 19060269500
+            },
+            {
+                "corp_name": "풍산",
+                "corp_code": "103140",
+                "industry_code": 32402,
+                "issued_stock": 28024278,
+                "captial_stock": 140121390000
+            },
+            {
+                "corp_name": "풍산홀딩스",
+                "corp_code": "005810",
+                "industry_code": 116409,
+                "issued_stock": 7835167,
+                "captial_stock": 45175835000
+            },
+            {
+                "corp_name": "필룩스",
+                "corp_code": "033180",
+                "industry_code": 32602,
+                "issued_stock": 90043128,
+                "captial_stock": 45171564000
+            },
+            {
+                "corp_name": "하나금융지주",
+                "corp_code": "086790",
+                "industry_code": 116409,
+                "issued_stock": 300242062,
+                "captial_stock": 1501210310000
+            },
+            {
+                "corp_name": "하나제약",
+                "corp_code": "293480",
+                "industry_code": 32102,
+                "issued_stock": 16200000,
+                "captial_stock": 8100000000
+            },
+            {
+                "corp_name": "하나투어",
+                "corp_code": "039130",
+                "industry_code": 147502,
+                "issued_stock": 13939185,
+                "captial_stock": 6969592500
+            },
+            {
+                "corp_name": "하이골드12호",
+                "corp_code": "172580",
+                "industry_code": 147601,
+                "issued_stock": 13044500,
+                "captial_stock": 65222500000
+            },
+            {
+                "corp_name": "하이골드3호",
+                "corp_code": "153360",
+                "industry_code": 147601,
+                "issued_stock": 16149790,
+                "captial_stock": 80748950000
+            },
+            {
+                "corp_name": "하이스틸",
+                "corp_code": "071090",
+                "industry_code": 32401,
+                "issued_stock": 1999944,
+                "captial_stock": 9999720000
+            },
+            {
+                "corp_name": "하이트론씨스템즈",
+                "corp_code": "019490",
+                "industry_code": 32605,
+                "issued_stock": 6281748,
+                "captial_stock": 15704370000
+            },
+            {
+                "corp_name": "하이트진로",
+                "corp_code": "000080",
+                "industry_code": 31101,
+                "issued_stock": 70133611,
+                "captial_stock": 368818745000
+            },
+            {
+                "corp_name": "하이트진로홀딩스",
+                "corp_code": "000140",
+                "industry_code": 116409,
+                "issued_stock": 23206765,
+                "captial_stock": 118387875000
+            },
+            {
+                "corp_name": "한국ANKOR유전",
+                "corp_code": "152550",
+                "industry_code": 116402,
+                "issued_stock": 70020000,
+                "captial_stock": 350100000000
+            },
+            {
+                "corp_name": "한국가스공사",
+                "corp_code": "036460",
+                "industry_code": 43502,
+                "issued_stock": 92313000,
+                "captial_stock": 461565000000
+            },
+            {
+                "corp_name": "한국공항",
+                "corp_code": "005430",
+                "industry_code": 85209,
+                "issued_stock": 3166355,
+                "captial_stock": 15831775000
+            },
+            {
+                "corp_name": "한국금융지주",
+                "corp_code": "071050",
+                "industry_code": 116409,
+                "issued_stock": 55725992,
+                "captial_stock": 307921215000
+            },
+            {
+                "corp_name": "한국내화",
+                "corp_code": "010040",
+                "industry_code": 32302,
+                "issued_stock": 22863632,
+                "captial_stock": 11431816000
+            },
+            {
+                "corp_name": "한국단자공업",
+                "corp_code": "025540",
+                "industry_code": 32801,
+                "issued_stock": 10415000,
+                "captial_stock": 5207500000
+            },
+            {
+                "corp_name": "한국석유공업",
+                "corp_code": "004090",
+                "industry_code": 32309,
+                "issued_stock": 655200,
+                "captial_stock": 3276000000
+            },
+            {
+                "corp_name": "한국수출포장공업",
+                "corp_code": "002200",
+                "industry_code": 31702,
+                "issued_stock": 4000000,
+                "captial_stock": 20000000000
+            },
+            {
+                "corp_name": "한국쉘석유",
+                "corp_code": "002960",
+                "industry_code": 31902,
+                "issued_stock": 1300000,
+                "captial_stock": 7000000000
+            },
+            {
+                "corp_name": "한국자산신탁",
+                "corp_code": "123890",
+                "industry_code": 116402,
+                "issued_stock": 123977752,
+                "captial_stock": 61988876000
+            },
+            {
+                "corp_name": "한국전력공사",
+                "corp_code": "015760",
+                "industry_code": 43501,
+                "issued_stock": 641964077,
+                "captial_stock": 3209820385000
+            },
+            {
+                "corp_name": "한국전자홀딩스",
+                "corp_code": "006200",
+                "industry_code": 116409,
+                "issued_stock": 46803136,
+                "captial_stock": 23401568000
+            },
+            {
+                "corp_name": "한국조선해양",
+                "corp_code": "009540",
+                "industry_code": 33101,
+                "issued_stock": 70773116,
+                "captial_stock": 353865580000
+            },
+            {
+                "corp_name": "한국종합기술",
+                "corp_code": "023350",
+                "industry_code": 137201,
+                "issued_stock": 10950000,
+                "captial_stock": 5475000000
+            },
+            {
+                "corp_name": "한국주강",
+                "corp_code": "025890",
+                "industry_code": 32902,
+                "issued_stock": 11309259,
+                "captial_stock": 5654629500
+            },
+            {
+                "corp_name": "한국주철관공업",
+                "corp_code": "000970",
+                "industry_code": 32401,
+                "issued_stock": 22800500,
+                "captial_stock": 12000000000
+            },
+            {
+                "corp_name": "한국철강",
+                "corp_code": "104700",
+                "industry_code": 32401,
+                "issued_stock": 46050000,
+                "captial_stock": 46050000000
+            },
+            {
+                "corp_name": "한국카본",
+                "corp_code": "017960",
+                "industry_code": 32501,
+                "issued_stock": 43960757,
+                "captial_stock": 21980378500
+            },
+            {
+                "corp_name": "한국콜마",
+                "corp_code": "161890",
+                "industry_code": 32004,
+                "issued_stock": 22881180,
+                "captial_stock": 11440590000
+            },
+            {
+                "corp_name": "한국콜마홀딩스",
+                "corp_code": "024720",
+                "industry_code": 116409,
+                "issued_stock": 18576719,
+                "captial_stock": 9288359500
+            },
+            {
+                "corp_name": "한국타이어앤테크놀로지",
+                "corp_code": "161390",
+                "industry_code": 32201,
+                "issued_stock": 123875069,
+                "captial_stock": 61937534500
+            },
+            {
+                "corp_name": "한국테크놀로지그룹",
+                "corp_code": "000240",
+                "industry_code": 116409,
+                "issued_stock": 93020173,
+                "captial_stock": 46510086500
+            },
+            {
+                "corp_name": "한국토지신탁",
+                "corp_code": "034830",
+                "industry_code": 116402,
+                "issued_stock": 252489230,
+                "captial_stock": 252489230000
+            },
+            {
+                "corp_name": "한국특수형강",
+                "corp_code": "007280",
+                "industry_code": 32401,
+                "issued_stock": 53242476,
+                "captial_stock": 26621238000
+            },
+            {
+                "corp_name": "한국패러랠",
+                "corp_code": "168490",
+                "industry_code": 116402,
+                "issued_stock": 80020000,
+                "captial_stock": 400100000000
+            },
+            {
+                "corp_name": "한국프랜지공업",
+                "corp_code": "010100",
+                "industry_code": 33003,
+                "issued_stock": 30450420,
+                "captial_stock": 30450420000
+            },
+            {
+                "corp_name": "한국항공우주",
+                "corp_code": "047810",
+                "industry_code": 33103,
+                "issued_stock": 97475107,
+                "captial_stock": 487375535000
+            },
+            {
+                "corp_name": "한국화장품",
+                "corp_code": "123690",
+                "industry_code": 74604,
+                "issued_stock": 16068000,
+                "captial_stock": 8034000000
+            },
+            {
+                "corp_name": "한국화장품제조",
+                "corp_code": "003350",
+                "industry_code": 32004,
+                "issued_stock": 4532000,
+                "captial_stock": 2266000000
+            },
+            {
+                "corp_name": "한농화성",
+                "corp_code": "011500",
+                "industry_code": 32004,
+                "issued_stock": 15637042,
+                "captial_stock": 7818521000
+            },
+            {
+                "corp_name": "한독",
+                "corp_code": "002390",
+                "industry_code": 32102,
+                "issued_stock": 13763533,
+                "captial_stock": 6881766500
+            },
+            {
+                "corp_name": "한라",
+                "corp_code": "014790",
+                "industry_code": 64102,
+                "issued_stock": 38874942,
+                "captial_stock": 194374710000
+            },
+            {
+                "corp_name": "한라홀딩스",
+                "corp_code": "060980",
+                "industry_code": 116409,
+                "issued_stock": 10472070,
+                "captial_stock": 55086180000
+            },
+            {
+                "corp_name": "한미글로벌",
+                "corp_code": "053690",
+                "industry_code": 137201,
+                "issued_stock": 10957550,
+                "captial_stock": 5478775000
+            },
+            {
+                "corp_name": "한미반도체",
+                "corp_code": "042700",
+                "industry_code": 32902,
+                "issued_stock": 51501501,
+                "captial_stock": 12716420500
+            },
+            {
+                "corp_name": "한미사이언스",
+                "corp_code": "008930",
+                "industry_code": 116409,
+                "issued_stock": 66011149,
+                "captial_stock": 33005574500
+            },
+            {
+                "corp_name": "한미약품",
+                "corp_code": "128940",
+                "industry_code": 32102,
+                "issued_stock": 11843029,
+                "captial_stock": 29607572500
+            },
+            {
+                "corp_name": "한샘",
+                "corp_code": "009240",
+                "industry_code": 74604,
+                "issued_stock": 23533928,
+                "captial_stock": 23533928000
+            },
+            {
+                "corp_name": "한섬",
+                "corp_code": "020000",
+                "industry_code": 31401,
+                "issued_stock": 24630000,
+                "captial_stock": 12315000000
+            },
+            {
+                "corp_name": "한성기업",
+                "corp_code": "003680",
+                "industry_code": 31002,
+                "issued_stock": 6209515,
+                "captial_stock": 31047575000
+            },
+            {
+                "corp_name": "한세실업",
+                "corp_code": "105630",
+                "industry_code": 31401,
+                "issued_stock": 40000000,
+                "captial_stock": 20000000000
+            },
+            {
+                "corp_name": "한세엠케이",
+                "corp_code": "069640",
+                "industry_code": 74704,
+                "issued_stock": 12909322,
+                "captial_stock": 6454661000
+            },
+            {
+                "corp_name": "한세예스24홀딩스",
+                "corp_code": "016450",
+                "industry_code": 31401,
+                "issued_stock": 40000000,
+                "captial_stock": 20000000000
+            },
+            {
+                "corp_name": "한솔로지스틱스",
+                "corp_code": "009180",
+                "industry_code": 85209,
+                "issued_stock": 27477425,
+                "captial_stock": 14340941000
+            },
+            {
+                "corp_name": "한솔제지",
+                "corp_code": "213500",
+                "industry_code": 31701,
+                "issued_stock": 23800576,
+                "captial_stock": 119002880000
+            },
+            {
+                "corp_name": "한솔케미칼",
+                "corp_code": "014680",
+                "industry_code": 32001,
+                "issued_stock": 11295195,
+                "captial_stock": 56475975000
+            },
+            {
+                "corp_name": "한솔테크닉스",
+                "corp_code": "004710",
+                "industry_code": 32602,
+                "issued_stock": 32109878,
+                "captial_stock": 160549390000
+            },
+            {
+                "corp_name": "한솔피엔에스",
+                "corp_code": "010420",
+                "industry_code": 74607,
+                "issued_stock": 20493012,
+                "captial_stock": 10246506000
+            },
+            {
+                "corp_name": "한솔홀딩스",
+                "corp_code": "004150",
+                "industry_code": 116409,
+                "issued_stock": 42008577,
+                "captial_stock": 42008577000
+            },
+            {
+                "corp_name": "한솔홈데코",
+                "corp_code": "025750",
+                "industry_code": 31601,
+                "issued_stock": 80565149,
+                "captial_stock": 83765149000
+            },
+            {
+                "corp_name": "한신공영",
+                "corp_code": "004960",
+                "industry_code": 64101,
+                "issued_stock": 11570702,
+                "captial_stock": 57853510000
+            },
+            {
+                "corp_name": "한신기계공업",
+                "corp_code": "011700",
+                "industry_code": 32901,
+                "issued_stock": 32446151,
+                "captial_stock": 16223075500
+            },
+            {
+                "corp_name": "한양증권",
+                "corp_code": "001750",
+                "industry_code": 116601,
+                "issued_stock": 12728534,
+                "captial_stock": 66267670000
+            },
+            {
+                "corp_name": "한온시스템",
+                "corp_code": "018880",
+                "industry_code": 32901,
+                "issued_stock": 533800000,
+                "captial_stock": 53380000000
+            },
+            {
+                "corp_name": "한올바이오파마",
+                "corp_code": "009420",
+                "industry_code": 32102,
+                "issued_stock": 52240638,
+                "captial_stock": 26120319000
+            },
+            {
+                "corp_name": "한익스프레스",
+                "corp_code": "014130",
+                "industry_code": 84903,
+                "issued_stock": 12000000,
+                "captial_stock": 6000000000
+            },
+            {
+                "corp_name": "한일시멘트",
+                "corp_code": "300720",
+                "industry_code": 32303,
+                "issued_stock": 6926154,
+                "captial_stock": 34630770000
+            },
+            {
+                "corp_name": "한일철강",
+                "corp_code": "002220",
+                "industry_code": 32401,
+                "issued_stock": 24882353,
+                "captial_stock": 12441176500
+            },
+            {
+                "corp_name": "한일현대시멘트",
+                "corp_code": "006390",
+                "industry_code": 32303,
+                "issued_stock": 16821290,
+                "captial_stock": 84106450000
+            },
+            {
+                "corp_name": "한일홀딩스",
+                "corp_code": "003300",
+                "industry_code": 32303,
+                "issued_stock": 28815780,
+                "captial_stock": 31342450000
+            },
+            {
+                "corp_name": "한전KPS",
+                "corp_code": "051600",
+                "industry_code": 64203,
+                "issued_stock": 45000000,
+                "captial_stock": 9000000000
+            },
+            {
+                "corp_name": "한전기술",
+                "corp_code": "052690",
+                "industry_code": 137201,
+                "issued_stock": 38220000,
+                "captial_stock": 7644000000
+            },
+            {
+                "corp_name": "한전산업",
+                "corp_code": "130660",
+                "industry_code": 137201,
+                "issued_stock": 32600000,
+                "captial_stock": 16300000000
+            },
+            {
+                "corp_name": "한진",
+                "corp_code": "002320",
+                "industry_code": 84903,
+                "issued_stock": 14947628,
+                "captial_stock": 74738140000
+            },
+            {
+                "corp_name": "한진중공업",
+                "corp_code": "097230",
+                "industry_code": 64102,
+                "issued_stock": 83274281,
+                "captial_stock": 416371405000
+            },
+            {
+                "corp_name": "한진중공업홀딩스",
+                "corp_code": "003480",
+                "industry_code": 43502,
+                "issued_stock": 29529812,
+                "captial_stock": 155149060000
+            },
+            {
+                "corp_name": "한진칼",
+                "corp_code": "180640",
+                "industry_code": 85101,
+                "issued_stock": 66262510,
+                "captial_stock": 166998190000
+            },
+            {
+                "corp_name": "한창",
+                "corp_code": "005110",
+                "industry_code": 74605,
+                "issued_stock": 66790269,
+                "captial_stock": 33395134500
+            },
+            {
+                "corp_name": "한창제지",
+                "corp_code": "009460",
+                "industry_code": 31701,
+                "issued_stock": 59667486,
+                "captial_stock": 29833743000
+            },
+            {
+                "corp_name": "한화",
+                "corp_code": "000880",
+                "industry_code": 32004,
+                "issued_stock": 74958735,
+                "captial_stock": 489550145000
+            },
+            {
+                "corp_name": "한화생명",
+                "corp_code": "088350",
+                "industry_code": 116501,
+                "issued_stock": 868530000,
+                "captial_stock": 4342650000000
+            },
+            {
+                "corp_name": "한화손해보험",
+                "corp_code": "000370",
+                "industry_code": 116501,
+                "issued_stock": 116738915,
+                "captial_stock": 583694575000
+            },
+            {
+                "corp_name": "한화솔루션",
+                "corp_code": "009830",
+                "industry_code": 32001,
+                "issued_stock": 159864497,
+                "captial_stock": 821170655000
+            },
+            {
+                "corp_name": "한화시스템",
+                "corp_code": "272210",
+                "industry_code": 32602,
+                "issued_stock": 110230389,
+                "captial_stock": 551151945000
+            },
+            {
+                "corp_name": "한화에어로스페이스",
+                "corp_code": "012450",
+                "industry_code": 33103,
+                "issued_stock": 50630000,
+                "captial_stock": 265650000000
+            },
+            {
+                "corp_name": "한화투자증권",
+                "corp_code": "003530",
+                "industry_code": 116601,
+                "issued_stock": 214547775,
+                "captial_stock": 1096738875000
+            },
+            {
+                "corp_name": "해성디에스",
+                "corp_code": "195870",
+                "industry_code": 32602,
+                "issued_stock": 17000000,
+                "captial_stock": 85000000000
+            },
+            {
+                "corp_name": "해태제과식품",
+                "corp_code": "101530",
+                "industry_code": 31007,
+                "issued_stock": 29116822,
+                "captial_stock": 14558411000
+            },
+            {
+                "corp_name": "핸즈코퍼레이션",
+                "corp_code": "143210",
+                "industry_code": 33003,
+                "issued_stock": 21863268,
+                "captial_stock": 10931634000
+            },
+            {
+                "corp_name": "현대건설",
+                "corp_code": "000720",
+                "industry_code": 64102,
+                "issued_stock": 111355765,
+                "captial_stock": 557273105000
+            },
+            {
+                "corp_name": "현대건설기계",
+                "corp_code": "267270",
+                "industry_code": 32901,
+                "issued_stock": 19700793,
+                "captial_stock": 98503965000
+            },
+            {
+                "corp_name": "현대그린푸드",
+                "corp_code": "005440",
+                "industry_code": 74701,
+                "issued_stock": 97704482,
+                "captial_stock": 48852241000
+            },
+            {
+                "corp_name": "현대글로비스",
+                "corp_code": "086280",
+                "industry_code": 85209,
+                "issued_stock": 37500000,
+                "captial_stock": 18750000000
+            },
+            {
+                "corp_name": "현대로템",
+                "corp_code": "064350",
+                "industry_code": 33102,
+                "issued_stock": 109142293,
+                "captial_stock": 545711465000
+            },
+            {
+                "corp_name": "현대리바트",
+                "corp_code": "079430",
+                "industry_code": 33201,
+                "issued_stock": 20535282,
+                "captial_stock": 20535282000
+            },
+            {
+                "corp_name": "현대모비스",
+                "corp_code": "012330",
+                "industry_code": 33003,
+                "issued_stock": 95054694,
+                "captial_stock": 490969315000
+            },
+            {
+                "corp_name": "현대미포조선",
+                "corp_code": "010620",
+                "industry_code": 33101,
+                "issued_stock": 39942149,
+                "captial_stock": 199710745000
+            },
+            {
+                "corp_name": "현대백화점",
+                "corp_code": "069960",
+                "industry_code": 74701,
+                "issued_stock": 23402441,
+                "captial_stock": 117012205000
+            },
+            {
+                "corp_name": "현대비앤지스틸",
+                "corp_code": "004560",
+                "industry_code": 32401,
+                "issued_stock": 15078811,
+                "captial_stock": 75943315000
+            },
+            {
+                "corp_name": "현대약품",
+                "corp_code": "004310",
+                "industry_code": 32102,
+                "issued_stock": 32000000,
+                "captial_stock": 16000000000
+            },
+            {
+                "corp_name": "현대에너지솔루션",
+                "corp_code": "322000",
+                "industry_code": 32601,
+                "issued_stock": 11200000,
+                "captial_stock": 56000000000
+            },
+            {
+                "corp_name": "현대엘리베이터",
+                "corp_code": "017800",
+                "industry_code": 32901,
+                "issued_stock": 40815191,
+                "captial_stock": 212235955000
+            },
+            {
+                "corp_name": "현대오토에버",
+                "corp_code": "307950",
+                "industry_code": 105802,
+                "issued_stock": 21000000,
+                "captial_stock": 10500000000
+            },
+            {
+                "corp_name": "현대위아",
+                "corp_code": "011210",
+                "industry_code": 33003,
+                "issued_stock": 27195083,
+                "captial_stock": 135975415000
+            },
+            {
+                "corp_name": "현대일렉트릭",
+                "corp_code": "267260",
+                "industry_code": 32801,
+                "issued_stock": 36047135,
+                "captial_stock": 180235675000
+            },
+            {
+                "corp_name": "현대자동차",
+                "corp_code": "005380",
+                "industry_code": 33001,
+                "issued_stock": 213668187,
+                "captial_stock": 1488993125000
+            },
+            {
+                "corp_name": "현대제철",
+                "corp_code": "004020",
+                "industry_code": 32401,
+                "issued_stock": 133445785,
+                "captial_stock": 667228925000
+            },
+            {
+                "corp_name": "현대종합상사",
+                "corp_code": "011760",
+                "industry_code": 74608,
+                "issued_stock": 13228966,
+                "captial_stock": 66144830000
+            },
+            {
+                "corp_name": "현대중공업지주",
+                "corp_code": "267250",
+                "industry_code": 31902,
+                "issued_stock": 15798617,
+                "captial_stock": 81433085000
+            },
+            {
+                "corp_name": "현대차증권",
+                "corp_code": "001500",
+                "industry_code": 116601,
+                "issued_stock": 29337111,
+                "captial_stock": 146685555000
+            },
+            {
+                "corp_name": "현대코퍼레이션홀딩스",
+                "corp_code": "227840",
+                "industry_code": 74603,
+                "issued_stock": 9100836,
+                "captial_stock": 45504180000
+            },
+            {
+                "corp_name": "현대퓨처넷",
+                "corp_code": "126560",
+                "industry_code": 106002,
+                "issued_stock": 112876596,
+                "captial_stock": 56438298000
+            },
+            {
+                "corp_name": "현대해상",
+                "corp_code": "001450",
+                "industry_code": 116501,
+                "issued_stock": 89400000,
+                "captial_stock": 44700000000
+            },
+            {
+                "corp_name": "현대홈쇼핑",
+                "corp_code": "057050",
+                "industry_code": 74709,
+                "issued_stock": 12000000,
+                "captial_stock": 60000000000
+            },
+            {
+                "corp_name": "형지엘리트",
+                "corp_code": "093240",
+                "industry_code": 31401,
+                "issued_stock": 31154798,
+                "captial_stock": 15577399000
+            },
+            {
+                "corp_name": "혜인",
+                "corp_code": "003010",
+                "industry_code": 74605,
+                "issued_stock": 12712747,
+                "captial_stock": 6356373500
+            },
+            {
+                "corp_name": "호전실업",
+                "corp_code": "111110",
+                "industry_code": 31401,
+                "issued_stock": 8000000,
+                "captial_stock": 4657880000
+            },
+            {
+                "corp_name": "호텔신라",
+                "corp_code": "008770",
+                "industry_code": 74708,
+                "issued_stock": 39248121,
+                "captial_stock": 200000000000
+            },
+            {
+                "corp_name": "화성산업",
+                "corp_code": "002460",
+                "industry_code": 64101,
+                "issued_stock": 12450800,
+                "captial_stock": 62254000000
+            },
+            {
+                "corp_name": "화승알앤에이",
+                "corp_code": "013520",
+                "industry_code": 33003,
+                "issued_stock": 69044875,
+                "captial_stock": 34522437500
+            },
+            {
+                "corp_name": "화승엔터프라이즈",
+                "corp_code": "241590",
+                "industry_code": 31502,
+                "issued_stock": 60536670,
+                "captial_stock": 30268335000
+            },
+            {
+                "corp_name": "화승인더스트리",
+                "corp_code": "006060",
+                "industry_code": 32202,
+                "issued_stock": 55320000,
+                "captial_stock": 27660000000
+            },
+            {
+                "corp_name": "화신",
+                "corp_code": "010690",
+                "industry_code": 33003,
+                "issued_stock": 34920410,
+                "captial_stock": 17460205000
+            },
+            {
+                "corp_name": "화인베스틸",
+                "corp_code": "133820",
+                "industry_code": 32401,
+                "issued_stock": 29550000,
+                "captial_stock": 16050000000
+            },
+            {
+                "corp_name": "화천기계",
+                "corp_code": "010660",
+                "industry_code": 32902,
+                "issued_stock": 22000000,
+                "captial_stock": 11000000000
+            },
+            {
+                "corp_name": "화천기공",
+                "corp_code": "000850",
+                "industry_code": 32902,
+                "issued_stock": 2200000,
+                "captial_stock": 11000000000
+            },
+            {
+                "corp_name": "환인제약",
+                "corp_code": "016580",
+                "industry_code": 32102,
+                "issued_stock": 18600070,
+                "captial_stock": 9700035000
+            },
+            {
+                "corp_name": "황금에스티",
+                "corp_code": "032560",
+                "industry_code": 32402,
+                "issued_stock": 14000000,
+                "captial_stock": 7000000000
+            },
+            {
+                "corp_name": "효성",
+                "corp_code": "004800",
+                "industry_code": 116409,
+                "issued_stock": 21071025,
+                "captial_stock": 105355125000
+            },
+            {
+                "corp_name": "효성 ITX",
+                "corp_code": "094280",
+                "industry_code": 147509,
+                "issued_stock": 11558200,
+                "captial_stock": 5779100000
+            },
+            {
+                "corp_name": "효성중공업",
+                "corp_code": "298040",
+                "industry_code": 32801,
+                "issued_stock": 9324548,
+                "captial_stock": 46622740000
+            },
+            {
+                "corp_name": "효성첨단소재",
+                "corp_code": "298050",
+                "industry_code": 32005,
+                "issued_stock": 4479948,
+                "captial_stock": 22399740000
+            },
+            {
+                "corp_name": "효성티앤씨",
+                "corp_code": "298020",
+                "industry_code": 32005,
+                "issued_stock": 4327682,
+                "captial_stock": 21638410000
+            },
+            {
+                "corp_name": "효성화학",
+                "corp_code": "298000",
+                "industry_code": 32001,
+                "issued_stock": 3190126,
+                "captial_stock": 15950630000
+            },
+            {
+                "corp_name": "후성",
+                "corp_code": "093370",
+                "industry_code": 32001,
+                "issued_stock": 92606819,
+                "captial_stock": 46303409500
+            },
+            {
+                "corp_name": "휠라홀딩스",
+                "corp_code": "081660",
+                "industry_code": 74604,
+                "issued_stock": 60752222,
+                "captial_stock": 61674420000
+            },
+            {
+                "corp_name": "휴니드테크놀러지스",
+                "corp_code": "005870",
+                "industry_code": 32604,
+                "issued_stock": 14116015,
+                "captial_stock": 70580075000
+            },
+            {
+                "corp_name": "휴비스",
+                "corp_code": "079980",
+                "industry_code": 32005,
+                "issued_stock": 34500000,
+                "captial_stock": 172500000000
+            },
+            {
+                "corp_name": "휴스틸",
+                "corp_code": "005010",
+                "industry_code": 32401,
+                "issued_stock": 7621668,
+                "captial_stock": 38108340000
+            },
+            {
+                "corp_name": "휴켐스",
+                "corp_code": "069260",
+                "industry_code": 32004,
+                "issued_stock": 40878588,
+                "captial_stock": 40878588000
+            },
+            {
+                "corp_name": "흥국화재",
+                "corp_code": "000540",
+                "industry_code": 116501,
+                "issued_stock": 64242645,
+                "captial_stock": 325821225000
+            },
+            {
+                "corp_name": "흥아해운",
+                "corp_code": "003280",
+                "industry_code": 85001,
+                "issued_stock": 116732559,
+                "captial_stock": 58366279500
+            }
+        ]
+    ]
+}

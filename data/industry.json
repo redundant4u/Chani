@@ -1,0 +1,626 @@
+{
+    "industry": [
+        [
+            {
+                "industry_code": 147603,
+                "industry_name": "산업용 기계 및 장비 임대업"
+            },
+            {
+                "industry_code": 116409,
+                "industry_name": "기타 금융업"
+            },
+            {
+                "industry_code": 74701,
+                "industry_name": "종합 소매업"
+            },
+            {
+                "industry_code": 31401,
+                "industry_name": "봉제의복 제조업"
+            },
+            {
+                "industry_code": 105901,
+                "industry_name": "영화, 비디오물, 방송프로그램 제작 및 배급업"
+            },
+            {
+                "industry_code": 84903,
+                "industry_name": "도로 화물 운송업"
+            },
+            {
+                "industry_code": 31007,
+                "industry_name": "기타 식품 제조업"
+            },
+            {
+                "industry_code": 106201,
+                "industry_name": "컴퓨터 프로그래밍, 시스템 통합 및 관리업"
+            },
+            {
+                "industry_code": 116601,
+                "industry_name": "금융 지원 서비스업"
+            },
+            {
+                "industry_code": 116501,
+                "industry_name": "보험업"
+            },
+            {
+                "industry_code": 32601,
+                "industry_name": "반도체 제조업"
+            },
+            {
+                "industry_code": 32402,
+                "industry_name": "1차 비철금속 제조업"
+            },
+            {
+                "industry_code": 32401,
+                "industry_name": "1차 철강 제조업"
+            },
+            {
+                "industry_code": 74607,
+                "industry_name": "기타 전문 도매업"
+            },
+            {
+                "industry_code": 126801,
+                "industry_name": "부동산 임대 및 공급업"
+            },
+            {
+                "industry_code": 189102,
+                "industry_name": "유원지 및 기타 오락관련 서비스업"
+            },
+            {
+                "industry_code": 64101,
+                "industry_name": "건물 건설업"
+            },
+            {
+                "industry_code": 74608,
+                "industry_name": "상품 종합 도매업"
+            },
+            {
+                "industry_code": 64203,
+                "industry_name": "전기 및 통신 공사업"
+            },
+            {
+                "industry_code": 32004,
+                "industry_name": "기타 화학제품 제조업"
+            },
+            {
+                "industry_code": 85001,
+                "industry_name": "해상 운송업"
+            },
+            {
+                "industry_code": 32901,
+                "industry_name": "일반 목적용 기계 제조업"
+            },
+            {
+                "industry_code": 32102,
+                "industry_name": "의약품 제조업"
+            },
+            {
+                "industry_code": 32001,
+                "industry_name": "기초 화학물질 제조업"
+            },
+            {
+                "industry_code": 33109,
+                "industry_name": "그외 기타 운송장비 제조업"
+            },
+            {
+                "industry_code": 106309,
+                "industry_name": "기타 정보 서비스업"
+            },
+            {
+                "industry_code": 32602,
+                "industry_name": "전자부품 제조업"
+            },
+            {
+                "industry_code": 74601,
+                "industry_name": "상품 중개업"
+            },
+            {
+                "industry_code": 106102,
+                "industry_name": "전기 통신업"
+            },
+            {
+                "industry_code": 32604,
+                "industry_name": "통신 및 방송 장비 제조업"
+            },
+            {
+                "industry_code": 32202,
+                "industry_name": "플라스틱제품 제조업"
+            },
+            {
+                "industry_code": 106002,
+                "industry_name": "텔레비전 방송업"
+            },
+            {
+                "industry_code": 32502,
+                "industry_name": "무기 및 총포탄 제조업"
+            },
+            {
+                "industry_code": 31101,
+                "industry_name": "알코올음료 제조업"
+            },
+            {
+                "industry_code": 106301,
+                "industry_name": "자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업"
+            },
+            {
+                "industry_code": 137105,
+                "industry_name": "회사 본부 및 경영 컨설팅 서비스업"
+            },
+            {
+                "industry_code": 33003,
+                "industry_name": "자동차 신품 부품 제조업"
+            },
+            {
+                "industry_code": 31902,
+                "industry_name": "석유 정제품 제조업"
+            },
+            {
+                "industry_code": 43501,
+                "industry_name": "전기업"
+            },
+            {
+                "industry_code": 32902,
+                "industry_name": "특수 목적용 기계 제조업"
+            },
+            {
+                "industry_code": 147601,
+                "industry_name": "운송장비 임대업"
+            },
+            {
+                "industry_code": 32002,
+                "industry_name": "합성고무 및 플라스틱 물질 제조업"
+            },
+            {
+                "industry_code": 32803,
+                "industry_name": "절연선 및 케이블 제조업"
+            },
+            {
+                "industry_code": 189101,
+                "industry_name": "스포츠 서비스업"
+            },
+            {
+                "industry_code": 32003,
+                "industry_name": "비료, 농약 및 살균, 살충제 제조업"
+            },
+            {
+                "industry_code": 32805,
+                "industry_name": "가정용 기기 제조업"
+            },
+            {
+                "industry_code": 43502,
+                "industry_name": "연료용 가스 제조 및 배관공급업"
+            },
+            {
+                "industry_code": 32101,
+                "industry_name": "기초 의약물질 및 생물학적 제제 제조업"
+            },
+            {
+                "industry_code": 64102,
+                "industry_name": "토목 건설업"
+            },
+            {
+                "industry_code": 31006,
+                "industry_name": "곡물가공품, 전분 및 전분제품 제조업"
+            },
+            {
+                "industry_code": 32801,
+                "industry_name": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업"
+            },
+            {
+                "industry_code": 74603,
+                "industry_name": "음·식료품 및 담배 도매업"
+            },
+            {
+                "industry_code": 74604,
+                "industry_name": "생활용품 도매업"
+            },
+            {
+                "industry_code": 32301,
+                "industry_name": "유리 및 유리제품 제조업"
+            },
+            {
+                "industry_code": 32804,
+                "industry_name": "전구 및 조명장치 제조업"
+            },
+            {
+                "industry_code": 32201,
+                "industry_name": "고무제품 제조업"
+            },
+            {
+                "industry_code": 33001,
+                "industry_name": "자동차용 엔진 및 자동차 제조업"
+            },
+            {
+                "industry_code": 116401,
+                "industry_name": "은행 및 저축기관"
+            },
+            {
+                "industry_code": 31701,
+                "industry_name": "펄프, 종이 및 판지 제조업"
+            },
+            {
+                "industry_code": 31005,
+                "industry_name": "낙농제품 및 식용빙과류 제조업"
+            },
+            {
+                "industry_code": 20702,
+                "industry_name": "기타 비금속광물 광업"
+            },
+            {
+                "industry_code": 105802,
+                "industry_name": "소프트웨어 개발 및 공급업"
+            },
+            {
+                "industry_code": 32501,
+                "industry_name": "구조용 금속제품, 탱크 및 증기발생기 제조업"
+            },
+            {
+                "industry_code": 168501,
+                "industry_name": "초등 교육기관"
+            },
+            {
+                "industry_code": 32302,
+                "industry_name": "내화, 비내화 요업제품 제조업"
+            },
+            {
+                "industry_code": 32509,
+                "industry_name": "기타 금속 가공제품 제조업"
+            },
+            {
+                "industry_code": 74707,
+                "industry_name": "연료 소매업"
+            },
+            {
+                "industry_code": 31702,
+                "industry_name": "골판지, 종이 상자 및 종이용기 제조업"
+            },
+            {
+                "industry_code": 33101,
+                "industry_name": "선박 및 보트 건조업"
+            },
+            {
+                "industry_code": 31302,
+                "industry_name": "직물직조 및 직물제품 제조업"
+            },
+            {
+                "industry_code": 85101,
+                "industry_name": "항공 여객 운송업"
+            },
+            {
+                "industry_code": 32005,
+                "industry_name": "화학섬유 제조업"
+            },
+            {
+                "industry_code": 32701,
+                "industry_name": "의료용 기기 제조업"
+            },
+            {
+                "industry_code": 137201,
+                "industry_name": "건축기술, 엔지니어링 및 관련 기술 서비스업"
+            },
+            {
+                "industry_code": 85209,
+                "industry_name": "기타 운송관련 서비스업"
+            },
+            {
+                "industry_code": 64201,
+                "industry_name": "기반조성 및 시설물 축조관련 전문공사업"
+            },
+            {
+                "industry_code": 32303,
+                "industry_name": "시멘트, 석회, 플라스터 및 그 제품 제조업"
+            },
+            {
+                "industry_code": 84902,
+                "industry_name": "육상 여객 운송업"
+            },
+            {
+                "industry_code": 10301,
+                "industry_name": "어로 어업"
+            },
+            {
+                "industry_code": 32702,
+                "industry_name": "측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외"
+            },
+            {
+                "industry_code": 32802,
+                "industry_name": "일차전지 및 축전지 제조업"
+            },
+            {
+                "industry_code": 147502,
+                "industry_name": "여행사 및 기타 여행보조 서비스업"
+            },
+            {
+                "industry_code": 31102,
+                "industry_name": "비알코올음료 및 얼음 제조업"
+            },
+            {
+                "industry_code": 74703,
+                "industry_name": "가전제품 및 정보통신장비 소매업"
+            },
+            {
+                "industry_code": 31001,
+                "industry_name": "도축, 육류 가공 및 저장 처리업"
+            },
+            {
+                "industry_code": 116402,
+                "industry_name": "신탁업 및 집합투자업"
+            },
+            {
+                "industry_code": 31709,
+                "industry_name": "기타 종이 및 판지 제품 제조업"
+            },
+            {
+                "industry_code": 32309,
+                "industry_name": "기타 비금속 광물제품 제조업"
+            },
+            {
+                "industry_code": 105801,
+                "industry_name": "서적, 잡지 및 기타 인쇄물 출판업"
+            },
+            {
+                "industry_code": 105902,
+                "industry_name": "오디오물 출판 및 원판 녹음업"
+            },
+            {
+                "industry_code": 31002,
+                "industry_name": "수산물 가공 및 저장 처리업"
+            },
+            {
+                "industry_code": 31501,
+                "industry_name": "가죽, 가방 및 유사제품 제조업"
+            },
+            {
+                "industry_code": 33302,
+                "industry_name": "악기 제조업"
+            },
+            {
+                "industry_code": 32605,
+                "industry_name": "영상 및 음향기기 제조업"
+            },
+            {
+                "industry_code": 32403,
+                "industry_name": "금속 주조업"
+            },
+            {
+                "industry_code": 31008,
+                "industry_name": "동물용 사료 및 조제식품 제조업"
+            },
+            {
+                "industry_code": 31602,
+                "industry_name": "나무제품 제조업"
+            },
+            {
+                "industry_code": 33201,
+                "industry_name": "가구 제조업"
+            },
+            {
+                "industry_code": 32603,
+                "industry_name": "컴퓨터 및 주변장치 제조업"
+            },
+            {
+                "industry_code": 74704,
+                "industry_name": "섬유, 의복, 신발 및 가죽제품 소매업"
+            },
+            {
+                "industry_code": 95601,
+                "industry_name": "음식점업"
+            },
+            {
+                "industry_code": 74602,
+                "industry_name": "산업용 농·축산물 및 동·식물 도매업"
+            },
+            {
+                "industry_code": 74605,
+                "industry_name": "기계장비 및 관련 물품 도매업"
+            },
+            {
+                "industry_code": 147509,
+                "industry_name": "기타 사업지원 서비스업"
+            },
+            {
+                "industry_code": 33309,
+                "industry_name": "그외 기타 제품 제조업"
+            },
+            {
+                "industry_code": 147503,
+                "industry_name": "경비, 경호 및 탐정업"
+            },
+            {
+                "industry_code": 74502,
+                "industry_name": "자동차 부품 및 내장품 판매업"
+            },
+            {
+                "industry_code": 137001,
+                "industry_name": "자연과학 및 공학 연구개발업"
+            },
+            {
+                "industry_code": 116602,
+                "industry_name": "보험 및 연금관련 서비스업"
+            },
+            {
+                "industry_code": 74709,
+                "industry_name": "무점포 소매업"
+            },
+            {
+                "industry_code": 74501,
+                "industry_name": "자동차 판매업"
+            },
+            {
+                "industry_code": 95501,
+                "industry_name": "일반 및 생활 숙박시설 운영업"
+            },
+            {
+                "industry_code": 64202,
+                "industry_name": "건물설비 설치 공사업"
+            },
+            {
+                "industry_code": 137103,
+                "industry_name": "광고업"
+            },
+            {
+                "industry_code": 31301,
+                "industry_name": "방적 및 가공사 제조업"
+            },
+            {
+                "industry_code": 74606,
+                "industry_name": "건축자재, 철물 및 난방장치 도매업"
+            },
+            {
+                "industry_code": 31303,
+                "industry_name": "편조원단 제조업"
+            },
+            {
+                "industry_code": 43503,
+                "industry_name": "증기, 냉·온수 및 공기조절 공급업"
+            },
+            {
+                "industry_code": 31201,
+                "industry_name": "담배 제조업"
+            },
+            {
+                "industry_code": 116502,
+                "industry_name": "재 보험업"
+            },
+            {
+                "industry_code": 199609,
+                "industry_name": "그외 기타 개인 서비스업"
+            },
+            {
+                "industry_code": 147602,
+                "industry_name": "개인 및 가정용품 임대업"
+            },
+            {
+                "industry_code": 32809,
+                "industry_name": "기타 전기장비 제조업"
+            },
+            {
+                "industry_code": 33103,
+                "industry_name": "항공기,우주선 및 부품 제조업"
+            },
+            {
+                "industry_code": 31601,
+                "industry_name": "제재 및 목재 가공업"
+            },
+            {
+                "industry_code": 33102,
+                "industry_name": "철도장비 제조업"
+            },
+            {
+                "industry_code": 74708,
+                "industry_name": "기타 상품 전문 소매업"
+            },
+            {
+                "industry_code": 31502,
+                "industry_name": "신발 및 신발 부분품 제조업"
+            },
+            {
+                "industry_code": 31309,
+                "industry_name": "기타 섬유제품 제조업"
+            },
+            {
+                "industry_code": 53802,
+                "industry_name": "폐기물 처리업"
+            },
+            {
+                "industry_code": 31802,
+                "industry_name": "기록매체 복제업"
+            },
+            {
+                "industry_code": 168505,
+                "industry_name": "일반 교습 학원"
+            },
+            {
+                "industry_code": 168507,
+                "industry_name": "교육지원 서비스업"
+            },
+            {
+                "industry_code": 64204,
+                "industry_name": "실내건축 및 건축마무리 공사업"
+            },
+            {
+                "industry_code": 53803,
+                "industry_name": "해체, 선별 및 원료 재생업"
+            },
+            {
+                "industry_code": 32103,
+                "industry_name": "의료용품 및 기타 의약 관련제품 제조업"
+            },
+            {
+                "industry_code": 137309,
+                "industry_name": "그외 기타 전문, 과학 및 기술 서비스업"
+            },
+            {
+                "industry_code": 31801,
+                "industry_name": "인쇄 및 인쇄관련 산업"
+            },
+            {
+                "industry_code": 10101,
+                "industry_name": "작물 재배업"
+            },
+            {
+                "industry_code": 32703,
+                "industry_name": "사진장비 및 광학기기 제조업"
+            },
+            {
+                "industry_code": 137209,
+                "industry_name": "기타 과학기술 서비스업"
+            },
+            {
+                "industry_code": 168506,
+                "industry_name": "기타 교육기관"
+            },
+            {
+                "industry_code": 189001,
+                "industry_name": "창작 및 예술관련 서비스업"
+            },
+            {
+                "industry_code": 137302,
+                "industry_name": "전문디자인업"
+            },
+            {
+                "industry_code": 137106,
+                "industry_name": "기타 전문 서비스업"
+            },
+            {
+                "industry_code": 31304,
+                "industry_name": "섬유제품 염색, 정리 및 마무리 가공업"
+            },
+            {
+                "industry_code": 20501,
+                "industry_name": "석탄 광업"
+            },
+            {
+                "industry_code": 147401,
+                "industry_name": "사업시설 유지·관리 서비스업"
+            },
+            {
+                "industry_code": 137104,
+                "industry_name": "시장조사 및 여론조사업"
+            },
+            {
+                "industry_code": 31403,
+                "industry_name": "편조의복 제조업"
+            },
+            {
+                "industry_code": 33004,
+                "industry_name": "자동차 재제조 부품 제조업"
+            },
+            {
+                "industry_code": 74705,
+                "industry_name": "기타 생활용품 소매업"
+            },
+            {
+                "industry_code": 31003,
+                "industry_name": "과실, 채소 가공 및 저장 처리업"
+            },
+            {
+                "industry_code": 53901,
+                "industry_name": "환경 정화 및 복원업"
+            },
+            {
+                "industry_code": 33301,
+                "industry_name": "귀금속 및 장신용품 제조업"
+            }
+        ]
+    ]
+}
