@@ -48,6 +48,7 @@ class Financial:
             self.add_count()
         elif( kind == 7 ):
             self.financial_data['total_equity'] = int(index[ self.year_key ])
+            self.financial_data['total_equity_con'] = int(index[ self.year_key ])
             self.add_count()
         elif( kind == 8 ):
             self.financial_data['total_equity_con'] = int(index[ self.year_key ])

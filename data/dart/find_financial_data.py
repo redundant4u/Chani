@@ -6,6 +6,7 @@ def net_income(i):
     return (
         ('당기순이익' in i['account_nm'] and i['account_id'] == 'ifrs-full_ProfitLoss') or
         ('당기순이익' in i['account_nm'] and i['account_detail'].find('연결재무제표') != -1) or
+        ('당기순손실' in i['account_nm'] and i['account_id'] == 'ifrs-full_ProfitLoss') or
         ('총포괄이익' in i['account_nm'] and i['account_id'] == 'ifrs-full_ProfitLoss')
     )
 
@@ -28,13 +29,21 @@ def revenue(i):
     )
 
 def total_assets(i):
-    return i['account_id'] == 'ifrs-full_EquityAndLiabilities'
+    return (
+        (i['account_id'] == 'ifrs-full_EquityAndLiabilities') or
+        (i['account_id'] == 'ifrs_EquityAndLiabilities')
+    )
 
 def total_equity(i):
     return (
         (i['account_id'] == 'ifrs-full_Equity' and i['account_nm'] == '자본총계') or
+        (i['account_id'] == 'ifrs-full_Equity') or
+        (i['account_id'] == 'ifrs_Equity') or
         (i['account_nm'] == '자본총계')
     )
 
 def total_equity_con(i):
-    return i['account_id'] == 'ifrs-full_EquityAttributableToOwnersOfParent'
+    return (
+        (i['account_id'] == 'ifrs-full_EquityAttributableToOwnersOfParent') or
+        (i['account_id'] == 'ifrs_EquityAttributableToOwnersOfParent')
+    )

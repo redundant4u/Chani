@@ -39,6 +39,7 @@ def parse_json():
             except FileNotFoundError: print('no data\n')
 
         save_financial_statement()
+        # print(financial.financial_data)
 
 def open_latest_financial_raw_data():
     with open( os.getcwd() + '/corp_info/data_2019.json', 'r', encoding='utf-8' ) as f:
@@ -69,7 +70,7 @@ def find_financial_statement(data):
         financial.add_financial_statement(kind.eps, i)
         financial.add_financial_statement(kind.roe, i)
 
-    except (ValueError, KeyError) as e: print(str(e))
+    except (ValueError, KeyError, ZeroDivisionError) as e: print(str(e))
 
 def append_financial_statement():
     global result
