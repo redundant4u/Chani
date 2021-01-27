@@ -9,10 +9,13 @@
     "build:ui": "npx next build",
     "build:server": "npx tsc --project tsconfig.server.json && npx babel .next/production-server -d .next/production-server --extensions \".js\"",
     "build": "yarn build:clean && yarn build:ui && yarn build:server",
-    "start": "cross-env NODE_ENV=production node .next/production-server/src/main.js"
+    "start": "cross-env NODE_ENV=production node .next/production-server/src/main.js",
+    "make:migration": "ts-node -P tsconfig.server.json ./node_modules/typeorm/cli.js migration:generate -n",
+    "migrate": "ts-node -P tsconfig.server.json ./node_modules/typeorm/cli.js migration:run",
+    "migrate:rollback": "ts-node -P tsconfig.server.json ./node_modules/typeorm/cli.js migration:revert",
+    "seed": "ts-node -P tsconfig.server.json ./node_modules/typeorm-seeding/dist/cli.js seed"
   },
   "dependencies": {
-    "@nestjs/cli": "^7.5.4",
     "@nestjs/common": "^6.5.3",
     "@nestjs/core": "^6.5.3",
     "@nestjs/platform-express": "^6.5.3",
@@ -26,7 +29,7 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.2",
     "typeorm": "^0.2.30",
-    "uuid": "^8.3.2"
+    "typeorm-seeding": "^1.6.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",

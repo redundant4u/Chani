@@ -34,7 +34,6 @@
     "isolatedModules": true
   },
   "include": [
-    // "./views/**/*",
     "./src/**/*",
     "./ui/**/*",
     "types.ts"

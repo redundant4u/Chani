@@ -4,8 +4,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import Next from 'next';
 
 import { AppController } from './app.controller';
-import { ChartController } from './controllers/chart.controller';
-import { TableController } from './controllers/table.controller';
+import { ChartController } from './common/controllers/chart.controller';
+import { TableController } from './common/controllers/table.controller';
 
 const APP_DIR = "./src"
 

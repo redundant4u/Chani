@@ -3,6 +3,7 @@ server/nestjs-nextjs/src/.yalc
 server/nestjs-nextjs/node_modules
 
 server/basic
+server/jenkins
 
 data/dart/api_json
 
