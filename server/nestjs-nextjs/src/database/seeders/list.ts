@@ -1,10 +1,13 @@
 import { Factory, Seeder } from "typeorm-seeding";
-import { Connection } from "typeorm";
+import { Connection, QueryRunner } from "typeorm";
 import { List } from "../../entities/list.entity";
 import { readFileSync } from "fs";
+import { connect } from "http2";
 
 export default class SeedList implements Seeder {
     public async run(factory: Factory, connection: Connection): Promise<any> {
+        await connection.getRepository(List).query(`TRUNCATE TABLE list`);
+
         const file = readFileSync("./src/database/result_2019.json", "utf8");
         const json = JSON.parse(file);
         
@@ -27,6 +30,5 @@ export default class SeedList implements Seeder {
                 roe: i["roe"]
             });
         }
-        // await connection.getRepository(List).save(listData);
     }
 }

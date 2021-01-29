@@ -1,6 +1,5 @@
-server/nestjs-nextjs/src/.next
-server/nestjs-nextjs/src/.yalc
 server/nestjs-nextjs/node_modules
+server/nestjs-nextjs/.next
 
 server/basic
 server/jenkins

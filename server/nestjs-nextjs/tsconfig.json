@@ -22,7 +22,7 @@
       "es2017",
       "dom"
     ],
-    "baseUrl": ".",
+    "baseUrl": "./",
     "typeRoots": [
       "node_modules/@types",
       "./typings"
@@ -35,7 +35,6 @@
   },
   "include": [
     "./src/**/*",
-    "./ui/**/*",
     "types.ts"
   ],
   "exclude": [

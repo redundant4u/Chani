@@ -7,15 +7,12 @@ import { AppController } from './app.controller';
 import { ChartController } from './common/controllers/chart.controller';
 import { TableController } from './common/controllers/table.controller';
 
-const APP_DIR = "./src"
-
 @Module({
   imports: [
     TypeOrmModule.forRoot(),
     RenderModule.forRootAsync(
       Next({
         dev: process.env.NODE_ENV !== 'production',
-        dir: APP_DIR,
         conf: { useFilesystemPublicRoutes: false },
       }),
     ),

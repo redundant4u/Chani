@@ -5,7 +5,7 @@ const Header: FC = () => {
     return (
         <div className="header">
             <div className="header-title">
-                <Link href="/home" as="/">CHANI</Link>
+                <Link href="/views/home" as="/">CHANI</Link>
             </div>
             <div className="category">
                 <ul className="list-inline">
