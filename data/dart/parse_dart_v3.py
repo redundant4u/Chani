@@ -6,7 +6,7 @@ import find_financial_data as find
 import get_financial_statement as kind
 from Financial import Financial
 
-COMPLETE = 8
+COMPLETE = True
 financial = Financial(0)
 kind = kind.get()
 result = []
@@ -52,9 +52,9 @@ def open_financial_raw_data(year):
 def find_financial_statement(data):
     for i in data:
         try:
-            if  ( financial.count == COMPLETE ): break
-            if  ( find.net_income(i)          ): financial.add_financial_statement(kind.net_income, i)
-            elif( find.net_income_non(i)      ): financial.add_financial_statement(kind.net_income_non, i)
+            if  ( financial.find_check[1] == COMPLETE ): break
+            if  ( find.net_income_non(i)      ): financial.add_financial_statement(kind.net_income_non, i)
+            elif( find.net_income(i)          ): financial.add_financial_statement(kind.net_income, i)
             elif( find.operating_cashflow(i)  ): financial.add_financial_statement(kind.operating_cashflow, i)
             elif( find.operating_profit(i)    ): financial.add_financial_statement(kind.operating_profit, i)
             elif( find.revenue(i)             ): financial.add_financial_statement(kind.revenue, i)
@@ -71,6 +71,8 @@ def find_financial_statement(data):
         financial.add_financial_statement(kind.roe, i)
 
     except (ValueError, KeyError, ZeroDivisionError) as e: print(str(e))
+
+    # print(financial.financial_data)
 
 def append_financial_statement():
     global result

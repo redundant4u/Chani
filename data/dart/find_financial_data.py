@@ -4,10 +4,10 @@ from find_financial_data import *
 
 def net_income(i):
     return (
-        ('당기순이익' in i['account_nm'] and i['account_id'] == 'ifrs-full_ProfitLoss') or
+        ('당기순' in i['account_nm'] and i['account_id'] == 'ifrs-full_ProfitLoss') or
         ('당기순이익' in i['account_nm'] and i['account_detail'].find('연결재무제표') != -1) or
-        ('당기순손실' in i['account_nm'] and i['account_id'] == 'ifrs-full_ProfitLoss') or
-        ('총포괄이익' in i['account_nm'] and i['account_id'] == 'ifrs-full_ProfitLoss')
+        ('분기순이익' in i['account_nm'] and i['account_id'] == 'ifrs-full_ProfitLoss') or
+        ('총포괄' in i['account_nm'] and i['account_id'] == 'ifrs-full_ProfitLoss')
     )
 
 def net_income_non(i):
@@ -17,7 +17,11 @@ def net_income_non(i):
     )
 
 def operating_cashflow(i):
-    return i['account_id'] == 'ifrs-full_CashFlowsFromUsedInOperatingActivities'
+    return (
+        (i['account_id'] == 'ifrs-full_CashFlowsFromUsedInOperatingActivities') or
+        (i['account_id'] == 'ifrs_CashFlowsFromUsedInOperatingActivities') or
+        (i['account_id'] == 'ifrs-full_OtherInflowsOutflowsOfCashClassifiedAsOperatingActivities')
+    )
 
 def operating_profit(i):
     return i['account_id'] == 'dart_OperatingIncomeLoss'
@@ -25,6 +29,7 @@ def operating_profit(i):
 def revenue(i):
     return (
         (i['account_id'] == 'ifrs-full_Revenue') or
+        (i['account_id'] == 'ifrs_Revenue') or
         (i['account_nm'] == '영업수익')
     )
 
