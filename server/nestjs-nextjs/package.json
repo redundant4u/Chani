@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon main.ts",
+    "dev": "nodemon src/main.ts",
     "build:clean": "rimraf .next",
     "build:ui": "npx next build",
     "build:server": "npx tsc --project tsconfig.server.json && npx babel .next/production-server -d .next/production-server --extensions \".js\"",
@@ -16,9 +16,9 @@
     "seed": "ts-node -P tsconfig.server.json ./node_modules/typeorm-seeding/dist/cli.js seed"
   },
   "dependencies": {
-    "@nestjs/common": "^6.5.3",
-    "@nestjs/core": "^6.5.3",
-    "@nestjs/platform-express": "^6.5.3",
+    "@nestjs/common": "^7.6.3",
+    "@nestjs/core": "^7.6.3",
+    "@nestjs/platform-express": "^7.6.3",
     "@nestjs/typeorm": "^7.1.5",
     "cross-env": "^6.0.3",
     "nest-next": "^9.3.0",
@@ -36,7 +36,6 @@
     "@babel/core": "^7.5.5",
     "@types/node": "^12.7.1",
     "@types/react": "^16.9.1",
-    "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^4.11.1",
     "@typescript-eslint/parser": "^4.11.1",
     "eslint": "^7.16.0",

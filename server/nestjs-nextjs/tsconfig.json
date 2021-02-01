@@ -4,7 +4,6 @@
     "module": "esnext",
     "jsx": "preserve",
     "strict": true,
-    "strictPropertyInitialization": false,
     "pretty": true,
     "noImplicitAny": true,
     "alwaysStrict": true,
@@ -22,7 +21,7 @@
       "es2017",
       "dom"
     ],
-    "baseUrl": "./",
+    "baseUrl": ".",
     "typeRoots": [
       "node_modules/@types",
       "./typings"
@@ -31,13 +30,14 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "strictPropertyInitialization": false
   },
   "include": [
+    "./pages/**/*",
     "./src/**/*",
-    "types.ts"
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
 }

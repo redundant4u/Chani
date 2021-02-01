@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import Header from './components/header';
 import Footer from './components/footer';
-import '../public/css/main.css';
+import './public/css/main.css';
 
 const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   return (

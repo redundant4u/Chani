@@ -9,9 +9,9 @@ const Header: FC = () => {
             </div>
             <div className="category">
                 <ul className="list-inline">
-                    <Link href="/table" as="/table"><li className="list-inline-item">table</li></Link>
-                    <Link href="/chart" as="/chart"><li className="list-inline-item">chart</li></Link>
-                    <Link href="/login" as="/login"><li className="list-inline-item">login</li></Link>
+                    <Link href="/views/list" as="/list"><li className="list-inline-item">list</li></Link>
+                    <Link href="/views/chart" as="/chart"><li className="list-inline-item">chart</li></Link>
+                    <Link href="/views/login" as="/login"><li className="list-inline-item">login</li></Link>
                 </ul>
             </div>
             <div>

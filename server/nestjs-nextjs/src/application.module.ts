@@ -4,8 +4,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import Next from 'next';
 
 import { AppController } from './app.controller';
-import { ChartController } from './common/controllers/chart.controller';
-import { TableController } from './common/controllers/table.controller';
+import { ListController } from './common/list/list.controller';
+import { ChartController } from './common/chart/chart.controller';
 
 @Module({
   imports: [
@@ -17,7 +17,7 @@ import { TableController } from './common/controllers/table.controller';
       }),
     ),
   ],
-  controllers: [AppController, ChartController, TableController],
+  controllers: [AppController, ChartController, ListController],
   providers: [],
 })
 export class AppModule {}

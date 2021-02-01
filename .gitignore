@@ -3,6 +3,7 @@ server/nestjs-nextjs/.next
 
 server/basic
 server/jenkins
+server/nestjs-nextjs2
 
 data/dart/api_json
 
