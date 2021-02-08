@@ -3,13 +3,14 @@ import { RenderModule } from 'nest-next';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import Next from 'next';
 
+import { ListModule } from './common/list/list.module';
 import { AppController } from './app.controller';
-import { ListController } from './common/list/list.controller';
 import { ChartController } from './common/chart/chart.controller';
 
 @Module({
   imports: [
     TypeOrmModule.forRoot(),
+    ListModule,
     RenderModule.forRootAsync(
       Next({
         dev: process.env.NODE_ENV !== 'production',
@@ -17,7 +18,7 @@ import { ChartController } from './common/chart/chart.controller';
       }),
     ),
   ],
-  controllers: [AppController, ChartController, ListController],
+  controllers: [AppController, ChartController],
   providers: [],
 })
 export class AppModule {}

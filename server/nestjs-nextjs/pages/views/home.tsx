@@ -9,7 +9,7 @@ const Home: NextPage<Props> = ({ query }) => {
   const greetName = query.name ? query.name : 'World';
 
   return (
-    <div>
+    <div className="body">
       <div>Hello, {greetName}!</div>
     </div>
   );

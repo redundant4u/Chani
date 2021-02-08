@@ -1,0 +1,24 @@
+version: '3.5'
+
+services:
+ app:
+  container_name: nest
+  image: chani:1.0
+  volumes:
+   - /Users/redundant4u/Documents/project/Chani/server/nestjs-nextjs:/home/node
+  ports:
+   - 3000:3000
+  tty: true
+  init: true
+
+ db:
+  container_name: pg
+  image: postgres:12.4-alpine
+  environment:
+   - POSTGRES_USER=pg
+   - POSTGRES_PASSWORD=pg
+   - PGDATA=/var/lib/postgres/data
+  volumes:
+   - /Users/redundant4u/Documents/project/Chani/server/data:/var/lib/postgres/data
+  ports:
+   - 5432:5432

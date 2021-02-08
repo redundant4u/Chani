@@ -3,7 +3,7 @@ import { NextPage } from 'next';
 
 const Chart : NextPage = () => {
     return (
-        <div style={{ height: "100vh" }}>
+        <div className="body">
             <h1>Hi, I'm chart page</h1>
         </div>
     );
