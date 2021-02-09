@@ -5,7 +5,7 @@ services:
   container_name: nest
   image: chani:1.0
   volumes:
-   - /Users/redundant4u/Documents/project/Chani/server/nestjs-nextjs:/home/node
+   - ../server/nestjs-nextjs:/home/node
   ports:
    - 3000:3000
   tty: true
@@ -19,6 +19,6 @@ services:
    - POSTGRES_PASSWORD=pg
    - PGDATA=/var/lib/postgres/data
   volumes:
-   - /Users/redundant4u/Documents/project/Chani/server/data:/var/lib/postgres/data
+   - ../server/data:/var/lib/postgres/data
   ports:
    - 5432:5432
