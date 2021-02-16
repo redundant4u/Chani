@@ -1,8 +1,6 @@
-import { Controller, Get, Render, Query, Param } from "@nestjs/common";
+import { Controller, Get, Post, Render, Query, Req, Param, Body, Res } from "@nestjs/common";
 import { ListService } from './list.service';
-// import { ListRO } from './list.interface';
-// import { ListData } from './list.interface';
-// import { ListEntity } from "src/entities/list.entity";
+import { ListSearch } from '../../entities/list.serach.dto';
 
 @Controller('/list')
 export class ListController {
@@ -10,23 +8,17 @@ export class ListController {
 
     @Render('list')
     @Get()
-    public index(@Query('page') page?: number) {
-        // return this.service.find(10, page);
-        return { page };
+    public index() {
+        return {};
     }
 
-    // @Get('data')
-    // public get(@Query('page') page: string) {
-    //     console.log('page: ' + page);
-    //     return this.service.find(10, parseInt(page));
-    // }
+    @Post('data')
+    public get(@Body() body: ListSearch) {
+        let result;
 
-    @Get('data')
-    public get() {
-        return this.service.findAll();
+        if( body.fromEPS != 0.1 ) result = this.service.findEPS(body.fromEPS, body.toEPS, body.count, body.page);
+        else                      result = this.service.find(body.count, body.page);
+
+        return result;
     }
-
-    // get(@Query() { take, skip }: any) {
-    //     return this.service.findAll(take, skip);
-    // }
 }

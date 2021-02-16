@@ -1,70 +1,92 @@
-import { NextPage } from 'next';
-import dynamic from 'next/dynamic'
+import { NextPage, NextPageContext } from 'next';
 import { ListEntity } from '../../../src/entities/list.entity';
+import dynamic from 'next/dynamic'
+import Router from 'next/router'
 
 interface Props {
     lists: ListEntity[],
+    total: Number,
+    search: {
+        count: Number,
+        page: Number
+        fromEPS: Number,
+        toEPS: Number,
+    }
 }
 
 // ssr: false 설정을 해야 table 속성들이 적용된다.
-const Data = dynamic(() => import('./data'), { ssr: false } )
+const Data = dynamic(() => import('./data'), { ssr: false });
 
-const List: NextPage<Props> = ({ lists }) => {
+const List: NextPage<Props> = ({ lists, total, search }) => {
     return (
         <div className="body">
             <div className="form-inline" role="form">
                 <div className="form-group">
-                     <span>From Date </span>
-                   <input name="test1" className="form-control w70" type="text" />
+                     <span>From EPS </span>
+                   <input id="fromeps" className="form-control w70" type="text" />
                 </div>
                 <div className="form-group">
-                    <span>To Date </span>
-                    <input name="test2" className="form-control w70" type="text" />
+                    <span>To EPS </span>
+                    <input id="toeps" className="form-control w70" type="text" />
                 </div>
-                <button id="ok" type="submit" className="btn btn-primary">OK</button>
+                <button onClick={() => {
+                    const fromEPS = (document.getElementById('fromeps') as HTMLInputElement).value;
+                    const toEPS   = (document.getElementById('toeps')   as HTMLInputElement).value;
+                    Router.push(`?page=${search.page}&fromEPS=${fromEPS}&toEPS=${toEPS}`, '/list');
+                }}>
+                    OK
+                </button>
             </div>
+            <p>total: { total } page: { search.page } count: { search.count }</p>
+            <p>fromEPS: { search.fromEPS  } toEPS: { search.toEPS }</p>
             <Data lists={lists} />
-            <script>{`
-
-
-                $('#ok').click(function() 
-                { 
-                    const table = $('#table')
-                    const from = $("input[type=text][name=test1]").val();
-                    const to = $("input[type=text][name=test2]").val();
-                    console.log(from);
-                    console.log(to);
-                    alert('1');
-                    // $table.bootstrapTable('filterBy',{ eps: getEPS(from, to)}) 
-                })
-           `}</script>
+            <button onClick={() => Router.push(
+                `?page=${Number(search.page) - 1}&fromEPS=${search.fromEPS || 0.1}&toEPS=${search.toEPS || 0.1}`,
+                '/list'
+            )} disabled={ Number(search.page) <= 0 }>
+                PREV
+            </button>
+            <button onClick={() => Router.push(
+                `?page=${Number(search.page) + 1}&fromEPS=${search.fromEPS || 0.1}&toEPS=${search.toEPS || 0.1}`,
+                '/list'
+            )} disabled={ Number(search.page) >= Number(total) / Number(search.count) }>
+                NEXT
+            </button> 
         </div>
     )
 }
 
-export async function getStaticProps() {
-    const res = await fetch(`http://127.0.0.1:3000/list/data`);
-    const lists: Props[] = await res.json();
-    return { props: { lists: lists } };
-}
+export async function getServerSideProps({query}: NextPageContext) {
+    const noEPS = 0.1;
+    const params = {
+        "count"  : query.count   || 10,
+        "page"   : query.page    || 0,
+        "fromEPS": query.fromEPS || noEPS,
+        "toEPS"  : query.toEPS   || noEPS
+    }
 
-const test = function() {
-    return { props: { lists: [{
-        'stock_code': '00100',
-        'issued_stock': 0,
-        'total_equity_con': 0,
-        'total_equity': 0,
-        'total_assets': 0,
-        'revenue': 0,
-        'operating_profit': 0,
-        'net_income': 0,
-        'net_income_non': 0,
-        'net_income_con': 0,
-        'operating_cashflow': 0,
-        'total_liabilities': 0,
-        'eps': 0,
-        'roe': 0
-    }]}};
+    console.log(query.fromEPS);
+    console.log(params);
+
+    const result = await fetch("http://127.0.0.1:3000/list/data", {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(params)
+    });
+    const lists = await result.json();
+
+    return {
+        props: {
+            lists: lists['data'],
+            total: lists['total'],
+            search: {
+                count  : params.count,
+                page   : params.page,
+                fromEPS: params.fromEPS,
+                toEPS  : params.toEPS,
+            }
+        }
+    }
 }
 
 export default List;

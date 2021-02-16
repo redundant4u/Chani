@@ -1,4 +1,4 @@
-import { Module, NestModule, MiddlewareConsumer, RequestMethod } from '@nestjs/common';
+import { Module, NestModule, MiddlewareConsumer } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ListEntity } from '../../entities/list.entity';
 import { ListService } from './list.service';
@@ -13,7 +13,5 @@ import { PaginationMiddleware } from '../../middleware/PaginationMiddleware';
 })
 export class ListModule implements NestModule {
     public configure(consumer: MiddlewareConsumer) {
-        consumer.apply(PaginationMiddleware)
-        .forRoutes({ path: 'list/get' , method: RequestMethod.GET})
     }
 }

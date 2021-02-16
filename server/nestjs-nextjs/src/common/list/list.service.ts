@@ -1,8 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository, getRepository, DeleteResult } from 'typeorm';
+import { Repository, Between } from 'typeorm';
 import { ListEntity } from '../../entities/list.entity';
-import { ListData } from './list.interface';
 
 @Injectable()
 export class ListService {
@@ -12,15 +11,28 @@ export class ListService {
     ) {}
 
     async find(take: number = 10, skip: number = 0) {
-        console.log('hii');
         if( skip > 0 ) skip *= 10;
-        console.log('skip: ' + (skip))
 
         const [data, total] = await this.listRepository.findAndCount({ take, skip });
-        return data;
+        return {data, total};
         // return this.listRepository.find();
         // const [ data, total ] = this.listRepository.findAndCount({ take, skip });
         // return data;
+    }
+
+    async findEPS(
+        fromEPS: number,
+        toEPS: number,
+        take: number = 10,
+        skip: number = 0
+    ) { 
+        const [data, total] = await this.listRepository.findAndCount({
+            where: { eps: Between(fromEPS, toEPS) },
+            take: take,
+            skip: skip
+        })
+
+        return {data, total};
     }
 
     async findAll() {
