@@ -31,8 +31,8 @@ const Data: NextPage<Props> = ({ lists }) => {
                    {
                        lists.map((list, index) =>(
                            <tr key={index}>
-                               <td>test</td>
-                               <td>{ list.stock_code }</td>
+                               {/* <td>{ list.corporation[0]. }</td>
+                               <td>{ list.corporation.stock_code }</td> */}
                                <td>{ list.eps }</td>
                                <td>{ list.roe }</td>
                                <td>{ list.total_assets }</td>

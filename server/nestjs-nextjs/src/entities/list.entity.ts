@@ -1,4 +1,6 @@
-import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
+import { Entity, PrimaryGeneratedColumn, Column, OneToOne, JoinColumn } from "typeorm";
+
+import { CorporationEntity } from "./corporation.entity";
 
 @Entity("list")
 export class ListEntity {
@@ -6,8 +8,9 @@ export class ListEntity {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column({ type: "varchar", length: 10 })
-  stock_code: string;
+  @OneToOne(type => CorporationEntity, corporation => corporation.stock_code)
+  @JoinColumn({ name: "corporation" })
+  corporation: CorporationEntity;
 
   @Column({ type: "bigint" })
   issued_stock: number;

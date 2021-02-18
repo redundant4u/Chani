@@ -1,5 +1,5 @@
 import { Factory, Seeder } from "typeorm-seeding";
-import { Connection, QueryRunner } from "typeorm";
+import { Connection } from "typeorm";
 import { ListEntity } from "../../entities/list.entity";
 import { readFileSync } from "fs";
 

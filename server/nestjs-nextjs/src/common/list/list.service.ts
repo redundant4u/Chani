@@ -10,32 +10,88 @@ export class ListService {
         private readonly listRepository: Repository<ListEntity>
     ) {}
 
-    async find(take: number = 10, skip: number = 0) {
-        if( skip > 0 ) skip *= 10;
-
-        const [data, total] = await this.listRepository.findAndCount({ take, skip });
-        return {data, total};
-        // return this.listRepository.find();
-        // const [ data, total ] = this.listRepository.findAndCount({ take, skip });
-        // return data;
+    private async find(
+        take: number = 10,
+        skip: number = 0
+    ) {
+        return await this.listRepository.findAndCount({
+            relations: ['corporation'],
+            take: take,
+            skip: skip
+        })
     }
 
-    async findEPS(
-        fromEPS: number,
-        toEPS: number,
+    private async findEPS(
+        EPS: number[],
         take: number = 10,
         skip: number = 0
     ) { 
-        const [data, total] = await this.listRepository.findAndCount({
-            where: { eps: Between(fromEPS, toEPS) },
+        return await this.listRepository.findAndCount({
+            relations: ['corporation'],
+            where: {
+                eps: Between(EPS[0], EPS[1])
+            },
+            take: take,
+            skip: skip
+        })
+    }
+
+    private async findROE(
+        ROE: number[],
+        take: number = 10,
+        skip: number = 0,
+    ) {
+        return await this.listRepository.findAndCount({
+            relations: ['corporation'],
+            where: {
+                roe: Between(ROE[0], ROE[1])
+            },
+            take: take,
+            skip: skip
+        })
+    }
+
+    private async findEPSandROE(
+        financials: { EPS: number[], ROE: number[] },
+        take: number = 10,
+        skip: number = 0,
+    ) {
+        return await this.listRepository.findAndCount({
+            relations: ['corporation'],
+            where: {
+                eps: Between(financials.EPS[0], financials.EPS[1]),
+                roe: Between(financials.ROE[0], financials.ROE[1])
+            },
+            take: take,
+            skip: skip
+        })
+    }
+
+    public async findTest(
+        financials: { EPS: number[], ROE: number[] },
+        take: number = 10,
+        skip: number = 0,
+    ) {
+        let data, total;
+        const pass = 0.1
+
+        if( skip > 0 ) skip *= 10;
+
+        // if( financials.EPS[1] != pass && financials.ROE[1] != pass )
+        //     [data, total] = await this.findEPSandROE(financials, take, skip);
+        // else if( financials.EPS[1] != pass )
+        //     [data, total] = await this.findEPS(financials.EPS, take, skip);
+        // else if( financials.ROE[1] != pass )
+        //     [data, total] = await this.findROE(financials.ROE, take, skip);
+        // else
+        //     [data, total] = await this.find(take, skip);
+
+        [data, total] = await this.listRepository.findAndCount({
+            relations: ['corporation'],
             take: take,
             skip: skip
         })
 
         return {data, total};
-    }
-
-    async findAll() {
-        return this.listRepository.find();
     }
 }

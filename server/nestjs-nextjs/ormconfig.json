@@ -12,5 +12,5 @@
       "entitiesDir": ["./src/entities"],
       "migrationsDir": ["./src/database/migrations"]
     },
-    "seeds": ["./src/database/seeders/*.ts"]
+    "seeds": ["./src/database/seeders/main.ts"]
 }

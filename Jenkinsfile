@@ -14,8 +14,10 @@ pipeline {
         stage('DOCKER DOWN & UP') {
             steps {
                 dir('/home/pi/Chani/docker') {
-                    sh 'docker-compose down'
-                    sh 'docker-compose up -d'
+                    sh 'docker stop nest'
+                    sh 'docker start nest'
+                    // sh 'docker-compose down'
+                    // sh 'docker-compose up -d'
                 }
             }
         }

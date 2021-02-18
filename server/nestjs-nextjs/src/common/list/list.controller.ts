@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Render, Query, Req, Param, Body, Res } from "@nestjs/common";
+import { Controller, Get, Post, Render, Body } from "@nestjs/common";
 import { ListService } from './list.service';
 import { ListSearch } from '../../entities/list.serach.dto';
 
@@ -13,11 +13,8 @@ export class ListController {
     }
 
     @Post('data')
-    public get(@Body() body: ListSearch) {
-        let result;
-
-        if( body.fromEPS != 0.1 ) result = this.service.findEPS(body.fromEPS, body.toEPS, body.count, body.page);
-        else                      result = this.service.find(body.count, body.page);
+    public async get(@Body() body: ListSearch) {
+        const result = await this.service.findTest(body.financials, body.count, body.page);
 
         return result;
     }

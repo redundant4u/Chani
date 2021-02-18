@@ -19261,22 +19261,6 @@
         "roe": 2.95
     },
     {
-        "net_income_non": 11270437540,
-        "stock_code": "108790",
-        "issued_stock": 33155480,
-        "total_equity_con": 669586510317,
-        "total_equity": 669586510317,
-        "total_assets": 1780051910640,
-        "revenue": 3412333826299,
-        "operating_profit": 45164128609,
-        "net_income": 6507368439,
-        "operating_cashflow": 136435672411,
-        "net_income_con": -4763069101,
-        "total_liabilities": 1110465400323,
-        "eps": -144,
-        "roe": -0.71
-    },
-    {
         "net_income_non": 839044196,
         "stock_code": "039020",
         "issued_stock": 22584709,
@@ -22339,22 +22323,6 @@
         "total_liabilities": 100809544028,
         "eps": 40,
         "roe": 1.71
-    },
-    {
-        "net_income_non": 0,
-        "stock_code": "220250",
-        "issued_stock": 14066238,
-        "total_equity": 9907471332,
-        "total_equity_con": 9907471332,
-        "total_assets": 10697358214,
-        "revenue": 0,
-        "operating_profit": -44177300,
-        "net_income": 80081557,
-        "operating_cashflow": 90966004,
-        "net_income_con": 80081557,
-        "total_liabilities": 789886882,
-        "eps": 6,
-        "roe": 0.81
     },
     {
         "net_income_non": 0,
