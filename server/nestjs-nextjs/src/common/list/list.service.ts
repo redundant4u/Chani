@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository, Between } from 'typeorm';
+import { Repository } from 'typeorm';
 import { ListEntity } from '../../entities/list.entity';
 
 @Injectable()
@@ -10,87 +10,51 @@ export class ListService {
         private readonly listRepository: Repository<ListEntity>
     ) {}
 
-    private async find(
-        take: number = 10,
-        skip: number = 0
-    ) {
-        return await this.listRepository.findAndCount({
-            relations: ['corporation'],
-            take: take,
-            skip: skip
-        })
-    }
-
-    private async findEPS(
-        EPS: number[],
-        take: number = 10,
-        skip: number = 0
-    ) { 
-        return await this.listRepository.findAndCount({
-            relations: ['corporation'],
-            where: {
-                eps: Between(EPS[0], EPS[1])
-            },
-            take: take,
-            skip: skip
-        })
-    }
-
-    private async findROE(
-        ROE: number[],
+    public async find(
+        financials: {
+            orderBy: boolean,
+            orderByKind: String,
+            EPS: number[],
+            ROE: number[]
+        },
         take: number = 10,
         skip: number = 0,
     ) {
-        return await this.listRepository.findAndCount({
-            relations: ['corporation'],
-            where: {
-                roe: Between(ROE[0], ROE[1])
-            },
-            take: take,
-            skip: skip
-        })
-    }
-
-    private async findEPSandROE(
-        financials: { EPS: number[], ROE: number[] },
-        take: number = 10,
-        skip: number = 0,
-    ) {
-        return await this.listRepository.findAndCount({
-            relations: ['corporation'],
-            where: {
-                eps: Between(financials.EPS[0], financials.EPS[1]),
-                roe: Between(financials.ROE[0], financials.ROE[1])
-            },
-            take: take,
-            skip: skip
-        })
-    }
-
-    public async findTest(
-        financials: { EPS: number[], ROE: number[] },
-        take: number = 10,
-        skip: number = 0,
-    ) {
-        let data, total;
         const pass = 0.1
+        let where;
 
-        if( skip > 0 ) skip *= 10;
+        if (skip > 0) skip *= 10;
 
-        // if( financials.EPS[1] != pass && financials.ROE[1] != pass )
-        //     [data, total] = await this.findEPSandROE(financials, take, skip);
-        // else if( financials.EPS[1] != pass )
-        //     [data, total] = await this.findEPS(financials.EPS, take, skip);
-        // else if( financials.ROE[1] != pass )
-        //     [data, total] = await this.findROE(financials.ROE, take, skip);
-        // else
-        //     [data, total] = await this.find(take, skip);
+        if (financials.EPS[1] != pass && financials.ROE[1] != pass) {
+            where = `
+                eps BETWEEN ${financials.EPS[0]} AND ${financials.EPS[1]}
+                AND
+                roe BETWEEN ${financials.ROE[0]} AND ${financials.ROE[1]}
+            `;
+        }
+        else if (financials.EPS[1] != pass)
+            where = `eps BETWEEN ${financials.EPS[0]} AND ${financials.EPS[1]}`;
+        else if (financials.ROE[1] != pass)
+            where = `roe BETWEEN ${financials.ROE[0]} AND ${financials.ROE[1]}`;
+        else 
+            where = `1=1`;
 
-        [data, total] = await this.listRepository.findAndCount({
-            relations: ['corporation'],
-            take: take,
-            skip: skip
-        })
+        const data = await this.listRepository.createQueryBuilder('lists')
+            .select()
+            .leftJoinAndSelect('lists.corporation', 'corporations')
+            .take(take)
+            .skip(skip)
+            .orderBy(`lists.${financials.orderByKind}`, financials.orderBy ? 'DESC' : 'ASC', 'NULLS LAST')
+            .where(where)
+            .getMany();
+
+        const total = await this.listRepository.createQueryBuilder('lists')
+            .select('lists.id')
+            .where(where)
+            .getCount();
+
+        // console.log(data);
+        // console.log(total);
 
         return {data, total};
     }

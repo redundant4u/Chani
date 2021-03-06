@@ -14,7 +14,7 @@ export class ListController {
 
     @Post('data')
     public async get(@Body() body: ListSearch) {
-        const result = await this.service.findTest(body.financials, body.count, body.page);
+        const result = await this.service.find(body.financials, body.count, body.page);
 
         return result;
     }

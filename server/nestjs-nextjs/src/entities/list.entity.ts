@@ -2,7 +2,7 @@ import { Entity, PrimaryGeneratedColumn, Column, OneToOne, JoinColumn } from "ty
 
 import { CorporationEntity } from "./corporation.entity";
 
-@Entity("list")
+@Entity("lists")
 export class ListEntity {
 
   @PrimaryGeneratedColumn()

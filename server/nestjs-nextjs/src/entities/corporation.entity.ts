@@ -1,8 +1,8 @@
-import { Entity, PrimaryColumn, Column, ManyToOne, OneToOne, JoinColumn } from "typeorm";
+import { Entity, PrimaryColumn, Column, ManyToOne, JoinColumn } from "typeorm";
 
 import { IndustryEntity } from "./industry.entity";
 
-@Entity("corporation")
+@Entity("corporations")
 export class CorporationEntity {
 
   // @PrimaryGeneratedColumn()
@@ -16,9 +16,9 @@ export class CorporationEntity {
   @Column({ type: "smallint" })
   kind: number;
 
-  // @OneToOne(type => IndustryEntity, industry => industry.industry_code)
-  // @JoinColumn({ name: "industry" })
-  // industry: IndustryEntity;
+  @ManyToOne(type => IndustryEntity, industry => industry.industry_code)
+  @JoinColumn({ name: "industry" })
+  industry: IndustryEntity;
 
   // @ManyToOne(type => IndustryEntity, industry => industry.industry_code)
   // @JoinColumn({ name: "industry_code" })

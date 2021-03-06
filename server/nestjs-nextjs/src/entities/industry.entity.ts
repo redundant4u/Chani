@@ -2,7 +2,7 @@ import { Entity, PrimaryColumn, Column } from "typeorm";
 
 import { CorporationEntity } from "./corporation.entity";
 
-@Entity("industry")
+@Entity("industries")
 export class IndustryEntity {
 
   @PrimaryColumn({ type: "int" })

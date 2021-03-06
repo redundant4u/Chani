@@ -8,9 +8,9 @@ import { ListEntity } from "../../entities/list.entity";
 
 export class SeedMain implements Seeder {
     public async run(factory: Factory, connection: Connection): Promise<any> {
-        await connection.getRepository(IndustryEntity).query(`TRUNCATE TABLE industry CASCADE`);
-        await connection.getRepository(CorporationEntity).query(`TRUNCATE TABLE corporation CASCADE`);
-        await connection.getRepository(ListEntity).query(`TRUNCATE TABLE list`);
+        await connection.getRepository(IndustryEntity).query(`TRUNCATE TABLE industries CASCADE`);
+        await connection.getRepository(CorporationEntity).query(`TRUNCATE TABLE corporations CASCADE`);
+        await connection.getRepository(ListEntity).query(`TRUNCATE TABLE lists`);
 
         let file = readFileSync("./src/database/industry.json", "utf8");
         let json = JSON.parse(file);
@@ -30,7 +30,7 @@ export class SeedMain implements Seeder {
                 stock_code: i["corp_code"],
                 corp_name: i["corp_name"],
                 kind: i["kind"],
-                // industry_code: i["industry_code"]
+                industry: i["industry_code"]
             });
         }
 
@@ -39,7 +39,7 @@ export class SeedMain implements Seeder {
 
         for( let i of json ) {
             await connection.getRepository(ListEntity).save({
-                stock_code: i["stock_code"],
+                corporation: i["stock_code"],
                 issued_stock: i["issued_stock"],
                 total_equity_con: i["total_equity_con"],
                 total_equity: i["total_equity"],
