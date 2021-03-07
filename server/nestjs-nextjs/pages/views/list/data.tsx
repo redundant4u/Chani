@@ -16,10 +16,10 @@ interface Props {
 
 const Data: NextPage<Props> = ({ lists, data, pass }) => {
     const ths = [
-        { 'name': 'EPS', 'kind': 'eps' },
-        { 'name': 'ROE', 'kind': 'roe' },
-        { 'name': '자산총계', 'kind': 'total_assets' },
-        { 'name': '당기순이익', 'kind': 'net_income' },
+        { name: 'EPS', kind: 'eps' },
+        { name: 'ROE', kind: 'roe' },
+        { name: '자산총계', kind: 'total_assets' },
+        { name: '당기순이익', kind: 'net_income' },
     ];
 
     const sort = function(kind = '') {
@@ -27,7 +27,7 @@ const Data: NextPage<Props> = ({ lists, data, pass }) => {
             const element = document.getElementsByClassName(ths[i].kind)[0].classList;
 
             if( kind == ths[i].kind ) {
-                if (element.contains('desc')) {
+                if (data.orderBy) {
                     element.remove('desc');
                     element.add('asc');
                 }
@@ -46,6 +46,10 @@ const Data: NextPage<Props> = ({ lists, data, pass }) => {
                     element.remove('desc');
             }
         }
+    }
+
+    const comma = function(x = '') {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
 
     return (
@@ -91,10 +95,10 @@ const Data: NextPage<Props> = ({ lists, data, pass }) => {
                             <tr key={index}>
                                 <td>{ list.corporation.corp_name }</td>
                                 <td>{ list.corporation.stock_code }</td>
-                                <td>{ list.eps }</td>
+                                <td>{ comma(list.eps.toString()) }</td>
                                 <td>{ list.roe }</td>
-                                <td>{ list.total_assets }</td>
-                                <td>{ list.net_income }</td>
+                                <td>{ comma(list.total_assets.toString()) }</td>
+                                <td>{ comma(list.net_income.toString()) }</td>
                             </tr>
                         ))
                     }
