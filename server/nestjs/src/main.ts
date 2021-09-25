@@ -1,5 +1,5 @@
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './application.module';
+import { AppModule } from './app.module';
 
 import compression from 'compression';
 
@@ -11,5 +11,4 @@ async function bootstrap() {
 
   await app.listen(3000);
 }
-
 bootstrap();
