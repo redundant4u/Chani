@@ -1,7 +1,6 @@
 {
-  "watch": ["src/*.ts", "src/common/**/*"],
-  "ext": "ts,tsx",
-  "execMap": {
-    "ts": "ts-node --project tsconfig.server.json"
-  }
+    "watch": ["src"],
+    "ext": "ts,json",
+    "ignore": ["src/**/*.spec.ts"],
+    "exec": "ts-node -P tsconfig.server.json"
 }

@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/main.ts",
+    "dev": "node --inspect=0.0.0.0:9229 | nodemon src/main.ts",
+    "test": "nodemon src/main.ts",
     "build:clean": "rimraf .next",
     "build:ui": "npx next build",
     "build:server": "npx tsc --project tsconfig.server.json && npx babel .next/production-server -d .next/production-server --extensions \".js\"",
@@ -21,8 +22,11 @@
     "@nestjs/platform-express": "^7.6.3",
     "@nestjs/typeorm": "^7.1.5",
     "@types/compression": "^1.7.0",
+    "@types/jquery": "^3.5.5",
+    "@types/select2": "^4.0.53",
     "compression": "^1.7.4",
     "cross-env": "^6.0.3",
+    "jquery": "^3.6.0",
     "nest-next": "^9.4.0",
     "next": "10",
     "pg": "^8.5.1",
@@ -30,6 +34,7 @@
     "react-dom": "17",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.2",
+    "select2": "^4.1.0-rc.0",
     "typeorm": "^0.2.30",
     "typeorm-seeding": "^1.6.1"
   },
@@ -46,7 +51,7 @@
     "nodemon": "^2.0.4",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.0",
-    "ts-node": "^8.3.0",
+    "ts-node": "^10.2.1",
     "typescript": "^3.5.3"
   }
 }

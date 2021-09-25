@@ -9,7 +9,8 @@ interface Props {
         orderBy: boolean,
         orderByKind: string,
         EPS: Number[],
-        ROE: Number[]
+        ROE: Number[],
+        columnOrder: string
     },
     search: {
         count: Number,
@@ -43,7 +44,8 @@ export async function getServerSideProps({query}: NextPageContext) {
             "orderBy": query.orderBy == 'true' ? true : false,
             "orderByKind": query.orderByKind || "total_assets",
             "EPS": [ query.fromEPS || pass, query.toEPS || pass ],
-            "ROE": [ query.fromROE || pass, query.toROE || pass ]
+            "ROE": [ query.fromROE || pass, query.toROE || pass ],
+            "columnOrder": "0123"
         }
     }
 
@@ -66,7 +68,8 @@ export async function getServerSideProps({query}: NextPageContext) {
                 orderBy: params.financials.orderBy,
                 orderByKind: params.financials.orderByKind,
                 EPS: params.financials.EPS,
-                ROE: params.financials.ROE
+                ROE: params.financials.ROE,
+                columnOrder: params.financials.columnOrder
             },
             search: {
                 count: params.count,
