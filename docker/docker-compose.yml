@@ -5,15 +5,15 @@ services:
   container_name: nest
   image: chani:1.0
   volumes:
-   - ../server/nestjs:/home/node
+   - ../server/nestjs:/home/nest
   ports:
    - 3000:3000
    - 9229:9229
-  tty: true
   init: true
+  command: "/entrypoint.sh"
 
  db:
-  container_name: pg2
+  container_name: pg
   image: postgres:12.4-alpine
   environment:
    - POSTGRES_USER=pg

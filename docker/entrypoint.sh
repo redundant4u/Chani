@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/node
+cd /home/nest
 yarn
 yarn dev
