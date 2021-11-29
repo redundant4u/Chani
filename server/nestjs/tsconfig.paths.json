@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@controller/*": [ "./src/common/controllers/*" ],
+            "@service/*": [ "./src/common/providers/*" ]
+        }
+    }
+}
