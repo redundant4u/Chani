@@ -23,7 +23,7 @@
     "make:migration": "ts-node -P tsconfig.json ./node_modules/typeorm/cli.js migration:generate -n",
     "migrate": "ts-node -P tsconfig.json ./node_modules/typeorm/cli.js migration:run",
     "migrate:rollback": "ts-node -P tsconfig.json ./node_modules/typeorm/cli.js migration:revert",
-    "seed": "ts-node -P tsconfig.json ./node_modules/typeorm-seeding/dist/cli.js seed",
+    "seed": "ts-node -P tsconfig.json ./node_modules/typeorm-seeding/dist/cli.js seed"
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",
