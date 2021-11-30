@@ -4,7 +4,8 @@ import { AppModule } from './app.module';
 import { join } from 'path';
 
 import * as compression from 'compression';
-import * as hbs from 'hbs';
+
+declare const module: any;
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
@@ -15,9 +16,13 @@ async function bootstrap() {
   app.useStaticAssets(join(__dirname, '..', 'public'));
   app.setBaseViewsDir(join(__dirname, '..', 'views'));
   
-  hbs.registerPartials(join(__dirname, '..', 'views/partials'));
-  app.setViewEngine('hbs');
+  app.setViewEngine("ejs");
 
   await app.listen(3000);
+
+  if(module.hot) {
+    module.hot.accept();
+    module.hot.dispose(() => app.close());
+  }
 }
 bootstrap();
