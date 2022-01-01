@@ -3,11 +3,11 @@ import { ListService } from './list.service';
 
 @Controller('list')
 export class ListController {
-  constructor(private readonly listService: ListService) {}
+    constructor(private readonly listService: ListService) { }
 
-  @Get()
-  @Render('list')
-  root() {
-    return { msg: 'nestjs'}
-  }
+    @Get()
+    @Render('list')
+    root() {
+        return { msg: 'nestjs' }
+    }
 }

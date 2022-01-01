@@ -5,12 +5,14 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 
 import { ListModule } from './list/list.module';
 
+// import ormconfig = require('../ormconfig');
+
 @Module({
-  imports: [
-    TypeOrmModule.forRoot(),
-    ListModule
-  ],
-  controllers: [AppController],
-  providers: [AppService],
+    imports: [
+        TypeOrmModule.forRoot(),
+        ListModule
+    ],
+    controllers: [AppController],
+    providers: [AppService],
 })
-export class AppModule {}
+export class AppModule { }
