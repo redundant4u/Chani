@@ -20,7 +20,8 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "make:migration": "ts-node -P tsconfig.json ./node_modules/typeorm/cli.js migration:generate -n",
+    "migrate:generate": "ts-node -P tsconfig.json ./node_modules/typeorm/cli.js migration:generate -n",
+    "migrate:create": "ts-node -P tsconfig.json ./node_modules/typeorm/cli.js migration:create -n",
     "migrate": "ts-node -P tsconfig.json ./node_modules/typeorm/cli.js migration:run",
     "migrate:rollback": "ts-node -P tsconfig.json ./node_modules/typeorm/cli.js migration:revert",
     "seed": "ts-node -P tsconfig.json ./node_modules/typeorm-seeding/dist/cli.js seed"
