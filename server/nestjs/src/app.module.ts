@@ -5,8 +5,6 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 
 import { ListModule } from './list/list.module';
 
-// import ormconfig = require('../ormconfig');
-
 @Module({
     imports: [
         TypeOrmModule.forRoot(),

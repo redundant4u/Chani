@@ -6,8 +6,8 @@ export class ListController {
     constructor(private readonly listService: ListService) { }
 
     @Get()
-    @Render('list')
-    root() {
-        return { msg: 'nestjs' }
+    @Render('index')
+    list() {
+        return this.listService.list();
     }
 }
