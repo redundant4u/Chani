@@ -108,9 +108,9 @@ dist
 parsing/dart/api_json
 
 server/nestjs-nextjs
-server/basic
 server/jenkins
 server/data
+server/nestjs
 
 data/dart/api_json
 
