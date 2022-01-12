@@ -3,8 +3,6 @@ import { RenderModule } from 'nest-next';
 import Next from 'next';
 
 import { AppController } from './app.controller';
-import { BlogController } from './blog/blog.controller';
-import { BlogService } from './blog/blog.service';
 import { ListModule } from './list/list.module';
 
 @Module({
@@ -17,7 +15,7 @@ import { ListModule } from './list/list.module';
     ),
     ListModule
   ],
-  controllers: [AppController, BlogController],
-  providers: [BlogService],
+  controllers: [AppController],
+  providers: [],
 })
 export class AppModule {}

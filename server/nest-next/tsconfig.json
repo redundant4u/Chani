@@ -36,8 +36,6 @@
   "include": [
     "./pages/**/*",
     "./src/**/*",
-    "./ui/**/*",
-    "types.ts"
   ],
   "exclude": [
     "node_modules"

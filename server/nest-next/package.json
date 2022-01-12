@@ -8,7 +8,7 @@
     "build:ui": "npx next build",
     "build:server": "npx tsc --project tsconfig.build.json && npx babel .next/production-server -d .next/production-server --extensions \".js\"",
     "build": "yarn build:clean && yarn build:ui && yarn build:server",
-    "start": "cross-env NODE_ENV=production node .next/production-server/src/main.js",
+    "start": "cross-env NODE_ENV=production node .next/production-server/main.js",
     "debug": "nest start --debug=0.0.0.0:9229 --watch",
     "hot": "nest build --webpack --webpackPath webpack-hmr.config.js --watch"
   },
@@ -22,7 +22,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.5.2"
+    "rxjs": "^7.5.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.8",
