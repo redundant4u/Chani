@@ -1,19 +1,34 @@
-import { FC } from 'react';
-import { Menu, Input } from 'semantic-ui-react';
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { FC } from "react";
+import { Menu, Input, Divider, Container } from "semantic-ui-react";
 
 const Header: FC = () => {
+  const router = useRouter();
+
   return (
-    <Menu secondary>
-      <Menu.Item name="home" />
-      <Menu.Item name="messages" />
-      <Menu.Item name="friends" />
-      <Menu.Menu position="right">
-        <Menu.Item>
-          <Input icon="search" placeholder="Search..." />
-        </Menu.Item>
-        <Menu.Item name="logout" />
-      </Menu.Menu>
-    </Menu>
+    <div className="header">
+      <div className="header-title">
+        <Link href="/views/home" as="/">
+          CHANI
+        </Link>
+      </div>
+      <div className="header-divider">
+        <Divider />
+      </div>
+      <div className="category">
+        <Menu text>
+          <Menu.Item
+            name="List"
+            onClick={() => router.push("/views/list", "/list")}
+          />
+          <Menu.Item
+            name="Chart"
+            onClick={() => router.push("/views/list", "/list")}
+          />
+        </Menu>
+      </div>
+    </div>
   );
 };
 

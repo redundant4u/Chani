@@ -1,0 +1,40 @@
+html, body {
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+th, td {
+    min-width: 9rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.header-title {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    font-size: 5rem;
+}
+
+.header-title > a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-divider {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: -2rem;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    font-size: 1.2rem;
+}

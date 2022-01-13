@@ -1,0 +1,10 @@
+.list {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    max-width: 200%;
+}
+
+.table {
+    width: auto !important;
+}
