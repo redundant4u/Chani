@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
+    "module": "commonjs",
     "jsx": "preserve",
     "strict": true,
     "pretty": true,
@@ -32,6 +32,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true,
+    "strictPropertyInitialization": false,
     "paths": {
       "@css/*": ["./public/css/*"]
     }
