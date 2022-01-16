@@ -34,7 +34,8 @@
     "incremental": true,
     "strictPropertyInitialization": false,
     "paths": {
-      "@css/*": ["./public/css/*"]
+      "@css/*": ["./public/css/*"],
+      "@entity/*": ["./src/entities/*"]
     }
   },
   "include": [
