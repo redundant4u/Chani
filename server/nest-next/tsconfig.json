@@ -17,15 +17,9 @@
     "emitDecoratorMetadata": true,
     "sourceMap": true,
     "skipLibCheck": true,
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2017", "dom"],
     "baseUrl": ".",
-    "typeRoots": [
-      "node_modules/@types",
-      "./typings"
-    ],
+    "typeRoots": ["node_modules/@types", "./typings"],
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
@@ -38,11 +32,6 @@
       "@entity/*": ["./src/entities/*"]
     }
   },
-  "include": [
-    "./pages/**/*",
-    "./src/**/*",
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["./pages/**/*", "./src/**/*"],
+  "exclude": ["node_modules"]
 }

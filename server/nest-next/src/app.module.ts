@@ -23,6 +23,7 @@ import { IndustryEntity } from "@entity/industry.entity";
       database: process.env.DB_DATABASE,
       synchronize: false,
       entities: [ListEntity, CorpEntity, IndustryEntity],
+      keepConnectionAlive: true
     }),
     RenderModule.forRootAsync(
       Next({

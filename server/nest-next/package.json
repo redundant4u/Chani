@@ -8,9 +8,9 @@
     "build:ui": "npx next build",
     "build:server": "npx tsc --project tsconfig.build.json && npx babel .next/production-server -d .next/production-server --extensions \".js\"",
     "build": "yarn build:clean && yarn build:ui && yarn build:server",
-    "start": "cross-env NODE_ENV=production node .next/production-server/main.js",
-    "debug": "nest start --debug=0.0.0.0:9229 --watch",
-    "hot": "nest build --webpack --webpackPath webpack-hmr.config.js --watch",
+    "start": "cross-env NODE_ENV=production ts-node -r tsconfig-paths/register .next/production-server/main.js",
+    "debug": "nodemon --exec 'node --inspect=0.0.0.0:9229 --require ts-node/register -r tsconfig-paths/register src/main.ts'",
+    "dev": "nest build --webpack --webpackPath webpack-hmr.config.js --watch",
     "migrate": "ts-node -P tsconfig.json ./node_modules/typeorm/cli.js migration:run",
     "migrate:create": "ts-node -P tsconfig.json ./node_modules/typeorm/cli.js migration:create -n",
     "migrate:revert": "ts-node -P tsconfig.json ./node_modules/typeorm/cli.js migration:revert",
@@ -34,8 +34,7 @@
     "rxjs": "^7.5.2",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.4",
-    "typeorm": "^0.2.41",
-    "typeorm-seeding": "^1.6.1"
+    "typeorm": "^0.2.41"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.8",
@@ -54,6 +53,7 @@
     "run-script-webpack-plugin": "^0.0.11",
     "ts-loader": "^9.2.6",
     "ts-node": "^8.3.0",
+    "tsconfig-paths": "^3.12.0",
     "typescript": "^4.3.5",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
