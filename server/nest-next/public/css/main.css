@@ -1,40 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html, body {
     min-height: 100%;
     margin: 0 auto;
     padding: 0;
 }
 
-th, td {
-    min-width: 9rem;
+hr {
+    border: none;
+    height: 0.07rem;
+    background-color: black;
+    margin: 0rem auto 0.5rem auto;
+    width: 70%;
 }
 
 .header {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .header-title {
     text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 2.5rem;
     font-size: 5rem;
 }
 
-.header-title > a {
-    text-decoration: none;
-    color: black;
-}
-
-.header-divider {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: -2rem;
-}
-
 .category {
-    display: flex;
     justify-content: center;
-}
-
-.item {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }

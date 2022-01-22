@@ -13,20 +13,10 @@ const Header: FC = () => {
           CHANI
         </Link>
       </div>
-      <div className="header-divider">
-        <Divider />
-      </div>
-      <div className="category">
-        <Menu text>
-          <Menu.Item
-            name="List"
-            onClick={() => router.push("/views/list", "/list")}
-          />
-          <Menu.Item
-            name="Chart"
-            onClick={() => router.push("/views/list", "/list")}
-          />
-        </Menu>
+      <hr />
+      <div className="category flex space-x-2">
+          <div><Link href="/views/list" as="/list">List</Link></div>
+          <div><Link href="/views/chart" as="/chart">Chart</Link></div>
       </div>
     </div>
   );
