@@ -119,3 +119,6 @@ data/dart/api_json
 ._.DS_Store
 **/.DS_Store
 **/._.DS_Store
+
+yarn.lock
+package-lock.json
