@@ -10,7 +10,7 @@ export class ListEntity {
 
   @OneToOne(() => CorpEntity, corp => corp.stock_code)
   @JoinColumn({ name: "corp" })
-  corporation: CorpEntity;
+  corp: CorpEntity;
 
   @Column({ type: "bigint" })
   issued_stock: number;
