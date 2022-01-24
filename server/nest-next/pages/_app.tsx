@@ -1,5 +1,5 @@
 import { FC } from "react";
-import type { AppProps /*, AppContext */ } from "next/app";
+import type { AppProps } from "next/app";
 import Header from "../components/header";
 
 import "../public/css/main.css";

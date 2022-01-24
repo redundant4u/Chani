@@ -2,7 +2,6 @@ import { GetStaticProps, NextPage, NextPageContext } from "next";
 import { ListRequestDto, ListResponseDto } from "src/list/list.dto";
 import Axios from 'axios';
 import dynamic from "next/dynamic";
-import { Suspense } from "react";
 
 interface Props {
   lists: ListResponseDto[];
@@ -21,7 +20,7 @@ export async function getServerSideProps({ query }: NextPageContext) {
   const url = "http://127.0.0.1:3000/list/data";
 
   const req: ListRequestDto = {
-    count: Number(query.count) || 10,
+    count: Number(query.count) || 15,
     page: Number(query.page) || 0,
     financials: {
       EPS: [ Number(query.fromEPS), Number(query.toEPS) ],
@@ -38,7 +37,7 @@ export async function getServerSideProps({ query }: NextPageContext) {
     }
   );
 
-  console.log(req.page);
+  console.log(result['data']);
 
   return {
     props: {
