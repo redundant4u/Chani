@@ -5,14 +5,14 @@ import dynamic from "next/dynamic";
 
 interface Props {
   lists: ListResponseDto[];
-  page: number;
+  data: ListRequestDto;
 }
 
 const Data = dynamic(() => import('./data'));
 
-const List: NextPage<Props> = ({ lists, page }) => {
+const List: NextPage<Props> = ({ lists, data }) => {
   return (
-    <Data lists={lists} page={page} />
+    <Data lists={lists} data={data} />
   );
 };
 
@@ -22,6 +22,8 @@ export async function getServerSideProps({ query }: NextPageContext) {
   const req: ListRequestDto = {
     count: Number(query.count) || 15,
     page: Number(query.page) || 0,
+    orderBy: String(query.orderBy),
+    orderKind: String(query.orderKind),
     financials: {
       EPS: [ Number(query.fromEPS), Number(query.toEPS) ],
       ROE: [ Number(query.fromROE), Number(query.toROE) ],
@@ -37,12 +39,10 @@ export async function getServerSideProps({ query }: NextPageContext) {
     }
   );
 
-  console.log(result['data']);
-
   return {
     props: {
       lists: result['data'],
-      page: req.page
+      data: req
     }
   };
 }

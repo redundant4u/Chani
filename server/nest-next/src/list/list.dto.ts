@@ -1,4 +1,4 @@
-import { IsNumber, IsArray } from "class-validator";
+import { IsNumber, IsArray, IsString, IsOptional, IsBoolean } from "class-validator";
 import { Exclude, Expose } from "class-transformer";
 import { CorpEntity } from "@entity/corp.entity";
 
@@ -12,7 +12,19 @@ export class ListRequestDto {
     @IsNumber()
     readonly page: number;
 
+    // TRUE: asc, FALSE: desc
     @Expose()
+    @IsOptional()
+    @IsString()
+    readonly orderBy: string;
+
+    @Expose()
+    @IsOptional()
+    @IsString()
+    readonly orderKind: string;
+
+    @Expose()
+    @IsOptional()
     @IsArray()
     readonly financials: {
         readonly EPS: number[];

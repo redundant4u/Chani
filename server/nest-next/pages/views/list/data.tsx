@@ -2,19 +2,21 @@ import { NextPage } from "next";
 import React from "react";
 import _ from "lodash";
 
-import { ListResponseDto } from "src/list/list.dto";
+import { ListRequestDto, ListResponseDto } from "src/list/list.dto";
 import Link from "next/link";
 
 interface Props {
   lists: ListResponseDto[];
-  page: number;
+  data: ListRequestDto;
 }
 
-function comma(x = "") {
+const comma = function (x: String) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
+};
 
-const Data: NextPage<Props> = ({ lists, page }) => {
+const Data: NextPage<Props> = ({ lists, data }) => {
+  const page: number = data.page;
+
   const ths = [
     { name: "기업명", kind: "name" },
     { name: "EPS", kind: "eps" },
@@ -22,6 +24,28 @@ const Data: NextPage<Props> = ({ lists, page }) => {
     { name: "자산총계", kind: "total_assets" },
     { name: "당기순이익", kind: "net_income" },
   ];
+
+  const sort = function (kind: String) {
+    for (let i = 1; i < ths.length; i++) {
+      const element = document.getElementsByClassName(ths[i].kind)[0].classList;
+
+      if (kind == ths[i].kind) {
+        if (data.orderBy == "asc") {
+          element.remove("desc");
+          element.add("asc");
+        } else {
+          element.remove("asc");
+          element.add("desc");
+        }
+      } else {
+        if (element.contains("asc")) {
+          element.remove("asc");
+        } else if (element.contains("desc")) {
+          element.remove("desc");
+        }
+      }
+    }
+  };
 
   return (
     <>
@@ -33,15 +57,29 @@ const Data: NextPage<Props> = ({ lists, page }) => {
                 <thead className="border">
                   <tr>
                     {ths.map((th, i) => (
-                      <th
+                      <Link
+                        href={{
+                          query: {
+                            orderBy: data.orderBy == "asc" ? "desc" : "asc",
+                            orderKind: th.kind
+                          },
+                        }}
+                        as="/list"
+                        scroll={false}
                         key={i}
-                        scope="col"
-                        className={`text-sm font-medium text-gray-900 px-6 py-2 border-r dark:text-gray-200 dark:border-gray-500 ${
-                          i == 0 ? "text-left" : "text-right"
-                        }`}
                       >
-                        {th.name}
-                      </th>
+                        <th
+                          onClick={() => sort(th.kind)}
+                          scope="col"
+                          className={`${
+                            th.kind
+                          } text-sm font-medium text-gray-900 px-6 py-2 border-r dark:text-gray-200 dark:border-gray-500 ${
+                            i == 0 ? "text-left" : "text-right"
+                          }`}
+                        >
+                          {th.name}
+                        </th>
+                      </Link>
                     ))}
                   </tr>
                 </thead>
@@ -107,6 +145,20 @@ const Data: NextPage<Props> = ({ lists, page }) => {
           </a>
         </Link>
       </div>
+      <style jsx>
+        {`
+          th {
+            width: 50px;
+            word-break: break-all;
+          }
+          .asc::before {
+            content: "▲";
+          }
+          .desc::before {
+            content: "▼";
+          }
+        `}
+      </style>
     </>
   );
 };
